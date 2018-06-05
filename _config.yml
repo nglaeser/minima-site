@@ -13,15 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 
-    en: In progress...
-    de: In Bearbeitung...
-    it: In corso...
+title: In progress...
 email: nglaeser@email.sc.edu
 description: >- # this means to ignore newlines until "baseurl:"
-    en: Welcome to my personal site! It will hopefully end up encompassing several areas of my life to be an accurate representation of me. This means stream-of-consciousness posts, links to my favorite videos, pretty pictures from math and computing, and maybe even allusions to my hobbies of D&D and music performance. Hope you enjoy!
-    de: Wilkommen zu meiner personalen Webseite! Hoffentlich wird sie eventuell mehrere Teile meines Lebens umfassen und eine akkurate Darstellung von mir sein. Das heißt also lange Posts, Links zu meinen Lieblingsvideos, schöne Bilder aus der Mathematik und Informatik, und vielleicht sogar ein bisschen über meine Hobbys: Musizieren und Dungeons & Dragons spielen. Viel Spaß!
-    it: Benvenuti al mio sito web! La mia speranza è che verrà a comprendere i vari aspetti della mia vita per essere una buona rappresentazione della mia personalità. Metterò lunghi post, link ei miei video preferiti, foto, disegni, e illustrazioni belle dalla matematica e informatica, persino un po' su i miei hobby di suonare musica e giocare a Dungeons & Dragons. Buon divertimento!
+  Welcome to my personal site! It will hopefully end up encompassing several areas 
+  of my life to be an accurate representation of me. This means stream-of-consciousness
+  posts, links to my favorite videos, pretty pictures from math and computing, and 
+  maybe even allusions to my hobbies of D&D and music performance. Hope you enjoy!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://nglaeser.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: nglaeser
