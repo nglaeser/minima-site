@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: In progress...
-email: nglaeser@email.sc.edu
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my personal site! It will hopefully end up encompassing several areas 
   of my life to be an accurate representation of me. This means stream-of-consciousness
