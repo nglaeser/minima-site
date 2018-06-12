@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+      <url>
+        <loc>/jekyll/update/2018/06/04/primo-post.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/jekyll/update/2018/06/04/primo-post.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/jekyll/update/2018/06/04/first-post.html" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/jekyll/update/2018/06/04/erster-post.html" />
+        
+        <lastmod>2018-06-04T10:26:16-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/jekyll/update/2018/06/04/first-post.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/jekyll/update/2018/06/04/primo-post.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/jekyll/update/2018/06/04/first-post.html" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/jekyll/update/2018/06/04/erster-post.html" />
+        
+        <lastmod>2018-06-04T10:26:16-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/jekyll/update/2018/06/04/erster-post.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/jekyll/update/2018/06/04/primo-post.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/jekyll/update/2018/06/04/first-post.html" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/jekyll/update/2018/06/04/erster-post.html" />
+        
+        <lastmod>2018-06-04T10:26:16-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+  
+    
+      <url>
+        <loc>/404.html</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/about/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/info.html" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/sul-sito.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/de.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/feed-de.xml</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/feed-it.xml</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/feed.xml</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/info.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/info.html" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/sul-sito.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/it.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/css/main.css</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/sitemaps.xml</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/sul-sito.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/info.html" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/sul-sito.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+  </urlset>
