@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Su questo sito
+title: Informazioni
 ref: about
 lang: it
 ---
+Ciao! Mi chiamo Noemi. Ad agosto comincerà il mio ultimo anno di studio al Honors College dell'università del South Carolina, dove studio matematica e informatica, e musica come materia minore.
 
-Hallo! Ich bin Noemi, und im Herbst fang ich an mit meinem letztem Jahr auf dem Honors College der Universität von South Carolina. Ich studiere Mathematik und Informatik mit Musik als Nebenfach. 
-
-Schon als ich ein Kind war liebte ich es, zu basteln und meine Ideen in etwas Konkretes umzuwandeln. Über die Jahre ging dieses Hobby ein bisschen verloren, aber ich hoffe dass ich es mit dieser Webseite wieder erwecke. Viel Spaß beim lesen!
+Da quando ero bambina mi piaceva fare i lavoretti e trasformare le mie idee in oggetti concreti. Ormai è andato un po' perso questo hobby, ma spero di risvegliarlo con questo sito e condividere con voi i risultati. Buon divertimento!
