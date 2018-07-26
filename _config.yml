@@ -7,9 +7,9 @@
 
 # Site settings
 title:
-  en: In progress...
-  de: In Bearbeitung...
-  it: In corso...
+  en: Circle Limit
+  de: Kreislimit
+  it: Limite del Cerchio
 email: 
 description:
   en: Math and computing for the artistically inclined
@@ -24,7 +24,7 @@ feed:
   de: /feed-de.xml
   it: /feed-it.xml
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 linkedin_username: nglaeser
 github_username:  nglaeser
 keybase_username: nglaeser
