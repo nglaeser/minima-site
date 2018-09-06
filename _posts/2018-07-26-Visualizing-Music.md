@@ -56,5 +56,5 @@ Each of these six phrase fractals were finally placed in a larger, overarching f
 
 As you may have noticed, the final fractal was generated based on rhythm alone. But music is much more than just rhythm! Sometime in the future, I may go back to this project and try to incorporate some other aspects (note names, octaves, dynamics, articulation...) into a new and improved fractal.
 
-##### References
+#### References
 1. Francis Poulenc. (2018). Retrieved from [https://www.poulenc.fr/en/?Biography](https://www.poulenc.fr/en/?Biography).
