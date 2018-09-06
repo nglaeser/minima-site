@@ -31,3 +31,4 @@ keybase_username: nglaeser
 
 # Build settings
 markdown: kramdown
+mathjax: true
