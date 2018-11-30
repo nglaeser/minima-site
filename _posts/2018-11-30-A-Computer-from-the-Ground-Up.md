@@ -14,16 +14,15 @@ I recently revisited this book, and since I am drawing to the close of the fall 
 
 ### Table of Contents
 
-Chapter 1-5: Simple Circuits
-Chapter 6: Enter the Relay
-Chapter 10-11: Logic Gates\*
-Chapter 12: Addition
-Chapter 13: Subtraction
-Chapter 14: Flip Flops (not the shoes)
-Chapter 16: Memory\*
-Chapter 17: Automation
-Chapter 18: Transistors
-TBD
+- Chapter 1-5: Simple Circuits
+- Chapter 6: Enter the Relay
+- Chapter 10-11: Logic Gates\*
+- Chapter 12: Addition
+- Chapter 13: Subtraction
+- Chapter 14: Flip Flops (not the shoes)
+- Chapter 16: Memory\*
+- Chapter 17: Automation
+- Chapter 18: Transistors
+- ...TBD
 
 _\*Some chapters will be skipped as they contain no circuitry but rather cover background information. The relevant information will be linked or covered where necessary_
-
