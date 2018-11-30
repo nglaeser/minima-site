@@ -11,7 +11,8 @@ fi
 
 set -u  # undefined variables are an error
 
-cd "$(dirname "$(readlink "$0")")/../_posts"
+#cd "$(dirname "$(readlink "$0")")/../_posts"
+cd "_posts"
 
 TITLE="$(echo $@ | tr '\t \r' '---' | tr -d '\n').md"
 TIME="$(date "+%Y-%m-%d %T %z")"
