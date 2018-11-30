@@ -11,8 +11,6 @@ In meinem erstem richtigen Post will ich ein Projekt teilen, dass ich im letztem
 
 ### Die Musik
 Francis Poulenc (1899-1963)[\[1\]](#references) war ein Französicher Pianist und Komponist, dessen Musik ein wichtiger Teil des Flötenrepertoire ist. Er schrieb viele Sonatinas und andere klavierbegleitete Stücke für die Flöte. Fast alle dieser Werke sind mehrere Seiten lang, doch eins ist besonders: ein Stück für Solo-Flöte mit dem Titel ["Un joueur de flûte berce les ruines"](../../../files/Poulenc.pdf) („Ein Flötenspieler lullt die Ruinen ein”). Das Stück ist ungewöhnlich kurz (nur eine Seite lang bzw. vier Zeilen bzw. dreizehn Takte) und ist deshalb ein guter Startpunkt für weitere Kunst.
-&#201E;
-&#201D;
 
 ### Die Mathematik 
 Fraktale sind eine der kunstvollsten Teile der Mathematik. Fraktale sind geometrische Objekte die sich selbst sehr ähnlich sind; z.B. können sie aus verkleinerten kopien von sich selbst bestehen. In diesem Fall kann man immer weiter auf das Objekt einzoomen, und wieder und wieder die selben Muster sehen. Fraktale kommen in der Natur häufig vor: z.B. bei Schneeflocken, Ananas-früchten, und Proteinen. Meiner Meinung nach, ist das ein Hinweis, dass Mathematik die Sprache des Universums ist.  
@@ -20,7 +18,7 @@ Ein Fraktal, den ihr vielleicht schonmal gesehen habt, ist das Sierpinski-Dreiec
 ![Das Sierpinski-Dreieck](../../../files/sierpinski.png)  
 Die Makrostruktur dieses Dreiecks besteht aus vier kleieneren Dreiecken. Drei davon sind weiterhin selber kopien des ganzem Sierpinski-Dreiecks, viermal verkleinert. 
 
-Apollonische Kreispackungen sind ein anderes Beispiel für Fraktale. Sie werden von drei Nummern, die die Krümmung (der Kehrwert des Radius) von drei Kreisen repräsentieren erzeugt. Diese drei Kreise bestimmen also die Makrostruktur des Fraktals. Wie bei dem Sierpinski-Dreieck wird der rest durch Rekursion gemalt. Hier sehen sie Kreispackungen die von verschiedenen Gruppen von vier Nummern generiert worden.
+Apollonische Kreispackungen sind ein anderes Beispiel für Fraktale. Sie werden von drei Nummern, die die Krümmung (der Kehrwert des Radius) von drei Kreisen repräsentieren erzeugt. Diese drei Kreise bestimmen also die Makrostruktur des Fraktals. Wie bei dem Sierpinski-Dreieck wird der rest durch Rekursion gemalt. Hier sehen sie Kreispackungen die von verschiedenen Gruppen von vier Nummern generiert worden.  
 ![Krümmungen (-1, 2, 2, 3)](../../../files/apollon1_2_2_3.png "Kreispackung mit Krümmungen (-1, 2, 2, 3) erzeugt") ![Krümmungen (-3, 5, 8, 8)](../../../files/apollon3_5_8_8.png "Kreispackung mit Krümmungen (-3, 5, 8, 8) erzeugt") ![Krümmungen (-12, 25, 25, 28)](../../../files/apollon12_25_25_28.png "Kreispackung mit Krümmungen (-12, 25, 25, 28) erzeugt") ![Krümmungen (-6, 10, 15, 19)](../../../files/apollon6_10_15_19.png "Kreispackung mit Krümmungen (-6, 10, 15, 19) erzeugt") ![Krümmungen (-10, 18, 23, 27)](../../../files/apollon10_18_23_27.png "Kreispackung mit Krümmungen (-10, 18, 23, 27) erzeugt")
 ##### _Bilder von Todd Stedl (NefariousPhD) \[GFDL ([http://www.gnu.org/copyleft/fdl.html](http://www.gnu.org/copyleft/fdl.html)) oder CC BY-SA 4.0 ([https://creativecommons.org/licenses/by-sa/4.0](https://creativecommons.org/licenses/by-sa/4.0))\], von Wikimedia Commons_
 
@@ -35,16 +33,16 @@ Diese Gleichung kann man in die folgende umschreiben:
 \\[k_4 = k_1 + k_2 + k_3 \pm 2\sqrt{k_1k_2+k_2k_3+k_1k_3}\\]
 (Eine detailierte Erklärung finden sie [in diesem Blogeintrag (auf Englisch)](https://euler.genepeer.com/from-herons-formula-to-descartes-circle-theorem).)  
 
-Also, wenn wir nur die Nummern (-1, 2, 2) wüssten, könnten wir die vierte Nummer bestimmen:
+Also, wenn wir nur die Nummern (-1, 2, 2) wissen, können wir auch die vierte Nummer bestimmen:
 \\[k_4 = -1 + 2 + 2 \\pm 2(0)\\]
 \\[k_4 = 3\\]
 
-Das wichtige ist dass das ganze Fraktal durch drei Nummern definiert werden kann. (Details, inkl. genau wie sie ihre einene Kreispackung malen können) finden sie in [diesem Englischen wikiHow Artikel](https://www.wikihow.com/Create-an-Apollonian-Gasket).)
+Das wichtige ist dass das ganze Fraktal durch drei Nummern definiert werden kann. (Details, inkl. genau wie sie ihre einene Kreispackung malen können) finden sie in [diesem Englischen wikiHow Artikel](https://www.wikihow.com/Create-an-Apollonian-Gasket).
 
 ### Die Informatik
 Im Internet gibt es viele Programme und Webseiten die ihnen helfen können, euren egeinen Fraktal herzustellen. Eine solche Seite ist Ludger Sandigs [Apollonische Kreispackung Erzeuger](http://lsandig.org/cgi-bin/apollon/index.cgi) und sein [dazugehöriger Blogeintrag](https://lsandig.org/blog/2014/08/apollon-python/). Dies ist eine Online-version von seinem Kommandozeilenprogramm [apollon](https://github.com/lsandig/apollon) auf GitHub dass für diese Projekt benutzt habe.
 
-### Das Coole Teil
+### Der Coole Teil
 Wie gehört das alles zusammen?
 
 Die Idee hinter all diesem war, Poulencs kurze Flötenstück als anfang für ein neues Kunststück zu benutzen. Wegen meinem Interesse an Mathematik wollte ich die Musik in ein Fraktal umwandeln, zum Teil auch weil ich ahnte, dass fast niemand außer Mathematikern denkt, dass Mathe schön sein kann.
