@@ -2,13 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kreislimit</title>
-    <description>Mathe und Informatik für Künstler</description>
+    <description>mathe + informatik + kunst</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/flux.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Sep 2018 23:38:22 -0400</pubDate>
-    <lastBuildDate>Wed, 05 Sep 2018 23:38:22 -0400</lastBuildDate>
+    <pubDate>Fri, 15 Feb 2019 01:26:22 -0500</pubDate>
+    <lastBuildDate>Fri, 15 Feb 2019 01:26:22 -0500</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
+    
+      <item>
+        <title>Sichtbare Musik</title>
+        <description>&lt;p&gt;In meinem erstem richtigen Post will ich ein Projekt teilen, dass ich im letztem Semester für mein Flötenstudio gemacht habe. Erst ein bisschen Hintergrund:&lt;/p&gt;
+
+&lt;h3 id=&quot;die-musik&quot;&gt;Die Musik&lt;/h3&gt;
+&lt;p&gt;Francis Poulenc (1899-1963)&lt;a href=&quot;#references&quot;&gt;[1]&lt;/a&gt; war ein Französicher Pianist und Komponist, dessen Musik ein wichtiger Teil des Flötenrepertoire ist. Er schrieb viele Sonatinas und andere klavierbegleitete Stücke für die Flöte. Fast alle dieser Werke sind mehrere Seiten lang, doch eins ist besonders: ein Stück für Solo-Flöte mit dem Titel &lt;a href=&quot;../../../files/Poulenc.pdf&quot;&gt;“Un joueur de flûte berce les ruines”&lt;/a&gt; („Ein Flötenspieler lullt die Ruinen ein”). Das Stück ist ungewöhnlich kurz (nur eine Seite lang bzw. vier Zeilen bzw. dreizehn Takte) und ist deshalb ein guter Startpunkt für weitere Kunst.&lt;/p&gt;
+
+&lt;h3 id=&quot;die-mathematik&quot;&gt;Die Mathematik&lt;/h3&gt;
+&lt;p&gt;Fraktale sind eine der kunstvollsten Teile der Mathematik. Fraktale sind geometrische Objekte die sich selbst sehr ähnlich sind; z.B. können sie aus verkleinerten kopien von sich selbst bestehen. In diesem Fall kann man immer weiter auf das Objekt einzoomen, und wieder und wieder die selben Muster sehen. Fraktale kommen in der Natur häufig vor: z.B. bei Schneeflocken, Ananas-früchten, und Proteinen. Meiner Meinung nach, ist das ein Hinweis, dass Mathematik die Sprache des Universums ist.&lt;br /&gt;
+Ein Fraktal, den ihr vielleicht schonmal gesehen habt, ist das Sierpinski-Dreieck:
+&lt;img src=&quot;../../../files/sierpinski.png&quot; alt=&quot;Das Sierpinski-Dreieck&quot; /&gt;&lt;br /&gt;
+Die Makrostruktur dieses Dreiecks besteht aus vier kleieneren Dreiecken. Drei davon sind weiterhin selber kopien des ganzem Sierpinski-Dreiecks, viermal verkleinert.&lt;/p&gt;
+
+&lt;p&gt;Apollonische Kreispackungen sind ein anderes Beispiel für Fraktale. Sie werden von drei Nummern, die die Krümmung (der Kehrwert des Radius) von drei Kreisen repräsentieren erzeugt. Diese drei Kreise bestimmen also die Makrostruktur des Fraktals. Wie bei dem Sierpinski-Dreieck wird der rest durch Rekursion gemalt. Hier sehen sie Kreispackungen die von verschiedenen Gruppen von vier Nummern generiert worden.&lt;br /&gt;
+&lt;img src=&quot;../../../files/apollon1_2_2_3.png&quot; alt=&quot;Krümmungen (-1, 2, 2, 3)&quot; title=&quot;Kreispackung mit Krümmungen (-1, 2, 2, 3) erzeugt&quot; /&gt; &lt;img src=&quot;../../../files/apollon3_5_8_8.png&quot; alt=&quot;Krümmungen (-3, 5, 8, 8)&quot; title=&quot;Kreispackung mit Krümmungen (-3, 5, 8, 8) erzeugt&quot; /&gt; &lt;img src=&quot;../../../files/apollon12_25_25_28.png&quot; alt=&quot;Krümmungen (-12, 25, 25, 28)&quot; title=&quot;Kreispackung mit Krümmungen (-12, 25, 25, 28) erzeugt&quot; /&gt; &lt;img src=&quot;../../../files/apollon6_10_15_19.png&quot; alt=&quot;Krümmungen (-6, 10, 15, 19)&quot; title=&quot;Kreispackung mit Krümmungen (-6, 10, 15, 19) erzeugt&quot; /&gt; &lt;img src=&quot;../../../files/apollon10_18_23_27.png&quot; alt=&quot;Krümmungen (-10, 18, 23, 27)&quot; title=&quot;Kreispackung mit Krümmungen (-10, 18, 23, 27) erzeugt&quot; /&gt;&lt;/p&gt;
+&lt;h5 id=&quot;bilder-von-todd-stedl-nefariousphd-gfdl-httpwwwgnuorgcopyleftfdlhtml-oder-cc-by-sa-40-httpscreativecommonsorglicensesby-sa40-von-wikimedia-commons&quot;&gt;&lt;em&gt;Bilder von Todd Stedl (NefariousPhD) [GFDL (&lt;a href=&quot;http://www.gnu.org/copyleft/fdl.html&quot;&gt;http://www.gnu.org/copyleft/fdl.html&lt;/a&gt;) oder CC BY-SA 4.0 (&lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0&quot;&gt;https://creativecommons.org/licenses/by-sa/4.0&lt;/a&gt;)], von Wikimedia Commons&lt;/em&gt;&lt;/h5&gt;
+
+&lt;p&gt;Augenblick! Vier Nummern?! Habe ich nicht gerade gesagt, dass diese Kreispackungen von drei Nummern erzeugt werden?&lt;/p&gt;
+
+&lt;p&gt;In diesen Kreispackungen ist eine vierte Nummer angegeben, aber sie ist überflüssig. Wir brauchen eigentlich nur die ersten drei Nummern von jeder Gruppe um einen dieser Fraktal zu erzeugen; die vierte Nummer ist die Krümmung eines Kreises tangential zu allen drei vorherigen Kreisen. Die können wir auch selber mit dem Satz von Descartes finden:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Satz.&lt;/strong&gt; Gegeben sind vier einender berührenden Kreise \(C_1\), \(C_2\), \(C_3\), and \(C_4\). Ihre Krümmungen erfüllen die Gleichung
+\[2({k_1}^2+{k_2}^2+{k_3}^2+{k_4}^2) = (k_1+k_2+k_3+k_4)^2\]&lt;/p&gt;
+
+&lt;p&gt;Diese Gleichung kann man in die folgende umschreiben:
+\[k_4 = k_1 + k_2 + k_3 \pm 2\sqrt{k_1k_2+k_2k_3+k_1k_3}\]
+(Eine detailierte Erklärung finden sie &lt;a href=&quot;https://euler.genepeer.com/from-herons-formula-to-descartes-circle-theorem&quot;&gt;in diesem Blogeintrag (auf Englisch)&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;Also, wenn wir nur die Nummern (-1, 2, 2) wissen, können wir auch die vierte Nummer bestimmen:
+\[k_4 = -1 + 2 + 2 \pm 2(0)\]
+\[k_4 = 3\]&lt;/p&gt;
+
+&lt;p&gt;Das wichtige ist dass das ganze Fraktal durch drei Nummern definiert werden kann. (Details, inkl. genau wie sie ihre einene Kreispackung malen können) finden sie in &lt;a href=&quot;https://www.wikihow.com/Create-an-Apollonian-Gasket&quot;&gt;diesem Englischen wikiHow Artikel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;die-informatik&quot;&gt;Die Informatik&lt;/h3&gt;
+&lt;p&gt;Im Internet gibt es viele Programme und Webseiten die ihnen helfen können, euren egeinen Fraktal herzustellen. Eine solche Seite ist Ludger Sandigs &lt;a href=&quot;http://lsandig.org/cgi-bin/apollon/index.cgi&quot;&gt;Apollonische Kreispackung Erzeuger&lt;/a&gt; und sein &lt;a href=&quot;https://lsandig.org/blog/2014/08/apollon-python/&quot;&gt;dazugehöriger Blogeintrag&lt;/a&gt;. Dies ist eine Online-version von seinem Kommandozeilenprogramm &lt;a href=&quot;https://github.com/lsandig/apollon&quot;&gt;apollon&lt;/a&gt; auf GitHub dass für diese Projekt benutzt habe.&lt;/p&gt;
+
+&lt;h3 id=&quot;der-coole-teil&quot;&gt;Der Coole Teil&lt;/h3&gt;
+&lt;p&gt;Wie gehört das alles zusammen?&lt;/p&gt;
+
+&lt;p&gt;Die Idee hinter all diesem war, Poulencs kurze Flötenstück als anfang für ein neues Kunststück zu benutzen. Wegen meinem Interesse an Mathematik wollte ich die Musik in ein Fraktal umwandeln, zum Teil auch weil ich ahnte, dass fast niemand außer Mathematikern denkt, dass Mathe schön sein kann.
+Es gibt viele Arten von Fraktalen, von denen ich wählen konnte. Am Ende habe ich Apollonische Kreispackungen ausgewählt, weil ich dachte der sanfte, verbundene Stil von Poulencs Wiegenlied am besten durch Kreisen räpresentiert werde konnte. &lt;br /&gt;
+Als nächstes teilte ich das Stück in sechs musikalische Phrasen. Jede von diesen Phrasen wurde von einer verschiedenen Kreispackung räpresentiert, die in der folgenden Weise erzeugt wurde. Jede Note in der Phrase bekam in korrespondenz zu ihrer Länge eine Nummer: 2 für eine Halbe, 4 für eine Viertel, 8 für eine Achtel, usw. In dieser Maniere würden lebhaftere Phrasen (mit mehr kleinen Noten) Kreise mit höheren Krümmungen, und deshalb kleineren Kreisen, erzeugen. Diese Nummern wurden dann in Dreiergruppen gestellt. Z.B. war die erste Gruppe der ersten Phrase (4, 8, 8), bzw. eine Viertel und zwei Achtel danach. Ich hatte Glück, denn zum großteil teilten sich die Phrasen gut (die letzten zwei waren ein bisschen problematisch; im ersten Fall, habe ich so getan, als ob eine Achtelpause eine Note wäre, und im zweiten Fall beachtete ich eine ganze Note mit Aufhaltezeichen als zwei ganze Noten).&lt;br /&gt;
+Jetzt hatte ich für jede Phrase mehrere Fraktale (im Fall der ersten Phrase waren es drei Fraktale die von (4, 8, 8), (4, 4, 4), und (8, 8, 2) erzeugt wurden). Ich habe entschieden, diese in der selben Reihenfolge ineinander zu fügen, bzw. den (4, 4, 4) Fraktal in den größten Kreis des (4, 8, 8) Fraktals, und den (8, 8, 2) Fraktal in den größten Kreis des (4, 4, 4) Fraktals (dass in dem (4, 8, 8) eingefügt geworden war). Dieses zusammengesetzte Fraktal war der Fraktal für die Phrase.&lt;br /&gt;
+Jeder dieser sechs Phrasenfraktale wurden am Ende in einem großen Fraktal gesetzt, der das ganze Stück räpresentieren würde. Dieses letzte Fraktal wurde einfach mit den Nummern generiert, die am besten aussahen (leider nichts Mathematisches dabei, sorry!). Er sieht aus wie ein großer Kreis der von mehreren kleineren geringelt ist, und in diese kleinere Kreise habe ich die sechs Phrasenfraktale von links nach rechts gesetzt. Das Endprodukt sehen sie hier:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../files/poulenc-gasket.jpg&quot; alt=&quot;Poulenc Fraktal&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vielleicht haben sie gemerkt, das dieses Fraktal nur mit dem Rythmus des Stücks generiert worde - Musik ist aber viel mehr als nur Rhythmus! In der Zukunft werde ich hoffentlich dieses Projekt wieder besuchen und andere Eigenschaften (z.B. Notennamen, Oktaven, Dynamikanweisungen, und Artikulationsarten) des Stückes in einem neuen, besseren Fraktal einarbeiten.&lt;/p&gt;
+
+&lt;h4 id=&quot;literatur&quot;&gt;Literatur&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Francis Poulenc. (2018). Von &lt;a href=&quot;https://www.poulenc.fr/en/?Biography&quot;&gt;https://www.poulenc.fr/en/?Biography&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 26 Jul 2018 01:10:31 -0400</pubDate>
+        <link>http://localhost:4000/2018/07/26/Sichtbare-Musik.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/07/26/Sichtbare-Musik.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Erster Post!</title>

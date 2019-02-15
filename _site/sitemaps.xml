@@ -3,10 +3,58 @@
   
     
       <url>
-        <loc>/2018/07/26/Visualizing-Music.html</loc>
+        <loc>/2018/11/30/A-Computer-from-the-Ground-Up.html</loc>
         
         
-          <xhtml:link rel="alternate" hreflang="en" href="/2018/07/26/Visualizing-Music.html" />
+          <xhtml:link rel="alternate" hreflang="en" href="/2018/11/30/A-Computer-from-the-Ground-Up.html" />
+        
+        <lastmod>2018-11-30T16:55:56-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/2018/07/26/Sichtbare-Musik.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/2018/07/26/Sichtbare-Musik.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/2018/07/26/Seeing-Music.html" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/2018/07/26/Musica-Visibile.html" />
+        
+        <lastmod>2018-07-26T01:10:31-04:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/2018/07/26/Seeing-Music.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/2018/07/26/Sichtbare-Musik.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/2018/07/26/Seeing-Music.html" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/2018/07/26/Musica-Visibile.html" />
+        
+        <lastmod>2018-07-26T01:10:31-04:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/2018/07/26/Musica-Visibile.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/2018/07/26/Sichtbare-Musik.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/2018/07/26/Seeing-Music.html" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/2018/07/26/Musica-Visibile.html" />
         
         <lastmod>2018-07-26T01:10:31-04:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -176,6 +224,15 @@
     
       <url>
         <loc>/css/main.css</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/assets/css/main.css</loc>
         
         
         <changefreq>weekly</changefreq>
