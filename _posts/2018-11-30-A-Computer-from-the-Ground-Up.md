@@ -8,9 +8,11 @@ audience: everyone
 excerpt:
 ---
 
-When I was in middle school, I read Charles Petzold's book _Code: The Hidden Language of Computer Hardware and Software_. This book bridged a gap that in my opinion, even at the college level, persists between electrical and computer science. It seems that often, computer science students understand their virtual environments, but not the foundations that link them to the physical world. This book was my first exposure to bridging that divide.  
+When I was in middle school, I read [Charles Petzold's book _Code: The Hidden Language of Computer Hardware and Software_](http://www.charlespetzold.com/code/). This book bridged a gap that in my opinion, even at the college level, persists between electrical and computer science. It seems that often, computer science students understand their virtual environments, but not the foundations that link them to the physical world. This book was my first exposure to bridging that divide.  
 
 I recently revisited this book, and since I am drawing to the close of the fall semester of my senior year, I decided I wanted to make a project out of it. I am a very hands-on person, and I like making things. Come mid-December, my hope is that I will be able to rebuild every component in this book at various levels of abstraction, and I'd like to take you all through it with me. This will be a series of blog posts proceeding through these levels, and devised to follow along with the circuits and diagrams presented in the book. As such, I will divide this series according to the chapters in _Code_.
+
+Note: A similar project, done by programming field-programmable gate arrays (FPGAs) is found [here](../../../2019/03/12/A-Computer-from-the-Ground-Up-II.html).
 
 ### Table of Contents
 
