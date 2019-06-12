@@ -2,6 +2,7 @@
 layout:	post
 title:	"A Computer from the Ground Up"
 lang: en
+tags: cs
 ref: code-book
 date:	2018-11-30 16:55:56 -0500
 audience: everyone
