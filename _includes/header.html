@@ -29,41 +29,34 @@
 
 </header>
 
-<div class="wrapper" style="text-align: right; line-height: 2em">
+<div id="language-options" class="wrapper" style="text-align: right; line-height: 2em">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  <!-- don't display languages on tag pages -->
-  {% unless page.title contains "Tag:" %}
-    {% for post in posts %} 
-    <!-- get a long version of the language to display on the post pages -->
-    {% if post.lang == 'de' %}
-      {% assign full_language='deutsch' %}
-    {% elsif post.lang == 'en' %}
-      {% assign full_language='english' %}
-    {% elsif post.lang == 'it' %}
-      {% assign full_language='italiano' %}
-    {% else %}
-      {% assign full_language=post.lang %}
-    {% endif %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ full_language }}</a>
-    {% endfor %}
-  {% endunless %}
+  {% for post in posts %} 
+  <!-- get a long version of the language to display on the post pages -->
+  {% if post.lang == 'de' %}
+    {% assign full_language='deutsch' %}
+  {% elsif post.lang == 'en' %}
+    {% assign full_language='english' %}
+  {% elsif post.lang == 'it' %}
+    {% assign full_language='italiano' %}
+  {% else %}
+    {% assign full_language=post.lang %}
+  {% endif %}
+  <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ full_language }}</a>
+  {% endfor %}
 
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  <!-- don't display languages on tag pages -->
-  {% unless page.title contains "Tag:" %}
-    {% for page in pages %} 
-    <!-- get a long version of the language to display on the homepage -->
-    {% if page.lang == 'de' %}
-      {% assign full_language='deutsch' %}
-    {% elsif page.lang == 'en' %}
-      {% assign full_language='english' %}
-    {% elsif page.lang == 'it' %}
-      {% assign full_language='italiano' %}
-    {% else %}
-      {% assign full_language=page.lang %}
-    {% endif %}
-    {% unless page.title contains "Tag:" %}
-    <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ full_language }}</a> 
-    {% endfor %}
-  {% endunless %}
+  {% for page in pages %} 
+  <!-- get a long version of the language to display on the homepage -->
+  {% if page.lang == 'de' %}
+    {% assign full_language='deutsch' %}
+  {% elsif page.lang == 'en' %}
+    {% assign full_language='english' %}
+  {% elsif page.lang == 'it' %}
+    {% assign full_language='italiano' %}
+  {% else %}
+    {% assign full_language=page.lang %}
+  {% endif %}
+  <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ full_language }}</a> 
+  {% endfor %}
 </div>
