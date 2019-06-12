@@ -2,6 +2,5 @@
 layout: tagpage
 title: "Tag: math"
 tag: math
-lang: en
 robots: noindex
 ---

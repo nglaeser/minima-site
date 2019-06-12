@@ -2,7 +2,7 @@
 layout: post
 title:  "Primo post!"
 lang: it
-tag: info
+tags: informazioni
 ref: first
 date:   2018-06-04 10:26:16 -0500
 categories: jekyll update
