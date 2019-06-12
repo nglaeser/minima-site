@@ -2,7 +2,7 @@
 layout:	post
 title:	"Seeing Music"
 lang: en
-tags: music math cs
+tags: art math cs
 ref: apollon
 date:	2018-07-26 00:10:31 -0500
 audience: everyone

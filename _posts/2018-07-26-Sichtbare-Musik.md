@@ -2,7 +2,7 @@
 layout:	post
 title:	"Sichtbare Musik"
 lang: de
-tags: music math cs
+tags: kunst mathe informatik
 ref: apollon
 date:	2018-07-26 00:10:31 -0500
 audience: everyone

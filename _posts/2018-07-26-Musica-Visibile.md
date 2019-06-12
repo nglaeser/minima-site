@@ -2,7 +2,7 @@
 layout:	post
 title:	"Musica visibile"
 lang: it
-tags: music math cs
+tags: arte matematica informatica
 ref: apollon
 date:	2018-07-26 00:10:31 -0500
 audience: everyone
