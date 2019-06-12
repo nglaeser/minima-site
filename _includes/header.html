@@ -42,7 +42,9 @@
   {% else %}
     {% assign full_language=post.lang %}
   {% endif %}
+  {% unless post.title contains "Tag:" %}
   <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ full_language }}</a>
+  {% endunless %}
   {% endfor %}
 
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
@@ -57,6 +59,8 @@
   {% else %}
     {% assign full_language=page.lang %}
   {% endif %}
+  {% unless page.title contains "Tag:" %}
   <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ full_language }}</a> 
+  {% endunless %}
   {% endfor %}
 </div>
