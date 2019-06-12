@@ -1,7 +1,7 @@
 ---
 layout: tagpage
-title: "Tag: math"
-tag: math
+title: "Tag: art"
+tag: art
 lang: en
 robots: noindex
 ---
