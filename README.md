@@ -9,4 +9,4 @@ bundle exec jekyll serve
 
 ## License
 
-Jekyll and this code open sourced under the [MIT License](http://opensource.org/licenses/MIT).
+Jekyll and this code are open sourced under the [MIT License](http://opensource.org/licenses/MIT).
