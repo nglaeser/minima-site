@@ -8,6 +8,10 @@ Contact: lqian8@jhu.edu
 
 This script creates tags for your Jekyll blog hosted by Github page.
 No plugins required.
+
+--------------------
+usage note by nglaeser:
+    run this script from the root project directory
 '''
 
 import glob
