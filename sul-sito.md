@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Informazioni
+title: Chi sono
 ref: about
 lang: it
 ---

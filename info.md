@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Info
+title: Über mich
 ref: about
 lang: de
 ---
