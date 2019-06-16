@@ -4,6 +4,6 @@ title: Informazioni
 ref: about
 lang: it
 ---
-Ciao! Mi chiamo Noemi. Ad agosto comincerò il mio ultimo anno di studio al Honors College dell'università del South Carolina, dove studio matematica e informatica, e musica come materia minore.
+Ciao! Mi chiamo Noemi. Ad agosto comincerò il mio ultimo anno di studi all'Honors College dell'università della South Carolina, dove studio matematica e informatica, e musica come materia minore.
 
-Già da quando ero piccola mi piaceva fare i lavoretti e trasformare le mie idee in oggetti concreti. Ormai è andato un po' perso questo hobby, ma spero di risvegliarlo con questo sito e condividere con voi i risultati. Buon divertimento!
+Fin da piccola mi piaceva fare lavoretti e trasformare le mie idee in oggetti concreti. Di recente ho perso un po' di vista questo hobby, ma spero di risvegliarlo con questo sito e condividere con voi i risultati. Buon divertimento!
