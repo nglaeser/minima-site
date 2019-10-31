@@ -7,14 +7,14 @@
 
 # Site settings
 title:
-  en: Circle Limit
-  de: Kreislimit
-  it: Limite del Cerchio
+  en: Noemi Glaeser
+  de: Noemi Gläser
+  it: Noemi Glaeser
 email: 
 description:
-  en: math + computers + art
-  de: mathe + informatik + kunst
-  it: matematica + informatica + arte
+  en: Personal Website
+  de: 
+  it: 
 index:
   en:
   de: de.html
