@@ -32,3 +32,5 @@ keybase_username: nglaeser
 # Build settings
 markdown: kramdown
 mathjax: true
+
+theme: jekyll-theme-minimal
