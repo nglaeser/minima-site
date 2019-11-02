@@ -3,6 +3,7 @@ layout: default
 title: Research
 ref: research
 lang: en
+order: 4
 ---
 
 # Research resume

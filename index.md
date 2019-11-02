@@ -3,6 +3,7 @@ layout: default
 title: Home
 ref: home
 lang: en
+order: 1
 ---
 
 ![me](../../../files/pfp.jpg){: style="float: right; padding-left: 30px; width: 300px"}
