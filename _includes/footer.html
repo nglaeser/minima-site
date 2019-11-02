@@ -5,10 +5,11 @@
     <h2 class="footer-heading">{{ site.title[page.lang] }}</h2>
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
+        <p>{{ site.description[page.lang] }}</p>
+        <!--ul class="contact-list">
           <li>{{ site.title[page.lang] }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+        </ul-->
       </div>
 
       <div class="footer-col footer-col-2">
@@ -16,6 +17,12 @@
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+          
+          {% if site.keybase_username %}
+          <li>
+            {% include icon-keybase.html username=site.keybase_username %}
           </li>
           {% endif %}
 
@@ -28,7 +35,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description[page.lang] }}</p>
+        <!--p>{{ site.description[page.lang] }}</p-->
       </div>
     </div>
 
