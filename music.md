@@ -8,7 +8,7 @@ order: 3
 
 # Music [![PDF version](files/pdf.png "PDF version"){: style="width: 25px"}](files/Glaeser_CV_music3.pdf)
 
-[Choreography Portfolio]() (coming soon)
+[Choreography Portfolio]() (coming soon)  
 [Click to hear me play!](https://www.youtube.com/playlist?list=PLN8ZWvICQ5chcrHayAV-8sEQSPxupwY3n)
 
 ## Teaching Experience
