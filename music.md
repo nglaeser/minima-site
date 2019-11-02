@@ -8,9 +8,10 @@ order: 3
 
 # Music [![PDF version](files/pdf.png "PDF version"){: style="width: 25px"}](files/Glaeser_CV_music3.pdf)
 
-## Teaching Experience
-
 [Choreography Portfolio]() (coming soon)
+[Click to hear me play!](https://www.youtube.com/playlist?list=PLN8ZWvICQ5chcrHayAV-8sEQSPxupwY3n)
+
+## Teaching Experience
 
 - **Independence HS**, Ashburn, VA  
 *Sep 4 - Nov 2, 2019*  
@@ -47,8 +48,6 @@ Consulting visual technician
 *2012-2014*
 
 ## Awards & Achievements
-
-[Click here to listen to me play!](https://www.youtube.com/playlist?list=PLN8ZWvICQ5chcrHayAV-8sEQSPxupwY3n)
 
 **1st place** • Columbia Music Clubs Competition (Instrumental Collegiate) (2017)  
 **Finalist** • Flute Society of Kentucky Quartet Competition (2017)  
