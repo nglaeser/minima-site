@@ -178,3 +178,5 @@ table, td, th {
 |                                | Ethical Hacking                   |
 |                                | Information Security Principles   |
 |                                | Text Processing\*                 |
+
+<div style="color: gray; margin-top: 50px">PDF icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
