@@ -57,7 +57,7 @@ Director: Gabriel Terejanu
 ## Publications
 
 0. K. Herner **et al.** Optical follow-up of gravitational wave triggers with DECam: the Details Paper. In review.
-0. K. Abdelfatah, J. Senn, **N. Glaeser**, and G. Terejanu. (2019). Prediction and Measurement Update of Fungal Toxin Geospatial Uncertainty using a Stacked Gaussian Process. Agricultural Systems, 176, 102669. [https://doi.org/10.1016%2Fj.agsy.2019.102662](https://doi.org/10.1016%2Fj.agsy.2019.102662).
+0. K. Abdelfatah, J. Senn, **N. Glaeser**, and G. Terejanu. (2019). Prediction and Measurement Update of Fungal Toxin Geospatial Uncertainty using a Stacked Gaussian Process. Agricultural Systems, 176, 102669. [https://doi.org/10.1016/j.agsy.2019.102662](https://doi.org/10.1016%2Fj.agsy.2019.102662).
 0. **N. Glaeser** and A. Wang. (2016). Access control for a database-defined network, Proceedings of IEEE 37th Sarnoff Symposium. [http://dx.doi.org/10.1109/SARNOF.2016.7846728](http://dx.doi.org/10.1109/SARNOF.2016.7846728).
 {: reversed="reversed"}
 
