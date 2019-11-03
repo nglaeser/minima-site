@@ -9,7 +9,8 @@ order: 3
 # Research [![PDF version](files/pdf.png "PDF version"){: style="width: 25px"}](files/Glaeser_CV_STEM5.pdf)
 
 Erdős number<sup>[![What's that?](files/question.svg "What's that?"){: style="width: 15px"}](https://en.wikipedia.org/wiki/Erd%C5%91s_number)</sup><sup>[![Calculate your own](files/exclamation.svg "Calculate your own"){: style="width: 15px"}](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2)</sup>: 
-6 (Noemi Glaeser &#8594; Gabriel Terejanu &#8594; Serge Prudhomme &#8594; Leszek F. Demkowicz &#8594; Max D. Gunzburger &#8594; Vance Faber &#8594; Paul Erdős)
+6   
+(Noemi Glaeser &#8594; Gabriel Terejanu &#8594; Serge Prudhomme &#8594; Leszek F. Demkowicz &#8594; Max D. Gunzburger &#8594; Vance Faber &#8594; Paul Erdős)
 
 [OrcID](https://orcid.org/0000-0002-6464-2534)  
 [Google Scholar](https://scholar.google.com/citations?user=NsdpCcgAAAAJ&hl=en&oi=ao)
@@ -101,10 +102,10 @@ Implementation of an access-control security application in the software-defined
 
 ## Conferences
 
-**Security BSides Charleson**, *Charleston, SC* (2017, 2018)  
-**Grace Hopper Celebration of Women in Computing**, *Orlando, FL & Houston, TX* (2017, 2018)  
-**Mathematical Association of America Southeastern Conference**, *Various locations* (2016, 2018)  
-**IEEE Sarnoff Symposium**, *Newark, NJ* (2016)  
+Security BSides Charleson, *Charleston, SC* (2017, 2018)  
+Grace Hopper Celebration of Women in Computing, *Orlando, FL & Houston, TX* (2017, 2018)  
+Mathematical Association of America Southeastern Conference, *Various locations* (2016, 2018)  
+IEEE Sarnoff Symposium, *Newark, NJ* (2016)  
 
 ## Memberships
 

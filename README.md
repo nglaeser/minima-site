@@ -14,4 +14,5 @@ Jekyll and this code are open sourced under the [MIT License](http://opensource.
 ## Todo
 
 - grey out the language option that you're currently on
+    - same for menu options
 - Add hyperlinks to connections in Erdös number
