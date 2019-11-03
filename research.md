@@ -61,17 +61,20 @@ Director: Gabriel Terejanu
 0. **N. Glaeser** and A. Wang. (2016). Access control for a database-defined network, Proceedings of IEEE 37th Sarnoff Symposium. [http://dx.doi.org/10.1109/SARNOF.2016.7846728](http://dx.doi.org/10.1109/SARNOF.2016.7846728).
 {: reversed="reversed"}
 
-## Funding
+## Funding & Awards
 
-- **Graduate Research Fellowship**, National Science Foundation (NSF)  
-*2019 – 2024*  
+- **Graduate Research Fellowship**, National Science Foundation (NSF), *2019-2024*  
 $34,000 annually for doctorate study and research
-- **Science Undergraduate Research Fellowship (SURF)**, UofSC Honors College  
-*Fall 2018*  
+- **Computational Science Fellowship (Math & Computing track)**, Department of Energy, *2019, declined*  
+- **Goldwater Scholarship (Honorable Mention)**, *2018*  
+- **Outstanding Senior in Mathematics**, University of South Carolina, *Spring 2019*  
+- **Science Undergraduate Research Fellowship (SURF)**, UofSC Honors College, *Fall 2018*  
 $1,060 for work with Dr. Cooper
-- **Magellan Scholar Award**, UofSC  
-*2016*  
+- **Grace Hopper Scholar**, Anita Borg Institute, *2017*  
+- **Magellan Scholar Award**, UofSC, *2016*  
 $2,500 for work with Dr. Terejanu
+- **McNair Scholar**, UofSc, *2015-2019*  
+Highest out-of-state merit-based scholarship  
 
 ## Selected Projects 
 
@@ -98,16 +101,80 @@ Implementation of an access-control security application in the software-defined
 
 ## Conferences
 
+**Security BSides Charleson**, *Charleston, SC* (2017, 2018)  
+**Grace Hopper Celebration of Women in Computing**, *Orlando, FL & Houston, TX* (2017, 2018)  
+**Mathematical Association of America Southeastern Conference**, *Various locations* (2016, 2018)  
+**IEEE Sarnoff Symposium**, *Newark, NJ* (2016)  
+
 ## Memberships
+
+Phi Beta Kappa Society  
+Association for Computing Machinery  
 
 ## Leadership & Involvement
 
-## Awards
+- **UofSC Cybersecurity Club**  
+*Jan 2016 - Apr 2019*  
+Webmaster (Spring 2018 – Spring 2019)  
+
+- **Gamecock Math Club/Pi Mu Epsilon Math Honor Society**  
+*Mar 2016 – Apr 2019*  
+Treasurer (Fall 2017 – Spring 2019)  
+
+- **McNair Scholar Buddy**  
+*Aug 2016 – Apr 2019*  
+Mentoring a freshman Top Scholar by supporting his/her transition to UofSC  
+
+- **UofSC Association for Women in Mathematics (AWM) Chapter**  
+*Jan 2017 – Apr 2018*  
+Founding member, Treasurer & Secretary (Spring 2017 – Spring 2018)  
+
+- **Visual and Musical Technician (various marching bands)**  
+For details, see my [music résumé](music.html)
 
 ## Achievements
 
+2018 BSides Charleston Capture the Flag (cybersecurity competition), *2nd place*  
+2017 BSides Charleston Cryptography Challenge, *1st place*  
+2016 IEEE Sarnoff Symposium Poster, *3rd place*  
+2016 MAA Southeastern Math Jeopardy, *3rd place*  
+
 ## Technical Skills
+
+<style>
+table, td, th {
+    border: none;
+    }
+</style>
+
+|------------|-----------------|
+| Python     | &#9679; &#9679; &#9679; &#9679; &#9679; &#9679; &#9675; &#9675; |
+| Java/C++   | &#9679; &#9679; &#9679; &#9679; &#9679; &#9679; &#9675; &#9675; |
+| Linux/UNIX | &#9679; &#9679; &#9679; &#9679; &#9679; &#9679; &#9675; &#9675; |
+| Bash       | &#9679; &#9679; &#9679; &#9679; &#9675; &#9675; &#9675; &#9675; | 
+| LaTeX      | &#9679; &#9679; &#9679; &#9679; &#9675; &#9675; &#9675; &#9675; |
+| HTML/CSS   | &#9679; &#9679; &#9679; &#9679; &#9675; &#9675; &#9675; &#9675; |
+| PostgreSQL | &#9679; &#9679; &#9679; &#9675; &#9675; &#9675; &#9675; &#9675; |
 
 ## Languages
 
+*Native proficiency*: English, German, Italian  
+*Conversational proficiency*: American Sign Language  
+*Elementary proficiency*: Latin, French  
+
 ## Selected Coursework
+*(\* denotes honors course; ^ denotes graduate course.)*
+
+| Mathematics | Computer Science |
+|-------------|------------------|
+|Computational Number Theory^    | Computer & Network Security^      |
+|Analysis I\*                    | Program Analysis & Understanding^ |
+|Analysis II\*                   | Introduction to Cryptography\*    |
+|Algebraic Structures I          | Computer Architecture\*           |
+|Algebraic Structures II\*       | Operating Systems                 |
+|Discrete Mathematics I          | Data Structures & Algorithms      |
+|Linear Algebra                  | Introduction to Computer Networks |
+|Ordinary Differential Equations | Theory of Computation             |
+|                                | Ethical Hacking                   |
+|                                | Information Security Principles   |
+|                                | Text Processing\*                 |

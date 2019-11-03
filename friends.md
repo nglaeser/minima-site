@@ -6,6 +6,8 @@ lang: en
 order: 4
 ---
 
+# Friends
+
 Some friends' sites and blogs:  
 
 [Justin Baum's Blog](https://justinabaum.com/)  
