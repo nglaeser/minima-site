@@ -10,3 +10,8 @@ bundle exec jekyll serve
 ## License
 
 Jekyll and this code are open sourced under the [MIT License](http://opensource.org/licenses/MIT).
+
+## Todo
+
+- grey out the language option that you're currently on
+- Add hyperlinks to connections in Erdös number
