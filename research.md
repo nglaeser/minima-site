@@ -3,7 +3,7 @@ layout: default
 title: Research
 ref: research
 lang: en
-order: 3
+order: 2
 ---
 
 # Research [![PDF version](files/pdf.png "PDF version"){: style="width: 25px"}](files/Glaeser_CV_STEM5.pdf)
@@ -19,9 +19,9 @@ Erdős number<sup>[![What's that?](files/question.svg "What's that?"){: style="w
 
 **University of Maryland\***, College Park, MD  
 **Max Planck Institute for Security and Privacy^**, Bochum, Germany  
-*July 2019-*  
+*expected May 2024*  
 Ph.D., Computer Science  
-Advisors: Jonathan Katz\* and Gilles Barthes^  
+Advisors: \*Jonathan Katz and ^Gilles Barthes   
 
 **University of South Carolina Honors College**, Columbia, SC  
 *May 2019*  
@@ -40,19 +40,19 @@ GPA: 4.46/4.0
 0. **Improving bounds on entropy of odd cycle graphs**  
 *Jan 2018 – April 2019*  
 UofSC Mathematics Department, *Columbia, SC*  
-Director: Joshua Cooper  
+Advisor: Joshua Cooper  
 0. **Improvements to image processing in the DES-GW pipeline**  
 *May – Aug 2018*  
 Fermi National Accelerator Laboratory, Particle Astrophysics, *Batavia, IL*  
-Director: Kenneth Herner  
+Advisor: Kenneth Herner  
 0. **Access control for a database-defined network**  
 *May – Jul 2016*  
 Temple University Computer Science Department, *Philadelphia, PA*  
-Director: Anduo Wang  
+Advisor: Anduo Wang  
 0. **Generating geographic and temporal heat maps of aflatoxin incidence using regularized linear models**  
 *Jan 2016 – Dec 2017*  
 UofSC Computer Science Department, *Columbia, SC*  
-Director: Gabriel Terejanu  
+Advisor: Gabriel Terejanu  
 {: reversed="reversed"}
 
 ## Publications
