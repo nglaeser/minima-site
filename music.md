@@ -72,4 +72,4 @@ Mellophone (2016-)
 Trumpet (2019-)  
 Piano (2003-)
 
-<div style="color: gray; margin-top: 50px">PDF icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<div style="color: gray; margin-top: 50px; font-size: 10px">PDF icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

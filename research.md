@@ -35,31 +35,44 @@ GPA: 4.0/4.0 • *summa cum laude*
 Advanced Studies Diploma  
 GPA: 4.46/4.0  
 
-## Research Experience
-
-0. **Improving bounds on entropy of odd cycle graphs**  
-*Jan 2018 – April 2019*  
-UofSC Mathematics Department, *Columbia, SC*  
-Advisor: Joshua Cooper  
-0. **Improvements to image processing in the DES-GW pipeline**  
-*May – Aug 2018*  
-Fermi National Accelerator Laboratory, Particle Astrophysics, *Batavia, IL*  
-Advisor: Kenneth Herner  
-0. **Access control for a database-defined network**  
-*May – Jul 2016*  
-Temple University Computer Science Department, *Philadelphia, PA*  
-Advisor: Anduo Wang  
-0. **Generating geographic and temporal heat maps of aflatoxin incidence using regularized linear models**  
-*Jan 2016 – Dec 2017*  
-UofSC Computer Science Department, *Columbia, SC*  
-Advisor: Gabriel Terejanu  
-{: reversed="reversed"}
-
 ## Publications
 
 0. K. Herner **et al.** Optical follow-up of gravitational wave triggers with DECam: the Details Paper. In review.
 0. K. Abdelfatah, J. Senn, **N. Glaeser**, and G. Terejanu. (2019). Prediction and Measurement Update of Fungal Toxin Geospatial Uncertainty using a Stacked Gaussian Process. Agricultural Systems, 176, 102669. [https://doi.org/10.1016/j.agsy.2019.102662](https://doi.org/10.1016%2Fj.agsy.2019.102662).
 0. **N. Glaeser** and A. Wang. (2016). Access control for a database-defined network, Proceedings of IEEE 37th Sarnoff Symposium. [http://dx.doi.org/10.1109/SARNOF.2016.7846728](http://dx.doi.org/10.1109/SARNOF.2016.7846728).
+{: reversed="reversed"}
+
+## Research Experience
+
+0. **Improving bounds on entropy of odd cycle graphs**
+[![PyPI](files/icon-pypi.svg "PyPI"){: style="width: 25px"}](https://pypi.org/project/graph-cyclone/)
+[![GitHub](files/icon-github.svg "GitHub"){: style="width: 20px; margin-left: 5px"}](https://github.com/nglaeser/graph_cyclone)
+[![Poster](files/icon-poster.svg "Poster"){: style="width: 25px"}](files/graphentropy/DiscoverUSC-Glaeser,Noemi.pdf)  
+*Jan 2018 – April 2019*  
+UofSC Mathematics Department, *Columbia, SC*  
+Advisor: Joshua Cooper  
+0. **Improvements to image processing in the DES-GW pipeline**
+[![GitHub](files/icon-github.svg "GitHub"){: style="width: 20px; margin-left: 5px"}](https://github.com/SSantosLab/gw_workflow)
+[![Poster](files/icon-poster.svg "Poster"){: style="width: 25px"}](files/fermilab/Glaeser_poster.pdf)
+[![Slides](files/icon-slides.svg "Slides"){: style="width: 25px"}](files/fermilab/Glaeser_slides.pdf)
+[![Report](files/icon-paper.svg "Report"){: style="width: 25px"}](files/fermilab/Glaeser_SIST-final.pdf)  
+*May – Aug 2018*  
+Fermi National Accelerator Laboratory, Particle Astrophysics, *Batavia, IL*  
+Advisor: Kenneth Herner  
+0. **Access control for a database-defined network**
+[![GitHub](files/icon-github.svg "GitHub"){: style="width: 20px; margin-left: 5px"}](https://github.com/ravel-net/REU-access-control)
+[![Poster](files/icon-poster.svg "Poster"){: style="width: 25px"}](files/TempleREU/NGlaeser-poster-Sarnoff.pdf)
+[![Slides](files/icon-slides.svg "Slides"){: style="width: 25px"}](files/TempleREU/Glaeser_midterm_slides.pdf)
+[![Report](files/icon-paper.svg "Report"){: style="width: 25px"}](files/TempleREU/Glaeser_final.pdf)  
+*May – Jul 2016*  
+Temple University Computer Science Department, *Philadelphia, PA*  
+Advisor: Anduo Wang  
+- Poster [won 3rd place](files/TempleREU/thirdplace.jpg) at the 2016 IEEE Sarnoff Symposium in Newark, NJ ([low quality picture of me presenting](files/TempleREU/presentingSarnoff.jpg))  
+0. **Generating geographic and temporal heat maps of aflatoxin incidence using regularized linear models**
+[![Poster](files/icon-poster.svg "Poster"){: style="width: 25px"}](files/aflatoxin/NGlaeser-poster.pdf)  
+*Jan 2016 – Dec 2017*  
+UofSC Computer Science Department, *Columbia, SC*  
+Advisor: Gabriel Terejanu  
 {: reversed="reversed"}
 
 ## Funding & Awards
@@ -77,35 +90,12 @@ $2,500 for work with Dr. Terejanu
 - **McNair Scholar**, UofSc, *2015-2019*  
 Highest out-of-state merit-based scholarship  
 
-## Selected Projects 
+## Achievements
 
-**Graph cyclone**
-[![PyPI](files/icon-pypi.svg "PyPI"){: style="width: 25px"}](https://pypi.org/project/graph-cyclone/)
-[![GitHub](files/icon-github.svg "GitHub"){: style="width: 20px; margin: 5px"}](https://github.com/nglaeser/graph_cyclone)
-• *Python* • University of South Carolina  
-Cycle graph calculation utilities for work with Dr. Cooper
-
-**Open vLab** 
-[![GitHub](files/icon-github.svg "GitHub"){: style="width: 20px; margin: 5px"}](https://github.com/SCCapstone/OpenVLab)
-• *Django, OpenFlow, Javascript* • University of South Carolina  
-Educational network virtualization framework for Capstone Computing class
-
-**GW Workflow** 
-[![GitHub](files/icon-github.svg "GitHub"){: style="width: 20px; margin: 5px"}](https://github.com/SSantosLab/gw_workflow)
-• *Python, Bash* • Fermilab  
-Optimization of pipeline for optical counterparts of gravitational waves (10x speed increase)
-
-**Access control for a database-defined network** 
-[![GitHub](files/icon-github.svg "GitHub"){: style="width: 20px; margin: 5px"}](https://github.com/ravel-net/REU-access-control)
-• *Python, PostgreSQL* • Temple University  
-Implementation of an access-control security application in the software-defined network controller [Ravel](http://ravel-net.org/)
-
-## Conferences
-
-Security BSides Charleson, *Charleston, SC* (2017, 2018)  
-Grace Hopper Celebration of Women in Computing, *Orlando, FL & Houston, TX* (2017, 2018)  
-Mathematical Association of America Southeastern Conference, *Various locations* (2016, 2018)  
-IEEE Sarnoff Symposium, *Newark, NJ* (2016)  
+2018 BSides Charleston Capture the Flag (cybersecurity competition), *2nd place*  
+2017 BSides Charleston Cryptography Challenge, *1st place*  
+2016 IEEE Sarnoff Symposium Poster, *3rd place*  
+2016 MAA Southeastern Math Jeopardy, *3rd place*  
 
 ## Memberships
 
@@ -132,13 +122,6 @@ Founding member, Treasurer & Secretary (Spring 2017 – Spring 2018)
 
 - **Visual and Musical Technician (various marching bands)**  
 For details, see my [music résumé](music.html)
-
-## Achievements
-
-2018 BSides Charleston Capture the Flag (cybersecurity competition), *2nd place*  
-2017 BSides Charleston Cryptography Challenge, *1st place*  
-2016 IEEE Sarnoff Symposium Poster, *3rd place*  
-2016 MAA Southeastern Math Jeopardy, *3rd place*  
 
 ## Technical Skills
 
@@ -180,4 +163,4 @@ table, td, th {
 |                                | Information Security Principles   |
 |                                | Text Processing\*                 |
 
-<div style="color: gray; margin-top: 50px">PDF icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<div style="color: gray; margin-top: 50px; font-size: 10px;">PDF, poster, slides, and report icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
