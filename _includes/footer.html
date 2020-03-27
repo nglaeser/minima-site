@@ -2,17 +2,21 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title[page.lang] }}</h2>
+    <!--h2 class="footer-heading">{{ site.title[page.lang] }}</h2-->
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <p>{{ site.description[page.lang] }}</p>
-        <!--ul class="contact-list">
-          <li>{{ site.title[page.lang] }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul-->
+        <!--p>{{ site.description[page.lang] }}</p-->
+        <ul class="contact-list">
+          <!--li>{{ site.title[page.lang] }}</li-->
+          <li>{{ site.email }}</li>
+        </ul>
       </div>
 
       <div class="footer-col footer-col-2">
+        <!--p>{{ site.description[page.lang] }}</p-->
+      </div>
+
+      <div class="footer-col footer-col-3">
         <ul class="social-media-list">
 
           {% if site.linkedin_username %}
@@ -41,9 +45,6 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <!--p>{{ site.description[page.lang] }}</p-->
-      </div>
     </div>
 
   </div>
