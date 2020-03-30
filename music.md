@@ -6,10 +6,12 @@ lang: en
 order: 3
 ---
 
-## Music [![PDF version](files/pdf.png "PDF version"){: style="width: 25px"}](files/Glaeser_CV_music3.pdf)
+## Music
 
-<i class="fa fa-folder-open fa-lg"></i> [Choreography Portfolio]() (coming soon)  
-<i class="fa fa-volume-up fa-lg"></i> [Hear me play!](https://www.youtube.com/playlist?list=PLN8ZWvICQ5chcrHayAV-8sEQSPxupwY3n)
+A full CV can be found [here](files/Glaeser_CV_music3.pdf).
+
+<i class="fa fa-folder-open" style="font-size: 12px"></i> [Choreography Portfolio]() (coming soon)  
+<i class="fa fa-volume-up" style="font-size: 12px"></i> [Hear me play!](https://www.youtube.com/playlist?list=PLN8ZWvICQ5chcrHayAV-8sEQSPxupwY3n)
 
 ### Teaching Experience
 
@@ -60,5 +62,3 @@ Flute/piccolo (2007-)
 Mellophone (2016-)  
 Trumpet (2019-)  
 Piano (2003-)
-
-<div style="color: gray; margin-top: 50px; font-size: 10px">PDF icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

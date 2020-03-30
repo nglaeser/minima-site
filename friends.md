@@ -6,7 +6,7 @@ lang: en
 order: 4
 ---
 
-# Friends
+## Friends
 
 Some friends' sites and blogs:  
 
