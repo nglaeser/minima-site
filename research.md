@@ -16,7 +16,7 @@ A full CV can be found [here](files/Glaeser_CV_STEM5.pdf).
 
 ### Publications
 
-0. K. Herner **et al.** Optical follow-up of gravitational wave triggers with DECam: the Details Paper. In review.
+0. K. Herner **et al.** Optical follow-up of gravitational wave triggers with DECam: the Details Paper. In review. [\[Preprint\]](https://arxiv.org/pdf/2001.06551.pdf)
 0. K. Abdelfatah, J. Senn, **N. Glaeser**, and G. Terejanu. (2019). Prediction and Measurement Update of Fungal Toxin Geospatial Uncertainty using a Stacked Gaussian Process. Agricultural Systems, 176, 102669. [\[PDF\]](https://doi.org/10.1016%2Fj.agsy.2019.102662)
 0. **N. Glaeser** and A. Wang. (2016). Access control for a database-defined network, Proceedings of IEEE 37th Sarnoff Symposium. [\[PDF\]](http://dx.doi.org/10.1109/SARNOF.2016.7846728)
 {: reversed="reversed"}
