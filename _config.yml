@@ -28,6 +28,7 @@ url: "" # the base hostname & protocol for your site
 linkedin_username: nglaeser
 github_username:  nglaeser
 keybase_username: nglaeser
+orcid: 0000-0002-6464-2534
 
 # Build settings
 markdown: kramdown

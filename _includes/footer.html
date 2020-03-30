@@ -8,15 +8,21 @@
         <!--p>{{ site.description[page.lang] }}</p-->
         <ul class="contact-list">
           <!--li>{{ site.title[page.lang] }}</li-->
-          <li>{{ site.email }}</li>
+          <li>
+              <i class="fa fa-envelope"></i> {{ site.email }}
+          </li>
+
+          <li>
+              <i class="ai ai-orcid"></i> <a href="https://orcid.org/0000-0002-6464-2534">{{ site.orcid }}</a>
+          </li>
+
+          <li>
+              <i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?user=NsdpCcgAAAAJ&hl=en&oi=ao">Google Scholar</a>
+          </li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        <!--p>{{ site.description[page.lang] }}</p-->
-      </div>
-
-      <div class="footer-col footer-col-3">
         <ul class="social-media-list">
 
           {% if site.linkedin_username %}
@@ -43,6 +49,10 @@
           </li>
           {% endif %}
         </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <!--p>{{ site.description[page.lang] }}</p-->
       </div>
 
     </div>
