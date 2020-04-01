@@ -9,7 +9,7 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div id="language-options" class="wrapper" style="text-align: right; line-height: 2em">
+        <div id="language-options" class="wrapper" style="text-align: right; line-height: 2em; padding-bottom: 20px;padding-right: 0px;">
           {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
           {% for post in posts %} 
           <!-- get a long version of the language to display on the post pages -->
