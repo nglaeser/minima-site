@@ -16,20 +16,20 @@ A full CV can be found [here](files/Glaeser_CV_music3.pdf).
 ### Teaching Experience
 
 - **Independence HS**, Ashburn, VA  
-  *Sep 4 - Nov 2, 2019*  
+  *Sep 4 - present*  
   Visual technician, wind choreography  
 - **Lexington HS**, Lexington, SC  
   *Jul 29 - Aug 16, 2019*  
   Visual and flute technician, wind choreography  
+- **Dreher HS**, Columbia, SC  
+  *2017-2019*  
+  Consulting visual technician  
 - **River Bluff HS**, Lexington, SC  
 *2017-2018*   
 Visual and woodwind technician, wind choreography  
 - **Lake Orion HS**, Lake Orion, MI  
   *Aug 19-25, 2018*  
   Visual and mellophone technician  
-- **Dreher HS**, Columbia, SC  
-  *2017-2019*  
-  Consulting visual technician  
 
 ### Marching Experience
 
