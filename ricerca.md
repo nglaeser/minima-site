@@ -46,8 +46,8 @@ Il mio curriculum vitae dettagliato si ritrova [qui](files/Glaeser_CV_STEM5.pdf)
 - **Graduate Research Fellowship**, National Science Foundation (NSF), *2019-2024*  
 - **Computational Science Fellowship (Math & Computing track)**, US Department of Energy, *2019, declinato*  
 - **Goldwater Scholarship (Honorable Mention)**, *2018*  
-- **Outstanding Senior in Mathematics**, University of South Carolina, *Spring 2019*  
-- **Science Undergraduate Research Fellowship (SURF)**, UofSC Honors College, *Fall 2018* ($1,060 per il progetto con Dr. Cooper)  
+- **Outstanding Senior in Mathematics**, University of South Carolina, *Primavera 2019*  
+- **Science Undergraduate Research Fellowship (SURF)**, UofSC Honors College, *Autunno 2018* ($1,060 per il progetto con Dr. Cooper)  
 - **Grace Hopper Scholar**, Anita Borg Institute, *2017*  
 - **Magellan Scholar Award**, UofSC, *2016* ($2,500 per il progetto con Dr. Terejanu)  
 - **McNair Scholar**, UofSc, *2015-2019* (Massima borsa di studio per studenti da altri stati americani)  
