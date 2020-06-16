@@ -6,7 +6,7 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title[page.lang] | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
   <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
@@ -16,10 +16,10 @@
   <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
-  <!-- fontawesome icons -->
+  <!-- icons -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="{{ "/css/fontawesome-free-5.13.0-web/css/all.css" | prepend: site.baseurl }}"/>
-  <link rel="stylesheet" href="{{ "/css/academicons-1.8.6/css/academicons.min.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/assets/fontawesome-free-5.13.0-web/css/all.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/assets/academicons-1.8.6/css/academicons.min.css" | prepend: site.baseurl }}"/>
 
   <!-- make a list of tags -->
   {% if site.tags != "" %}
