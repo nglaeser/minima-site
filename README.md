@@ -7,6 +7,11 @@ To spin up a local server running these files, type
 bundle exec jekyll serve
 ```
 
+## Icons
+
+- [Academicons](https://jpswalsh.github.io/academicons/)
+- [Fontawesome](https://fontawesome.com/)
+
 ## License
 
 Jekyll and this code are open sourced under the [MIT License](http://opensource.org/licenses/MIT).
