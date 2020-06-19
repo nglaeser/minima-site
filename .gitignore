@@ -4,6 +4,11 @@ _site/
 .jekyll-cache
 .jekyll-metadata
 
+# backup of deleted dir
+# (I think it's redundant
+#  when using minima theme)
+_sass-bak
+
 # Ruby
 Gemfile.lock
 
