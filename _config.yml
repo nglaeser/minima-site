@@ -33,5 +33,6 @@ orcid: 0000-0002-6464-2534
 # Build settings
 markdown: kramdown
 mathjax: true
+theme: minima
 
 # theme: jekyll-theme-minimal
