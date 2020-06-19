@@ -22,7 +22,7 @@
           </li>
 
           <li>
-              <i class="ai ai-orcid"></i> <a href="https://orcid.org/0000-0002-6464-2534">{{ site.orcid }}</a>
+            <i class="ai ai-orcid"></i> <a href="https://orcid.org/{{ site.orcid }}">{{ site.orcid }}</a>
           </li>
 
           <li>
@@ -36,13 +36,19 @@
 
           {% if site.linkedin_username %}
           <li>
-            {% include icon-linkedin.html username=site.linkedin_username %}
+            <i class="fa fa-linkedin-square"></i> 
+            <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+              <span class="username">{{ site.linkedin_username }}</span>
+            </a>
           </li>
           {% endif %}
 
           {% if site.github_username %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            <i class="fa fa-github"></i> 
+            <a href="https://github.com/{{ site.github_username }}">
+              <span class="username">{{ site.github_username }}</span>
+            </a>
           </li>
           {% endif %}
           
@@ -54,7 +60,10 @@
 
           {% if site.twitter_username %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            <i class="fa fa-twitter"></i> 
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              <span class="username">{{ site.twitter_username }}</span>
+            </a>
           </li>
           {% endif %}
         </ul>
