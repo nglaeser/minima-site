@@ -17,8 +17,8 @@ description:
   it: 
 index:
   en:
-  de: de.html
-  it: it.html
+  de: de
+  it: it
 feed:
   en: /feed.xml
   de: /feed-de.xml
