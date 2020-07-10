@@ -8,7 +8,7 @@ order: 2
 
 ## Ricerca
 
-Il mio curriculum vitae dettagliato si ritrova [qui](../files/Glaeser_CV_STEM5.pdf) (in inglese).
+Il mio curriculum vitae dettagliato è scaricabile [qui](../files/Glaeser_CV_STEM5.pdf) (in inglese).
 
 <i class="ai ai-orcid"></i> [0000-0002-6464-2534](https://orcid.org/0000-0002-6464-2534)  
 <i class="ai ai-google-scholar"></i> [Google Scholar](https://scholar.google.com/citations?user=NsdpCcgAAAAJ&hl=en&oi=ao)
@@ -22,32 +22,32 @@ Il mio curriculum vitae dettagliato si ritrova [qui](../files/Glaeser_CV_STEM5.p
 
 ### Progetti
 
-0. **Improving bounds on entropy of odd cycle graphs**. Jan 2018 – Apr 2019, UofSC Mathematics Department, sotto la supervisione di Joshua Cooper.
+0. **Improving bounds on entropy of odd cycle graphs**. Jan 2018 – Apr 2019, UofSC Mathematics Department, advisor: Joshua Cooper.
 [\[PyPI\]](https://pypi.org/project/graph-cyclone/)
 [\[GitHub\]](https://github.com/nglaeser/graph_cyclone)
 [\[Poster\]](../files/graphentropy/DiscoverUSC-Glaeser,Noemi.pdf)  
-0. **Improvements to image processing in the DES-GW pipeline**. May – Aug 2018, Fermi National Accelerator Laboratory (Particle Astrophysics), sotto la supervisione di Kenneth Herner.
+0. **Improvements to image processing in the DES-GW pipeline**. May – Aug 2018, Fermi National Accelerator Laboratory (Particle Astrophysics), advisor: Kenneth Herner.
 [\[GitHub\]](https://github.com/SSantosLab/gw_workflow)
 [\[Poster\]](../files/fermilab/Glaeser_poster.pdf)
 [\[Slides\]](../files/fermilab/Glaeser_slides.pdf)
 [\[Report\]](../files/fermilab/Glaeser_SIST-final.pdf)  
-0. **Access control for a database-defined network**. May – Jul 2016, Temple University Computer Science Department (NSF REU), sotto la supervisione di Anduo Wang.
+0. **Access control for a database-defined network**. May – Jul 2016, Temple University Computer Science Department (NSF REU), advisor: Anduo Wang.
 [\[GitHub\]](https://github.com/ravel-net/REU-access-control)
 [\[Poster\]](../files/TempleREU/NGlaeser-poster-Sarnoff.pdf)
 [\[Slides\]](../files/TempleREU/Glaeser_midterm_slides.pdf)
 [\[Report\]](../files/TempleREU/Glaeser_final.pdf)  
    *Poster [won 3rd place](../files/TempleREU/thirdplace.jpg) at the 2016 IEEE Sarnoff Symposium in Newark, NJ* [\[foto di bassa qualità della mia presentazione\]](../files/TempleREU/presentingSarnoff.jpg)  
-0. **Generating geographic and temporal heat maps of aflatoxin incidence using regularized linear models**. Jan 2016 – Dec 2017, UofSC Computer Science Department, sotto la supervisione di Gabriel Terejanu.
+0. **Generating geographic and temporal heat maps of aflatoxin incidence using regularized linear models**. Jan 2016 – Dec 2017, UofSC Computer Science Department, advisor: Gabriel Terejanu.
 [\[Poster\]](../files/aflatoxin/NGlaeser-poster.pdf)  
 {: reversed="reversed"}
 
-### Borse & premi
+### Borse di studio & riconoscimenti
 
 - **Graduate Research Fellowship**, National Science Foundation (NSF), *2019-2024*  
-- **Computational Science Fellowship (Math & Computing track)**, US Department of Energy, *2019, declinato*  
+- **Computational Science Fellowship (Math & Computing track)**, US Department of Energy, *2019, non utilizato*  
 - **Goldwater Scholarship (Honorable Mention)**, *2018*  
 - **Outstanding Senior in Mathematics**, University of South Carolina, *Primavera 2019*  
-- **Science Undergraduate Research Fellowship (SURF)**, UofSC Honors College, *Autunno 2018* ($1,060 per il progetto con Dr. Cooper)  
+- **Science Undergraduate Research Fellowship (SURF)**, UofSC Honors College, *Autunno 2018* ($1.060 per il progetto con Dr. Cooper)  
 - **Grace Hopper Scholar**, Anita Borg Institute, *2017*  
-- **Magellan Scholar Award**, UofSC, *2016* ($2,500 per il progetto con Dr. Terejanu)  
-- **McNair Scholar**, UofSc, *2015-2019* (Massima borsa di studio per studenti da altri stati americani)  
+- **Magellan Scholar Award**, UofSC, *2016* ($2.500 per il progetto con Dr. Terejanu)  
+- **McNair Scholar**, UofSC, *2015-2019* (Massima borsa di studio per studenti provenienti da altri Stati americani)  

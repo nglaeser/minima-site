@@ -8,7 +8,7 @@ order: 4
 
 ## Amici
 
-Siti e blog di amici:  
+Siti e blog selezionati di amici:  
 
 [Il blog di Justin Baum](https://justinabaum.com/)  
 [The Blog of Charles Daniels](http://cdaniels.net)  
