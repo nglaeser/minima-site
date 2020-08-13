@@ -1,10 +1,24 @@
 <style>
-.footer-col-1 {
-  width:calc(50% - (30px / 2));
-}
-.social-media-list li + li {
-  padding-top: 0px; 
-}
+  .footer-col-1 {
+    width:calc(50% - (30px / 2));
+  }
+  .footer-col-2 {
+    width:0px;
+  }
+  .social-media-list li {
+    display: inline;
+    text-align: right;
+    padding-left: 7.5px;
+  }
+  .social-media-list {
+    float: right;
+  }
+  i, .icon {
+    color: #828282;
+  }
+  i:hover, .icon:hover {
+    color: #3e3e3e;
+  }
 </style>
 
 <footer class="site-footer">
@@ -21,56 +35,67 @@
               <i class="fa fa-envelope"></i> {{ site.email }}
           </li>
 
-          <li>
-            <i class="ai ai-orcid"></i> <a href="https://orcid.org/{{ site.orcid }}">{{ site.orcid }}</a>
-          </li>
 
-          <li>
-              <i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?user=NsdpCcgAAAAJ&hl=en&oi=ao">Google Scholar</a>
-          </li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
+      </div>
+
+      <div class="footer-col footer-col-3">
         <ul class="social-media-list">
+
+          {% if site.orcid %}
+          <li>
+            <a target="_blank" href="https://orcid.org/{{ site.orcid }}">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.google_scholar %}
+          <li>
+            <a href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+          {% endif %}
 
           {% if site.linkedin_username %}
           <li>
-            <i class="fa fa-linkedin-square"></i> 
             <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
-              <span class="username">{{ site.linkedin_username }}</span>
+              <i class="fa fa-linkedin-square"></i>
             </a>
           </li>
           {% endif %}
 
           {% if site.github_username %}
           <li>
-            <i class="fa fa-github"></i> 
             <a href="https://github.com/{{ site.github_username }}">
-              <span class="username">{{ site.github_username }}</span>
+              <i class="fa fa-github"></i>
             </a>
           </li>
           {% endif %}
           
           {% if site.keybase_username %}
           <li>
-            {% include icon-keybase.html username=site.keybase_username %}
+            <a href="https://keybase.io/{{ include.username }}">
+              <span class="icon icon--keybase">
+              {% include icon-keybase.svg %}
+              </span>
+            </a>
+              <!-- {% include icon-keybase.html username=site.keybase_username %} -->
           </li>
           {% endif %}
 
           {% if site.twitter_username %}
           <li>
-            <i class="fa fa-twitter"></i> 
             <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="username">{{ site.twitter_username }}</span>
+              <i class="fa fa-twitter"></i>
             </a>
           </li>
           {% endif %}
         </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <!--p>{{ site.description[page.lang] }}</p-->
       </div>
 
     </div>
