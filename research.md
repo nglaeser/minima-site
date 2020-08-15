@@ -8,11 +8,23 @@ order: 2
 
 ## Research 
 
-A full CV can be found [here](files/Glaeser_CV_STEM5.pdf).
+<li style="display: inline;">
+  <a target="_blank" target="_blank" href="https://orcid.org/{{ site.orcid }}">
+    <i class="ai ai-orcid"></i></a>
+</li>
+<li style="display: inline;">
+  <a target="_blank" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
+    <i class="ai ai-google-scholar" style="margin-bottom: 20px;"></i>
+  </a>
+</li>
 
-<i class="ai ai-orcid"></i> [0000-0002-6464-2534](https://orcid.org/0000-0002-6464-2534)  
-<i class="ai ai-google-scholar"></i> [Google Scholar](https://scholar.google.com/citations?user=NsdpCcgAAAAJ&hl=en&oi=ao)
-<!--i class="fa fa-twitter fa-lg"></i-->
+*A full CV can be found [here](files/Glaeser_CV_STEM5.pdf).*
+
+<style>
+h3 {
+  margin-top: 15px;
+}
+</style>
 
 ### Publications
 
@@ -44,11 +56,11 @@ A full CV can be found [here](files/Glaeser_CV_STEM5.pdf).
 
 ### Funding & Awards
 
-- **Graduate Research Fellowship**, National Science Foundation (NSF), *2019-2024*  
-- **Computational Science Fellowship (Math & Computing track)**, Department of Energy, *2019, declined*  
-- **Goldwater Scholarship (Honorable Mention)**, *2018*  
-- **Outstanding Senior in Mathematics**, University of South Carolina, *Spring 2019*  
-- **Science Undergraduate Research Fellowship (SURF)**, UofSC Honors College, *Fall 2018* ($1,060 for work with Dr. Cooper)  
-- **Grace Hopper Scholar**, Anita Borg Institute, *2017*  
-- **Magellan Scholar Award**, UofSC, *2016* ($2,500 for work with Dr. Terejanu)  
-- **McNair Scholar**, UofSc, *2015-2019* (Highest out-of-state merit-based scholarship)  
+- **Graduate Research Fellowship**, National Science Foundation (NSF), *2019-2024* [![What's that?](_includes/question.svg "What's that?")](https://www.nsfgrfp.org/)
+- **Computational Science Fellowship (Math & Computing track)**, Department of Energy, *2019, declined* [![What's that?](_includes/question.svg "What's that?")](https://www.krellinst.org/csgf/about-doe-csgf/math-cs-track)
+- **Goldwater Scholarship (Honorable Mention)**, *2018* [![What's that?](_includes/question.svg "What's that?")](https://goldwater.scholarsapply.org/)
+- **Outstanding Undergraduate Student in Mathematics**, University of South Carolina, *Spring 2019* [![What's that?](_includes/question.svg "What's that?")](https://sc.edu/study/colleges_schools/artsandsciences/mathematics/study/awards_scholarships/index.php)
+- **Science Undergraduate Research Fellowship (SURF)**, UofSC Honors College, *Fall 2018* (for Project #4 above) [![What's that?](_includes/question.svg "What's that?")](https://www.sc.edu/study/colleges_schools/honors_college/internal/beyond_the_classroom/undergraduate_research/surf_and_exploration_grants/index.php)
+- **Grace Hopper Scholar**, Anita Borg Institute, *2017* 
+- **Magellan Scholar Award**, UofSC, *2016* ($2,500 for work with Dr. Terejanu) [![What's that?](_includes/question.svg "What's that?")](https://sc.edu/about/offices_and_divisions/undergraduate_research/apply_for_funding/our_funding/magellan-scholar-award/index.php)
+- **McNair Scholar**, UofSc, *2015-2019* (Highest out-of-state merit-based scholarship) [![What's that?](_includes/question.svg "What's that?")](https://www.sc.edu/about/offices_and_divisions/fellowships_and_scholar_programs/top_scholars/index.php)
