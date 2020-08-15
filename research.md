@@ -56,11 +56,39 @@ h3 {
 
 ### Funding & Awards
 
-- **Graduate Research Fellowship**, National Science Foundation (NSF), *2019-2024* [![What's that?](_includes/question.svg "What's that?")](https://www.nsfgrfp.org/)
-- **Computational Science Fellowship (Math & Computing track)**, Department of Energy, *2019, declined* [![What's that?](_includes/question.svg "What's that?")](https://www.krellinst.org/csgf/about-doe-csgf/math-cs-track)
-- **Goldwater Scholarship (Honorable Mention)**, *2018* [![What's that?](_includes/question.svg "What's that?")](https://goldwater.scholarsapply.org/)
-- **Outstanding Undergraduate Student in Mathematics**, University of South Carolina, *Spring 2019* [![What's that?](_includes/question.svg "What's that?")](https://sc.edu/study/colleges_schools/artsandsciences/mathematics/study/awards_scholarships/index.php)
-- **Science Undergraduate Research Fellowship (SURF)**, UofSC Honors College, *Fall 2018* (for Project #4 above) [![What's that?](_includes/question.svg "What's that?")](https://www.sc.edu/study/colleges_schools/honors_college/internal/beyond_the_classroom/undergraduate_research/surf_and_exploration_grants/index.php)
+- **Graduate Research Fellowship**
+  <a title="What's that?" style="width:15px;" target="_blank" href="https://www.nsfgrfp.org/">
+    {% include question.svg %}
+  </a>
+, National Science Foundation (NSF), *2019-2024*
+- **Computational Science Fellowship (Math & Computing track)**
+  <a title="What's that?" style="width:15px;" target="_blank" href="https://www.krellinst.org/csgf/about-doe-csgf/math-cs-track">
+    {% include question.svg %}
+  </a>
+, Department of Energy, *2019, declined*
+- **Goldwater Scholarship (Honorable Mention)**
+  <a title="What's that?" style="width:15px;" target="_blank" href="https://goldwater.scholarsapply.org/">
+    {% include question.svg %}
+  </a>
+, *2018*
+- **Outstanding Undergraduate Student in Mathematics**
+  <a title="What's that?" style="width:15px;" target="_blank" href="https://sc.edu/study/colleges_schools/artsandsciences/mathematics/study/awards_scholarships/index.php">
+    {% include question.svg %}
+  </a>
+, University of South Carolina, *Spring 2019*
+- **Science Undergraduate Research Fellowship (SURF)**
+  <a title="What's that?" style="width:15px;" target="_blank" href="https://www.sc.edu/study/colleges_schools/honors_college/internal/beyond_the_classroom/undergraduate_research/surf_and_exploration_grants/index.php">
+    {% include question.svg %}
+  </a>
+, UofSC Honors College, *Fall 2018* (for Project #4 above)
 - **Grace Hopper Scholar**, Anita Borg Institute, *2017* 
-- **Magellan Scholar Award**, UofSC, *2016* ($2,500 for work with Dr. Terejanu) [![What's that?](_includes/question.svg "What's that?")](https://sc.edu/about/offices_and_divisions/undergraduate_research/apply_for_funding/our_funding/magellan-scholar-award/index.php)
-- **McNair Scholar**, UofSc, *2015-2019* (Highest out-of-state merit-based scholarship) [![What's that?](_includes/question.svg "What's that?")](https://www.sc.edu/about/offices_and_divisions/fellowships_and_scholar_programs/top_scholars/index.php)
+- **Magellan Scholar Award**
+  <a title="What's that?" style="width:15px;" target="_blank" href="https://sc.edu/about/offices_and_divisions/undergraduate_research/apply_for_funding/our_funding/magellan-scholar-award/index.php">
+    {% include question.svg %}
+  </a>
+, UofSC, *2016* ($2,500 for work with Dr. Terejanu)
+- **McNair Scholar**
+  <a title="What's that?" style="width:15px;" target="_blank" href="https://www.sc.edu/about/offices_and_divisions/fellowships_and_scholar_programs/top_scholars/index.php">
+    {% include question.svg %}
+  </a>
+, UofSc, *2015-2019* (Highest out-of-state merit-based scholarship)
