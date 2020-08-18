@@ -13,10 +13,10 @@
   .social-media-list {
     float: right;
   }
-  i, .icon {
+  .social-media-list i, .icon {
     color: #828282;
   }
-  i:hover, .icon:hover {
+  .social-media-list i:hover, .icon:hover {
     color: #3e3e3e;
   }
 </style>
@@ -47,7 +47,7 @@
 
           {% if site.orcid %}
           <li>
-            <target="_blank" a target="_blank" href="https://orcid.org/{{ site.orcid }}">
+            <a target="_blank" href="https://orcid.org/{{ site.orcid }}">
               <i class="ai ai-orcid"></i>
             </a>
           </li>
