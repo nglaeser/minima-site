@@ -13,11 +13,14 @@
   .social-media-list {
     float: right;
   }
-  .social-media-list i, .icon {
+  i, .icon {
     color: #828282;
   }
-  .social-media-list i:hover, .icon:hover {
+  i:hover, .icon:hover {
     color: #3e3e3e;
+  }
+  #email-icon:hover {
+    color: #828282;
   }
 </style>
 
@@ -32,7 +35,7 @@
         <ul class="contact-list">
           <!--li>{{ site.title[page.lang] }}</li-->
           <li>
-              <i class="fa fa-envelope"></i> {{ site.email }}
+              <i id="email-icon" class="fa fa-envelope"></i> {{ site.email }}
           </li>
 
 
