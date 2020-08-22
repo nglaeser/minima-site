@@ -6,12 +6,25 @@ lang: en
 order: 3
 ---
 
+
+<style>
+#music-links i {
+  font-size: 1em;
+  vertical-align: middle;
+}
+#music-links i:hover {
+  color: #828282;
+}
+</style>
+
 ## Music
 
-A full CV can be found [here](files/Glaeser_CV_music3.pdf).
+A full CV can be found [here](files/Glaeser_CV_music3.pdf) (currently out-of-date).
 
-<i class="fa fa-folder-open" style="font-size: 12px"></i> [Choreography Portfolio]() (coming soon)  
-<i class="fa fa-volume-up" style="font-size: 12px"></i> [Hear me play!](https://www.youtube.com/playlist?list=PLN8ZWvICQ5chcrHayAV-8sEQSPxupwY3n)
+<div id="music-links" style="margin-bottom: 1em">
+  <!-- i class="fa fa-folder-open" style="font-size: 12px"></i> [Choreography Portfolio]() (coming soon)  -->
+  <i class="fa fa-volume-up"></i> <a href="https://www.youtube.com/playlist?list=PLN8ZWvICQ5chcrHayAV-8sEQSPxupwY3n">Hear me play!</a>
+</div>
 
 ### Teaching Experience
 
@@ -33,28 +46,10 @@ Visual and woodwind technician, wind choreography
 
 ### Marching Experience
 
-- Blue Stars Drum & Bugle Corps (mello), *2017*  
-- UofSC Marching Band (picc, mello), *2015-2016*  
-- All-American Marching Band (picc), *2015*  
-- Thomas Jefferson HSST Marching Band (picc), *2012-2014*  
-
-### Awards & Achievements
-
-**1st place** • Columbia Music Clubs Competition (Instrumental Collegiate) (2017)  
-**Finalist** • Flute Society of Kentucky Quartet Competition (2017)  
-South Carolina Intercollegiate Honor Band (2016)  
-Music for All National Concert Band Festival (2013)  
-
-### Concert Ensembles
-*(flute unless otherwise noted)*
-
-UofSC Flute Studio (2015-2019)  
-UofSC University Band • **trumpet** (2019)  
-UofSC Symphonic Winds (2015-2017)  
-UofSC Wind Ensemble (2016)  
-Northern Virginia Youth Winds (2014-2015)  
-American Youth Philharmonic • **flute/picc** (2013-2014)  
-Northern Virginia Senior Regional Orchestra (2014)  
+- Blue Stars Drum & Bugle Corps (mellophone), *2017*  
+- UofSC Marching Band (piccolo, mellophone), *2015-2016*  
+- All-American Marching Band (piccolo), *2015*  
+- Thomas Jefferson HSST Marching Band (piccolo), *2012-2014*  
 
 ### Instruments
 
