@@ -27,6 +27,15 @@ post_dir = '_posts/'
 tag_dir = 'tag/'
 tag_data_filename = '_data/tags.yml'
 
+# create dirs if necessary
+for dir_name in [tag_dir, "_data"]:
+    if not os.path.exists(dir_name):
+        try:
+            os.makedirs(dir_name)
+        except OSError as e:
+            if e.errno != errno.EEXIST:
+                raise
+
 filenames = glob.glob(post_dir + '*md')
 
 # list of tuples (tag, lang)
