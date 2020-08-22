@@ -17,6 +17,7 @@
       <div class="wrapper">
         <div id="language-options" class="wrapper" style="text-align: right; line-height: 2em; padding-bottom: 20px;padding-right: 0px;">
           {% unless page.ref == "notfound" %}
+            {% assign curr_lang = page.lang %}
             {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
             {% for page in pages %} 
             <!-- get a long version of the language to display on the homepage -->
@@ -29,7 +30,11 @@
             {% else %}
               {% assign full_language=page.lang %}
             {% endif %}
-            <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ full_language }}</a> 
+            {% if page.lang == curr_lang %}
+            <p style="color:#8e8e8e;display:inline;margin-left:5px;" class="{{ page.lang }}">{{ full_language }}</p> 
+            {% else %}
+            <a style="color:#000;margin-left:5px" href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ full_language }}</a> 
+            {% endif %}
             {% endfor %}
           {% endunless %}
         </div>

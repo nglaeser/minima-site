@@ -12,7 +12,11 @@
         {% for my_page in pages %}
           {% if my_page.title %}
           {% unless my_page.title contains "Tag:" %}
+          {% if my_page.title == page.title %}
+          <p style="color:#8e8e8e;margin-right:20px;display:inline;">{{ my_page.title }}</p>
+          {% else %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
           {% endunless %}
           {% endif %}
         {% endfor %}
