@@ -6,21 +6,6 @@ lang: it
 order: 5
 ---
 
-<style>
-  .home {
-    display: flex;
-  }
-  .column-left {
-    flex: 75%
-  }
-  .column-right {
-    flex: 25%
-  }
-  .column-right ul {
-    list-style-type:none;
-  }
-</style>
-
 <div class="home">
 
   <div class="column-left">

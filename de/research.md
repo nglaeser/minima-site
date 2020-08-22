@@ -6,23 +6,12 @@ lang: de
 order: 2
 ---
 
-<style>
-#research-title i {
-  font-size: .6em;
-  vertical-align: middle;
-  display: table-cell;
-}
-h3 {
-  margin-top: 15px;
-}
-</style>
-
 <h2 id="research-title">Forschungsarbeiten
-<li style="display: inline;">
+<li>
   <a title="ORCID" target="_blank" href="https://orcid.org/{{ site.orcid }}">
     <i class="ai ai-orcid"></i></a>
 </li>
-<li style="display: inline;">
+<li>
   <a title="Google Scholar" target="_blank" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
     <i class="ai ai-google-scholar" style="margin-bottom: 20px;"></i>
   </a>
@@ -40,22 +29,22 @@ h3 {
 
 ### Stipendien und Auszeichnungen
 
-- **Graduate Research Fellowship**,<sup><a title="Was ist das?" style="text-decoration:none;" target="_blank" href="https://www.nsfgrfp.org/"><i class="fa fa-question-circle"></i></a></sup>
+- **Graduate Research Fellowship**,<sup><a title="Was ist das?" id="question-icon" target="_blank" href="https://www.nsfgrfp.org/"><i class="fa fa-question-circle"></i></a></sup>
 US National Science Foundation (NSF), *2019-2024*
-- **Computational Science Fellowship (Math & Computing track)**,<sup><a title="Was ist das?" style="text-decoration:none;" target="_blank" href="https://www.krellinst.org/csgf/about-doe-csgf/math-cs-track"><i class="fa fa-question-circle"></i></a></sup>
+- **Computational Science Fellowship (Math & Computing track)**,<sup><a title="Was ist das?" id="question-icon" target="_blank" href="https://www.krellinst.org/csgf/about-doe-csgf/math-cs-track"><i class="fa fa-question-circle"></i></a></sup>
 US Department of Energy, *2019, abgelehnt*
-- **Goldwater Scholarship (Honorable Mention)**,<sup><a title="Was ist das?" style="text-decoration:none;" target="_blank" href="https://goldwater.scholarsapply.org/"><i class="fa fa-question-circle"></i></a></sup>
+- **Goldwater Scholarship (Honorable Mention)**,<sup><a title="Was ist das?" id="question-icon" target="_blank" href="https://goldwater.scholarsapply.org/"><i class="fa fa-question-circle"></i></a></sup>
 *2018*
-- **Outstanding Undergraduate Student in Mathematics**,<sup><a title="Was ist das?" style="text-decoration:none;" target="_blank" href="https://sc.edu/study/colleges_schools/artsandsciences/mathematics/study/awards_scholarships/index.php"><i class="fa fa-question-circle"></i></a></sup>
+- **Outstanding Undergraduate Student in Mathematics**,<sup><a title="Was ist das?" id="question-icon" target="_blank" href="https://sc.edu/study/colleges_schools/artsandsciences/mathematics/study/awards_scholarships/index.php"><i class="fa fa-question-circle"></i></a></sup>
 University of South Carolina, *Frühling 2019*
-- **Science Undergraduate Research Fellowship (SURF)**,<sup><a title="Was ist das?" style="text-decoration:none;" target="_blank" href="https://www.sc.edu/study/colleges_schools/honors_college/internal/beyond_the_classroom/undergraduate_research/surf_and_exploration_grants/index.php"><i class="fa fa-question-circle"></i></a></sup>
+- **Science Undergraduate Research Fellowship (SURF)**,<sup><a title="Was ist das?" id="question-icon" target="_blank" href="https://www.sc.edu/study/colleges_schools/honors_college/internal/beyond_the_classroom/undergraduate_research/surf_and_exploration_grants/index.php"><i class="fa fa-question-circle"></i></a></sup>
 UofSC Honors College, *Herbst 2018*   
   &emsp;für Projekt 4 (unten)
 - **Grace Hopper Scholar**, Anita Borg Institute, *2017* 
-- **Magellan Scholar Award**,<sup><a title="Was ist das?" style="text-decoration:none;" target="_blank" href="https://sc.edu/about/offices_and_divisions/undergraduate_research/apply_for_funding/our_funding/magellan-scholar-award/index.php"><i class="fa fa-question-circle"></i></a></sup>
+- **Magellan Scholar Award**,<sup><a title="Was ist das?" id="question-icon" target="_blank" href="https://sc.edu/about/offices_and_divisions/undergraduate_research/apply_for_funding/our_funding/magellan-scholar-award/index.php"><i class="fa fa-question-circle"></i></a></sup>
 University of South Carolina, *2016*   
   &emsp;für Projekt 1 (unten)
-- **McNair Scholar**,<sup><a title="Was ist das?" style="text-decoration:none;" target="_blank" href="https://www.sc.edu/about/offices_and_divisions/fellowships_and_scholar_programs/top_scholars/index.php"><i class="fa fa-question-circle"></i></a></sup>
+- **McNair Scholar**,<sup><a title="Was ist das?" id="question-icon" target="_blank" href="https://www.sc.edu/about/offices_and_divisions/fellowships_and_scholar_programs/top_scholars/index.php"><i class="fa fa-question-circle"></i></a></sup>
 University of South Carolina, *2015-2019*  
   &emsp;Höchstes leistungsabhängige Stipendium für Studenten aus einem anderen US-Bundesstaat
 

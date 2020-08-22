@@ -7,6 +7,8 @@ To spin up a local server running these files, type
 bundle exec jekyll serve
 ```
 
+To locate a theme's files: `bundle info --path [theme name]`, e.g. `bundle info --path minima`
+
 ## Icons
 
 - [Academicons](https://jpswalsh.github.io/academicons/)
