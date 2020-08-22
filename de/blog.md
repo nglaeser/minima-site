@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 ref: blog
-lang: en
+lang: de
 order: 5
 ---
 
@@ -22,7 +22,7 @@ order: 5
 </style>
 
 <div class="home">
-    
+
   <div class="column-left">
       <ul class="post-list">
         {% assign posts=site.posts | where:"lang", page.lang %}
@@ -37,7 +37,7 @@ order: 5
         {% endfor %}
       </ul>
 
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <p class="rss-subscribe">melde dich am <a href="{{ "/flux.xml" | prepend: site.baseurl }}">RSS Feed</a> an</p>
   </div>
   <div class="column-right">
       <ul>
