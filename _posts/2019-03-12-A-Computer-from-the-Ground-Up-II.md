@@ -75,7 +75,7 @@ The register has the following inputs:
 
 Here's a diagram illustrating the register file and its inputs and outputs:  
 
-![Register file diagram](../../../files/µ611/Project3-diagram.png)
+![Register file diagram](../../../files/blog/µ611/Project3-diagram.png)
 
 This project is a lot more complicated than the previous two because it requires clocked logic: we will write to a register on the rising edge of the clock, but we also want to make sure that when we read we get the most updated value, i.e. write bypasses read. This means that if we write and read to the same register simultaneously, the read should return what is being written in that cycle. I won't go into detail in the implementation, but I plan to commit all my code to a GitHub repo in the future so anyone who is curious enough can look into it (at your own risk).
 
