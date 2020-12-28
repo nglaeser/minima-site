@@ -12,3 +12,5 @@ order: 1
 </div>
 
 Hello! I'm a PhD student in Computer Science at the University of Maryland (working with Jonathan Katz) and the Max Planck Institute for Security & Privacy (working with Gilles Barthe).
+
+How to pronounce my name: No-Amy Glay-zer
