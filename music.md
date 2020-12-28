@@ -19,7 +19,7 @@ order: 3
 
 ## Music
 
-A full CV can be found [here](files/Glaeser_CV_music3.pdf) (currently out-of-date).
+*A full CV can be found [here](files/Glaeser_CV_music3.pdf) (currently out-of-date).*
 
 <div id="music-links" style="margin-bottom: 1em">
   <!-- i class="fa fa-folder-open" style="font-size: 12px"></i> [Choreography Portfolio]() (coming soon)  -->

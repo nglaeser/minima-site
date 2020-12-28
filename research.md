@@ -18,11 +18,12 @@ order: 2
 </li>
 </h2>
 
-*A full CV can be found [here](files/Glaeser_CV_STEM5.pdf).*
+*A full CV can be found [here](files/Glaeser_CV_STEM6.pdf).*
 
 ### Publications
 
-0. K. Herner **et al.** Optical follow-up of gravitational wave triggers with DECam: the Details Paper. In preparation. [\[Preprint\]](https://arxiv.org/pdf/2001.06551.pdf)
+0. K. Herner **et al.** (2020). The updated DESGW processing pipeline for the third LIGO/VIRGO observing run. *EPJ Web Conf.*, 245, 01008. [[PDF]](https://doi.org/10.1051/epjconf/202024501008)
+0. K. Herner **et al.** (2020). Optical follow-up of gravitational wave triggers with DECam during the first two LIGO/VIRGO observing runs. *Astronomy & Computing*, 33, 100425. [[PDF]](https://doi.org/10.1016/j.ascom.2020.100425) [[ArXiV]](https://arxiv.org/pdf/2001.06551.pdf)
 0. K. Abdelfatah, J. Senn, **N. Glaeser**, and G. Terejanu. (2019). Prediction and Measurement Update of Fungal Toxin Geospatial Uncertainty using a Stacked Gaussian Process. Agricultural Systems, 176, 102669. [\[PDF\]](https://doi.org/10.1016%2Fj.agsy.2019.102662)
 0. **N. Glaeser** and A. Wang. (2016). Access control for a database-defined network, Proceedings of IEEE 37th Sarnoff Symposium. [\[PDF\]](http://dx.doi.org/10.1109/SARNOF.2016.7846728)
 {: reversed="reversed"}
@@ -50,7 +51,7 @@ University of South Carolina, *2015-2019*
 
 ### Projects
 
-0. **CoVault: A cryptographically secure framework for epidemic analytics**. *May 2020-present*, UMD and MPI-SWS.
+<!--0. **CoVault: A cryptographically secure framework for epidemic analytics**. *May 2020-present*, UMD and MPI-SWS.-->
 0. **Improving bounds on entropy of odd cycle graphs**. *Jan 2018-Apr 2019*, UofSC Mathematics Department, advised by Joshua Cooper.  
 [\[PyPI\]](https://pypi.org/project/graph-cyclone/)
 [\[GitHub\]](https://github.com/nglaeser/graph_cyclone)
