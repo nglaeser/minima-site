@@ -22,7 +22,10 @@ order: 5
         {% endfor %}
       </ul>
 
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      {%- if site.rss -%}
+      <!-- only show rss if setting is on -->
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      {%- endif -%}
   </div>
   <div class="column-right">
       <ul>
