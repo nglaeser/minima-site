@@ -1,24 +1,28 @@
-- tag_name: mathe
+- tag_name: informationen
   tag_lang: de
+- tag_name: cs
+  tag_lang: en
+- tag_name: research
+  tag_lang: en
+- tag_name: math
+  tag_lang: en
+- tag_name: advice
+  tag_lang: en
+- tag_name: matematica
+  tag_lang: it
 - tag_name: informatica
   tag_lang: it
-- tag_name: informationen
+- tag_name: informatik
   tag_lang: de
 - tag_name: arte
   tag_lang: it
+- tag_name: mathe
+  tag_lang: de
+- tag_name: informazioni
+  tag_lang: it
+- tag_name: kunst
+  tag_lang: de
 - tag_name: info
   tag_lang: en
 - tag_name: art
   tag_lang: en
-- tag_name: cs
-  tag_lang: en
-- tag_name: informatik
-  tag_lang: de
-- tag_name: math
-  tag_lang: en
-- tag_name: matematica
-  tag_lang: it
-- tag_name: kunst
-  tag_lang: de
-- tag_name: informazioni
-  tag_lang: it
