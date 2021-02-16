@@ -22,9 +22,9 @@ My understanding of how best to read a paper is always evolving, so this is a li
 **Sections:** Title, abstract, introduction, section headings, conclusion, quick glance over references
 
 <div style="width: 100%">
-<img src="../../../files/read-paper/pass1-1.jpg" style="width: 30%" alt="Page with title, abstract, and introduction highlighted"/>
-<img src="../../../files/read-paper/pass1-2.jpg" style="width: 30%" alt="Page with section headers highlighted"/>
-<img src="../../../files/read-paper/pass1-3.jpg" style="width: 30%" alt="Page with conclusion and references highlighted"/>
+<img src="../../../files/blog/read-paper/pass1-1.jpg" style="width: 30%" alt="Page with title, abstract, and introduction highlighted"/>
+<img src="../../../files/blog/read-paper/pass1-2.jpg" style="width: 30%" alt="Page with section headers highlighted"/>
+<img src="../../../files/blog/read-paper/pass1-3.jpg" style="width: 30%" alt="Page with conclusion and references highlighted"/>
 </div>
 
 What's the "meat" of the paper, the key insight? If you were to present it, what would be the one thing you would spend the middle of your talk on? You don't have to understand it yet, just single it out so you don't get distracted from it when you dive deeper.
@@ -36,8 +36,8 @@ What's the "meat" of the paper, the key insight? If you were to present it, what
 **Sections:** Figures and diagrams, section contents (skip details like proofs)
 
 <div style="width: 100%">
-<img src="../../../files/read-paper/pass2-1.jpg" style="width: 30%" alt="Page with figures and section text highlighted"/>
-<img src="../../../files/read-paper/pass2-2.jpg" style="width: 30%" alt="Page with section text and theorem statement highlighted (but not its proof)"/>
+<img src="../../../files/blog/read-paper/pass2-1.jpg" style="width: 49%" alt="Page with figures and section text highlighted"/>
+<img src="../../../files/blog/read-paper/pass2-2.jpg" style="width: 49%" alt="Page with section text and theorem statement highlighted (but not its proof)"/>
 </div>
 
 In the second pass, you can start taking notes on the central sections of the paper. Focus on understanding the techniques and findings. 
@@ -48,11 +48,11 @@ Although my initial instinct was to highlight and take notes of every detail, I'
 
 **Goal:** Attempt to reimplement the paper in your head and understand possible future work.  
 **Time:** 4-5 hours for a beginner, 1 hour for an experienced reader.  
-**Sections:** All the details
+**Sections:** The details
 
 <div style="width: 100%">
-<img src="../../../files/read-paper/pass3-1.jpg" style="width: 30%" alt="Page with proof highlighted"/>
-<img src="../../../files/read-paper/pass3-2.jpg" style="width: 30%" alt="Page with proof highlighted"/>
+<img src="../../../files/blog/read-paper/pass3-1.jpg" style="width: 49%" alt="Page with proof highlighted"/>
+<img src="../../../files/blog/read-paper/pass3-2.jpg" style="width: 49%" alt="Page with proof highlighted"/>
 </div>
 
 In this pass you're looking for a really deep understanding of the work. Why did they use the techniques they did? Do you see problems with their approach? What does research imply about the rest of the field, both in how it connects to it and how it will change it going forward?
