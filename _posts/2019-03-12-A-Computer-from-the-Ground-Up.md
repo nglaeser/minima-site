@@ -1,6 +1,6 @@
 ---
 layout:	post
-title:	A Computer from the Ground Up II
+title:	A Computer from the Ground Up
 lang: en
 tags: cs
 ref: µ611
@@ -9,13 +9,14 @@ audience: everyone
 excerpt:
 ---
 
-This project is in a similar vein to the [previous post of the same name](../../../2018/11/30/A-Computer-from-the-Ground-Up.html), but a little less fine-grained and more abstracted.  
+<!--This project is in a similar vein to the [previous post of the same name](../../../2018/11/30/A-Computer-from-the-Ground-Up.html), but a little less fine-grained and more abstracted.  -->
 
 After last semester's final exams, my friends James Coman, William Edwards, Brady O'Leary, and I gathered at my friend [Charles Daniels](http://cdaniels.net)'s house for a couple of days to work through the curriculum of the University of South Carolina's Advanced Digital Design course (CSCE 611); we called it "micro-611". We tried to complete six projects on FPGAs, leading up to the construction of a fully functional MIPS processor. I took pictures and videos of each final product along the way, and I'll go into some detail in this post. The raw notes from those couple of days can be found [here](https://github.com/nglaeser/Notes/tree/master/µ611) or [here](https://keybase.pub/nglaeser/Notes/µ611/).
 
 ### Background
 
-Unlike the [previous post of the same name](../../../2018/11/30/A-Computer-from-the-Ground-Up.html), these projects aren't circuits that I physically built with wires and other components. Instead, we used a hardware description language (HDL) called Verilog to program field programmable gate arrays (FPGAs) to essentially simulate circuits. This sort of setup is becoming increasingly desireable in research and industry because of its flexibility, among other reasons. (See the notes linked above for more details.)
+<!--Unlike the [previous post of the same name](../../../2018/11/30/A-Computer-from-the-Ground-Up.html),-->
+These projects aren't circuits that I physically built with wires and other components. Instead, we used a hardware description language (HDL) called Verilog to program field programmable gate arrays (FPGAs) to essentially simulate circuits. This sort of setup is becoming increasingly desireable in research and industry because of its flexibility, among other reasons. (See the notes linked above for more details.)
 
 ### Project 1: Hello World
 
@@ -75,7 +76,7 @@ The register has the following inputs:
 
 Here's a diagram illustrating the register file and its inputs and outputs:  
 
-![Register file diagram](../../../files/blog/µ611/Project3-diagram.png)
+![Register file diagram](../../../files/µ611/Project3-diagram.png)
 
 This project is a lot more complicated than the previous two because it requires clocked logic: we will write to a register on the rising edge of the clock, but we also want to make sure that when we read we get the most updated value, i.e. write bypasses read. This means that if we write and read to the same register simultaneously, the read should return what is being written in that cycle. I won't go into detail in the implementation, but I plan to commit all my code to a GitHub repo in the future so anyone who is curious enough can look into it (at your own risk).
 
@@ -93,4 +94,4 @@ To be completed...
 
 In the end, we have a fully functioning MIPS processor! This is capable of executing instructions in the form of an assembly program, so we can safely brag that we've essentially built a (very minimal) computer from scratch!
 
-I didn't go into much of the nitty gritty detail here, so if you're confused, don't worry - check out [my more detailed post](../../../2018/11/30/A-Computer-from-the-Ground-Up.html), which aims to explain the inner workings of computers starting from essentially zero knowledge. I hope to also upload my code for these projects once completed (and polished a bit so it's more presentable) which will hopefully shed light into the implementations.
+<!--I didn't go into much of the nitty gritty detail here, so if you're confused, don't worry - check out [my more detailed post](../../../2018/11/30/A-Computer-from-the-Ground-Up.html), which aims to explain the inner workings of computers starting from essentially zero knowledge.--> I hope to upload my code for these projects once completed (and polished a bit so it's more presentable) which will hopefully shed light into the implementations.
