@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div id="language-options" class="wrapper">
+          {% unless page.ref == "notfound" %}
+            {% assign curr_lang = page.lang %}
+            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+            {% for page in pages %} 
+            <!-- get a long version of the language to display on the homepage -->
+            {% if page.lang == 'de' %}
+              {% assign full_language='deutsch' %}
+            {% elsif page.lang == 'en' %}
+              {% assign full_language='english' %}
+            {% elsif page.lang == 'it' %}
+              {% assign full_language='italiano' %}
+            {% else %}
+              {% assign full_language=page.lang %}
+            {% endif %}
+            {% if page.lang == curr_lang %}
+            <p id="current-page" class="{{ page.lang }}">{{ full_language }}</p> 
+            {% else %}
+            <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ full_language }}</a> 
+            {% endif %}
+            {% endfor %}
+          {% endunless %}
+        </div>
+
+      <!-- content -->
+
+        <h2 id="research-title">{{ page.title }}
+          <li>
+            <a title="ORCID" target="_blank" href="https://orcid.org/{{ site.orcid }}">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+          <li>
+            <a title="Google Scholar" target="_blank" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        </h2>
+
+        <p><em>{{ site.data.research.fullcv }} <a href="files/{{ site.data.research.cvfile }}">{{ site.data.research.here }}</a>.</em></p>
+
+        <h3 id="publications">{{ page.publication_title }}</h3>
+
+<ol reversed="reversed">
+  {% for pub in site.data.research.publications %}
+  <li>{{ pub.authors }} ({{ pub.year }}). {{ pub.title }}. 
+    {% if pub.status %}
+      {{ pub.status }}.
+    {% else %}
+      <em>{{ pub.venue }}</em>{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.article_num %}, {{ pub.article_num }}{% endif %}.
+    {% endif %}
+    {% if pub.pdf %}
+      <a href="{{ pub.pdf }}">[PDF]</a>
+    {% endif %}
+    {% if pub.arxiv %}
+      <a href="{{ pub.arxiv }}">[arXiv]</a>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ol>
+
+<h3 id="presentations">{{ page.presentation_title }}</h3>
+
+<ol reversed="reversed">
+  {% for pres in site.data.research.presentations %}
+  <li>
+    <strong>{{ pres.title }}</strong>. ({{ pres.year }}).
+    {% if pres.advised_by %}
+    (Advised by {{ pres.advised_by }}.)
+    {% endif %}
+    <em>{{ pres.venue }}</em>, {{ pres.location }}.
+
+    <br/>
+    {% if pres.slides %}
+      <a href="{{ pres.slides }}">[Slides]</a>
+    {% endif %}
+    {% if pres.poster %}
+      <a href="{{ pres.poster }}">[Poster]</a>
+    {% endif %}
+    {% if pres.report %}
+      <a href="{{ pres.report }}">[Report]</a>
+    {% endif %}
+    {% if pres.pypi %}
+      <a href="{{ pres.pypi }}">[PyPI]</a>
+    {% endif %}
+    {% if pres.github %}
+      <a href="{{ pres.github }}">[GitHub]</a>
+    {% endif %}
+
+    <br/>
+    {% if pres.note %}
+      *<em>{{ pres.note }}</em>
+    {% endif %}
+  </li>
+  {% endfor %}
+  <!-- <li><strong>Access control for a database-defined network</strong>. <em>May-Jul 2016</em>, Temple University Computer Science Department (NSF REU), advised by Anduo Wang.<br />
+ <em>Poster <a href="files/TempleREU/thirdplace.jpg">won 3rd place</a> at the 2016 IEEE Sarnoff Symposium in Newark, NJ</em> <br />
+ <a href="files/TempleREU/presentingSarnoff.jpg">[low-quality picture of me presenting]</a></li>
+  <li><strong>Generating geographic and temporal heat maps of aflatoxin incidence using regularized linear models</strong>. <em>Jan 2016-Dec 2017</em>, UofSC Computer Science Department, advised by Gabriel Terejanu.<br />
+<a href="files/aflatoxin/NGlaeser-poster.pdf">[Poster]</a></li> -->
+</ol>
+
+<h3 id="service">{{ page.service_title }}</h3>
+<ul>
+  {% for item in site.data.research.service %}
+  <li>
+    <strong>{{ item.role }}</strong>,
+    {{ item.org }}{% if item.what_is %}<sup><a title="What's that?" id="question-icon" target="_blank" href="{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
+    <em>{{ item.dates }}</em>
+  </li>
+  {% endfor %}
+</ul>
+
+<h3 id="funding--awards">{{ page.funding_title }}</h3>
+
+<ul>
+  {% for item in site.data.research.funding %}
+  <li>
+    <strong>{{ item.title }}</strong>{% if item.what_is %}<sup><a title="What's that?" id="question-icon" target="_blank" href="{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
+    {% if item.org %}{{ item.org }},{% endif %}
+    <em>{{ item.dates }}</em>
+    {% if item.presentation %}({{ item.presentation }}){% endif %}
+    <br/>
+    {% if item.note %}
+    *<em>{{ item.note }}</em>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+  <style>
+    .me {
+      font-weight: bold;
+    }
+  </style>
+
+</html>
