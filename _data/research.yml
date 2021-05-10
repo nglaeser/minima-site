@@ -1,7 +1,26 @@
-fullcv: A full CV can be found
+fullcv: 
+  en: A full CV can be found
+  it: Il mio curriculum vitae dettagliato è scaricabile
+  de: Einen vollen Lebenslauf finden Sie 
+here: 
+  en: here
+  it: qui
+  de: hier
 cvfile: Glaeser_CV_STEM5.pdf
-here: here
+in_english: 
+  en:
+  it: in inglese
+  de: auf Englisch
 
+what_is_title: 
+  en: What's that?
+  it: Cos'è?
+  de:
+
+publication_title:
+  en: Publications
+  it: Pubblicazioni
+  de: Veröffentlichungen
 publications: [
   {
     authors: R. De Viti&#44; B. Dinis&#44; <span class="me">N. Glaeser</span>&#44; et al.,
@@ -62,6 +81,10 @@ publications: [
   # },
 ]
 
+presentation_title: 
+  en: Presentations & Posters
+  it: Presentazioni & poster
+  de: Präsentationen und Poster
 presentations: [
   {
     title: Improving bounds on entropy of odd cycle graphs,
@@ -113,7 +136,11 @@ presentations: [
     report: ,
     pypi: ,
     github: ,
-    note: <a href="files/TempleREU/thirdplace.jpg">Won 3rd place Poster Award</a>
+    note: {
+      en: <a href="files/TempleREU/thirdplace.jpg">Won 3rd place Poster Award</a>,
+      it: <a href="files/TempleREU/thirdplace.jpg">Poster ha vinto il terzo posto</a>,
+      de: <a href="files/TempleREU/thirdplace.jpg">Poster belegte den dritten Platz</a>,
+    }
   },
   {
     title: Access control for a database-defined network,
@@ -143,6 +170,10 @@ presentations: [
   # },
 ]
 
+service_title: 
+  en: Service
+  it: Service
+  de: Service
 service: [
   {
     role: Packet Writer,
@@ -170,6 +201,10 @@ service: [
   # },
 ]
 
+funding_title: 
+  en: Funding & Awards
+  it: Borse di studio & riconoscimenti
+  de: Stipendien und Auszeichnungen
 funding: [
   {
     title: Graduate Research Fellowship,
@@ -220,7 +255,11 @@ funding: [
     what_is: https://www.sc.edu/about/offices_and_divisions/fellowships_and_scholar_programs/top_scholars/index.php,
     org: University of South Carolina,
     dates: 2015-2019,
-    note: Highest out-of-state merit-based scholarship,
+    note:  {
+      en: Highest out-of-state merit-based scholarship,
+      it: Massima borsa di studio per studenti provenienti da altri Stati americani,
+      de: Höchstes leistungsabhängige Stipendium für Studenten aus einem anderen US-Bundesstaat
+    }
   },
   # {
   #   title: ,

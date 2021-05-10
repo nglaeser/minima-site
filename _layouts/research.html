@@ -48,9 +48,9 @@
           </li>
         </h2>
 
-        <p><em>{{ site.data.research.fullcv }} <a href="files/{{ site.data.research.cvfile }}">{{ site.data.research.here }}</a>.</em></p>
+        <p><em>{{ site.data.research.fullcv[page.lang] }} <a href="files/{{ site.data.research.cvfile }}">{{ site.data.research.here[page.lang] }}</a>{% if site.data.research.in_english[page.lang] %} ({{ site.data.research.in_english[page.lang] }}){% endif %}.</em></p>
 
-        <h3 id="publications">{{ page.publication_title }}</h3>
+        <h3 id="publications">{{ site.data.research.publication_title[page.lang] }}</h3>
 
 <ol reversed="reversed">
   {% for pub in site.data.research.publications %}
@@ -70,14 +70,14 @@
   {% endfor %}
 </ol>
 
-<h3 id="presentations">{{ page.presentation_title }}</h3>
+<h3 id="presentations">{{ site.data.research.presentation_title[page.lang] }}</h3>
 
 <ol reversed="reversed">
   {% for pres in site.data.research.presentations %}
   <li>
     <strong>{{ pres.title }}</strong>. ({{ pres.year }}).
     {% if pres.advised_by %}
-    (Advised by {{ pres.advised_by }}.)
+    (Advisor: {{ pres.advised_by }}.)
     {% endif %}
     <em>{{ pres.venue }}</em>, {{ pres.location }}.
 
@@ -100,7 +100,7 @@
 
     <br/>
     {% if pres.note %}
-      *<em>{{ pres.note }}</em>
+      *<em>{{ pres.note[page.lang] }}</em>
     {% endif %}
   </li>
   {% endfor %}
@@ -111,29 +111,29 @@
 <a href="files/aflatoxin/NGlaeser-poster.pdf">[Poster]</a></li> -->
 </ol>
 
-<h3 id="service">{{ page.service_title }}</h3>
+<h3 id="service">{{ site.data.research.service_title[page.lang] }}</h3>
 <ul>
   {% for item in site.data.research.service %}
   <li>
     <strong>{{ item.role }}</strong>,
-    {{ item.org }}{% if item.what_is %}<sup><a title="What's that?" id="question-icon" target="_blank" href="{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
+    {{ item.org }}{% if item.what_is %}<sup><a title="{{ site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
     <em>{{ item.dates }}</em>
   </li>
   {% endfor %}
 </ul>
 
-<h3 id="funding--awards">{{ page.funding_title }}</h3>
+<h3 id="funding--awards">{{ site.data.research.funding_title[page.lang] }}</h3>
 
 <ul>
   {% for item in site.data.research.funding %}
   <li>
-    <strong>{{ item.title }}</strong>{% if item.what_is %}<sup><a title="What's that?" id="question-icon" target="_blank" href="{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
+    <strong>{{ item.title }}</strong>{% if item.what_is %}<sup><a title="site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
     {% if item.org %}{{ item.org }},{% endif %}
     <em>{{ item.dates }}</em>
     {% if item.presentation %}({{ item.presentation }}){% endif %}
     <br/>
     {% if item.note %}
-    *<em>{{ item.note }}</em>
+    *<em>{{ item.note[page.lang] }}</em>
     {% endif %}
   </li>
   {% endfor %}
