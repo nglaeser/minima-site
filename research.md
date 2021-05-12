@@ -18,7 +18,7 @@ order: 2
 </li>
 </h2>
 
-*A full CV can be found [here](files/Glaeser_CV_STEM6.pdf).*
+*A full CV can be found [here](files/Glaeser_CV_research.pdf).*
 
 ### Publications
 
