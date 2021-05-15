@@ -1,0 +1,121 @@
+fullcv: 
+  en: A full CV can be found
+  it: Il mio curriculum vitae dettagliato è scaricabile
+  de: Einen vollen Lebenslauf finden Sie 
+here: 
+  en: here
+  it: qui
+  de: hier
+cvfile: Glaeser_CV_music3.pdf
+in_english: 
+  en:
+  it: in inglese
+  de: auf Englisch
+
+playlist_link: https://www.youtube.com/playlist?list=PLN8ZWvICQ5chcrHayAV-8sEQSPxupwY3n
+playlist: 
+  en: Hear me play!
+  it:
+  de:
+
+teaching_title:
+  en: Teaching Experience
+  it: 
+  de: 
+teaching_experiences: [
+  {
+    school: Independence HS,
+    location: Ashburn&#44; VA,
+    dates: Fall 2019,
+    role: Visual technician&#44; wind choreography,
+  },
+  {
+    school: Lexington HS,
+    location: Lexington&#44; SC,
+    dates: Jul 29 - Aug 16&#44; 2019,
+    role: Visual and flute technician&#44; wind choreography,
+  },
+  {
+    school: Dreher HS,
+    location: Columbia&#44; SC,
+    dates: Fall 2017-2019,
+    role: Consulting visual technician,
+  },
+  {
+    school: River Bluff HS,
+    location: Columbia&#44; SC,
+    dates: Fall 2017-2018,
+    role: Visual and woodwind technician&#44; wind choreography,
+  },
+  {
+    school: Lake Orion HS,
+    location: Lake Orion&#44; MI,
+    dates: Aug 19-25&#44; 2018,
+    role: Visual and mellophone technician,
+  },
+  # {
+  #   school: ,
+  #   location: ,
+  #   dates: ,
+  #   role: ,
+  # },
+]
+
+marching_title: 
+  en: Marching Experience
+  it: 
+  de: 
+marching: [
+  {
+    group: Blue Stars Drum & Bugle Corps,
+    instrument: mellophone,
+    dates: 2017,
+  },
+  {
+    group: UofSC Marching Band,
+    instrument: piccolo&#44; mellophone,
+    dates: 2015-2016,
+  },
+  {
+    group: All-American Marching Band,
+    instrument: piccolo,
+    dates: 2015,
+  },
+  {
+    group: Thomas Jefferson HSST Marching Band,
+    instrument: piccolo,
+    dates: 2012-2014,
+  },
+  # {
+  #   group: ,
+  #   instrument: ,
+  #   dates: ,
+  # },
+]
+
+instr_title: 
+  en: Instruments
+  it: Strumenti
+  de: Instrumente
+instruments: [
+  {
+    name: Flute/piccolo,
+    years: 2007-,
+  },
+  {
+    name: Mellophone,
+    years: 2016-,
+  },
+  {
+    name: Trumpet,
+    years: 2019-,
+  },
+  {
+    name: Piano,
+    years: 2003-,
+  },
+  # {
+  #   name: ,
+  #   years: ,
+  # },
+]
