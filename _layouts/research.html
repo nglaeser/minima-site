@@ -61,10 +61,10 @@
       <em>{{ pub.venue }}</em>{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.article_num %}, {{ pub.article_num }}{% endif %}.
     {% endif %}
     {% if pub.pdf %}
-      <a href="{{ pub.pdf }}">[PDF]</a>
+      <a href="https://{{ pub.pdf }}">[PDF]</a>
     {% endif %}
     {% if pub.arxiv %}
-      <a href="{{ pub.arxiv }}">[arXiv]</a>
+      <a href="https://{{ pub.arxiv }}">[arXiv]</a>
     {% endif %}
   </li>
   {% endfor %}
@@ -92,10 +92,10 @@
       <a href="{{ pres.report }}">[Report]</a>
     {% endif %}
     {% if pres.pypi %}
-      <a href="{{ pres.pypi }}">[PyPI]</a>
+      <a href="https://{{ pres.pypi }}">[PyPI]</a>
     {% endif %}
     {% if pres.github %}
-      <a href="{{ pres.github }}">[GitHub]</a>
+      <a href="https://{{ pres.github }}">[GitHub]</a>
     {% endif %}
 
     <br/>
@@ -116,7 +116,7 @@
   {% for item in site.data.research.service %}
   <li>
     <strong>{{ item.role }}</strong>,
-    {{ item.org }}{% if item.what_is %}<sup><a title="{{ site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
+    {{ item.org }}{% if item.what_is %}<sup><a title="{{ site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="https://{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
     <em>{{ item.dates }}</em>
   </li>
   {% endfor %}
@@ -127,7 +127,7 @@
 <ul>
   {% for item in site.data.research.funding %}
   <li>
-    <strong>{{ item.title }}</strong>{% if item.what_is %}<sup><a title="{{ site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
+    <strong>{{ item.title }}</strong>{% if item.what_is %}<sup><a title="{{ site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="https://{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
     {% if item.org %}{{ item.org }},{% endif %}
     <em>{{ item.dates }}</em>
     {% if item.presentation %}({{ item.presentation }}){% endif %}

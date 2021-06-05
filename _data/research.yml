@@ -39,7 +39,7 @@ publications: [
     venue: EPJ Web Conf.,
     volume: 245,
     article_num: 01008,
-    pdf: https://doi.org/10.1051/epjconf/202024501008
+    pdf: doi.org/10.1051/epjconf/202024501008
   },
   {
     authors: K. Herner <span class="me">et al.</span>,
@@ -48,8 +48,8 @@ publications: [
     venue: Astronomy & Computing,
     volume: 33,
     article_num: 100425,
-    pdf: https://doi.org/10.1016/j.ascom.2020.100425,
-    arxiv: https://arxiv.org/pdf/2001.06551.pdf
+    pdf: doi.org/10.1016/j.ascom.2020.100425,
+    arxiv: arxiv.org/pdf/2001.06551.pdf
   },
   {
     authors: K. Abdelfatah&#44; J. Senn&#44; <span class="me">N. Glaeser</span>&#44; and G. Terejanu.,
@@ -58,7 +58,7 @@ publications: [
     venue: Agricultural Systems,
     volume: 176,
     article_num: 102669,
-    pdf: https://doi.org/10.1016%2Fj.agsy.2019.102662
+    pdf: doi.org/10.1016%2Fj.agsy.2019.102662
   },
   {
     authors: <span class="me">N. Glaeser</span> and A. Wang.,
@@ -67,7 +67,7 @@ publications: [
     venue: Proceedings of IEEE 37th Sarnoff Symposium,
     volume: ,
     article_num: ,
-    pdf: https://dx.doi.org/10.1109/SARNOF.2016.7846728
+    pdf: dx.doi.org/10.1109/SARNOF.2016.7846728
   },
   # {
   #   authors: ,
@@ -95,8 +95,8 @@ presentations: [
     slides: ,
     poster: /files/graphentropy/DiscoverUSC-Glaeser,Noemi.pdf,
     report: ,
-    pypi: https://pypi.org/project/graph-cyclone/,
-    github: https://github.com/nglaeser/graph_cyclone,
+    pypi: pypi.org/project/graph-cyclone/,
+    github: github.com/nglaeser/graph_cyclone,
     note:
   },
   {
@@ -109,7 +109,7 @@ presentations: [
     poster: /files/fermilab/Glaeser_poster.pdf,
     report: /files/fermilab/Glaeser_SIST-final.pdf,
     pypi: ,
-    github: https://github.com/SSantosLab/gw_workflow,
+    github: github.com/SSantosLab/gw_workflow,
     note:
   },
   {
@@ -152,7 +152,7 @@ presentations: [
     poster: ,
     report: /files/TempleREU/Glaeser_final.pdf,
     pypi: ,
-    github: https://github.com/ravel-net/REU-access-control,
+    github: github.com/ravel-net/REU-access-control,
     note:
   },
   # {
@@ -178,7 +178,7 @@ service: [
   {
     role: Packet Writer,
     org: UMD Girls Talk Math,
-    what_is: https://gtm.math.umd.edu/virtualcamp2021.html,
+    what_is: gtm.math.umd.edu/virtualcamp2021.html,
     dates: Summer 2021,
   },
   {
@@ -190,7 +190,7 @@ service: [
   {
     role: Mentor,
     org: Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program,
-    what_is: https://inclusion.cs.umd.edu/programs,
+    what_is: inclusion.cs.umd.edu/programs,
     dates: Fall 2020,
   },
   # {
@@ -208,31 +208,31 @@ funding_title:
 funding: [
   {
     title: Graduate Research Fellowship,
-    what_is: https://www.nsfgrfp.org/,
+    what_is: www.nsfgrfp.org/,
     org: US National Science Foundation (NSF),
     dates: 2019-2024,
   },
   {
     title: Computational Science Fellowship (Math & Computing track),
-    what_is: https://www.krellinst.org/csgf/about-doe-csgf/math-cs-track,
+    what_is: www.krellinst.org/csgf/about-doe-csgf/math-cs-track,
     org: US Department of Energy,
     dates: 2019&#44; declined,
   },
   {
     title: Goldwater Scholarship (Honorable Mention),
-    what_is: https://goldwater.scholarsapply.org/,
+    what_is: goldwater.scholarsapply.org/,
     org: ,
     dates: 2018,
   },
   {
     title: Outstanding Undergraduate Student in Mathematics,
-    what_is: https://sc.edu/study/colleges_schools/artsandsciences/mathematics/study/awards_scholarships/index.php,
+    what_is: sc.edu/study/colleges_schools/artsandsciences/mathematics/study/awards_scholarships/index.php,
     org: University of South Carolina,
     dates: Spring 2019,
   },
   {
     title: Science Undergraduate Research Fellowship (SURF),
-    what_is: https://www.sc.edu/study/colleges_schools/honors_college/internal/beyond_the_classroom/undergraduate_research/surf_and_exploration_grants/index.php,
+    what_is: www.sc.edu/study/colleges_schools/honors_college/internal/beyond_the_classroom/undergraduate_research/surf_and_exploration_grants/index.php,
     org: UofSC Honors College,
     dates: Fall 2018,
     presentation: Poster 5,
@@ -245,14 +245,14 @@ funding: [
   },
   {
     title: Magellan Scholar Award,
-    what_is: https://sc.edu/about/offices_and_divisions/undergraduate_research/apply_for_funding/our_funding/magellan-scholar-award/index.php,
+    what_is: sc.edu/about/offices_and_divisions/undergraduate_research/apply_for_funding/our_funding/magellan-scholar-award/index.php,
     org: University of South Carolina,
     dates: 2016,
     presentation: Poster 1,
   },
   {
     title: McNair Scholar,
-    what_is: https://www.sc.edu/about/offices_and_divisions/fellowships_and_scholar_programs/top_scholars/index.php,
+    what_is: www.sc.edu/about/offices_and_divisions/fellowships_and_scholar_programs/top_scholars/index.php,
     org: University of South Carolina,
     dates: 2015-2019,
     note:  {
