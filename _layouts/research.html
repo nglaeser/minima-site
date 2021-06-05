@@ -48,7 +48,7 @@
           </li>
         </h2>
 
-        <p><em>{{ site.data.research.fullcv[page.lang] }} <a href="files/{{ site.data.research.cvfile }}">{{ site.data.research.here[page.lang] }}</a>{% if site.data.research.in_english[page.lang] %} ({{ site.data.research.in_english[page.lang] }}){% endif %}.</em></p>
+        <p><em>{{ site.data.research.fullcv[page.lang] }} <a href="/files/{{ site.data.research.cvfile }}">{{ site.data.research.here[page.lang] }}</a>{% if site.data.research.in_english[page.lang] %} ({{ site.data.research.in_english[page.lang] }}){% endif %}.</em></p>
 
         <h3 id="publications">{{ site.data.research.publication_title[page.lang] }}</h3>
 
@@ -127,7 +127,7 @@
 <ul>
   {% for item in site.data.research.funding %}
   <li>
-    <strong>{{ item.title }}</strong>{% if item.what_is %}<sup><a title="site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
+    <strong>{{ item.title }}</strong>{% if item.what_is %}<sup><a title="{{ site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
     {% if item.org %}{{ item.org }},{% endif %}
     <em>{{ item.dates }}</em>
     {% if item.presentation %}({{ item.presentation }}){% endif %}
