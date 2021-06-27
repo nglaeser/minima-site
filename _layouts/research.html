@@ -48,7 +48,7 @@
           </li>
         </h2>
 
-        <p><em>{{ site.data.research.fullcv[page.lang] }} <a href="/files/{{ site.data.research.cvfile }}">{{ site.data.research.here[page.lang] }}</a>{% if site.data.research.in_english[page.lang] %} ({{ site.data.research.in_english[page.lang] }}){% endif %}.</em></p>
+        <p><em>{{ site.data.research.fullcv[page.lang] }} <a target="_blank" href="/files/{{ site.data.research.cvfile }}">{{ site.data.research.here[page.lang] }}</a>{% if site.data.research.in_english[page.lang] %} ({{ site.data.research.in_english[page.lang] }}){% endif %}.</em></p>
 
         <h3 id="publications">{{ site.data.research.publication_title[page.lang] }}</h3>
 
@@ -61,10 +61,10 @@
       <em>{{ pub.venue }}</em>{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.article_num %}, {{ pub.article_num }}{% endif %}.
     {% endif %}
     {% if pub.pdf %}
-      <a href="https://{{ pub.pdf }}">[PDF]</a>
+      <a target="_blank" href="https://{{ pub.pdf }}">[PDF]</a>
     {% endif %}
     {% if pub.arxiv %}
-      <a href="https://{{ pub.arxiv }}">[arXiv]</a>
+      <a target="_blank" href="https://{{ pub.arxiv }}">[arXiv]</a>
     {% endif %}
   </li>
   {% endfor %}
@@ -83,19 +83,21 @@
 
     <br/>
     {% if pres.slides %}
-      <a href="{{ pres.slides }}">[Slides]</a>
+      <a target="_blank" href="{{ pres.slides }}">[Slides]</a>
+    {% elsif pres.slides_link %}
+      <a target="_blank" href="https://{{ pres.slides_link }}">[Slides]</a>
     {% endif %}
     {% if pres.poster %}
-      <a href="{{ pres.poster }}">[Poster]</a>
+      <a target="_blank" href="{{ pres.poster }}">[Poster]</a>
     {% endif %}
     {% if pres.report %}
-      <a href="{{ pres.report }}">[Report]</a>
+      <a target="_blank" href="{{ pres.report }}">[Report]</a>
     {% endif %}
     {% if pres.pypi %}
-      <a href="https://{{ pres.pypi }}">[PyPI]</a>
+      <a target="_blank" href="https://{{ pres.pypi }}">[PyPI]</a>
     {% endif %}
     {% if pres.github %}
-      <a href="https://{{ pres.github }}">[GitHub]</a>
+      <a target="_blank" href="https://{{ pres.github }}">[GitHub]</a>
     {% endif %}
 
     <br/>

@@ -104,7 +104,7 @@ presentations: [
     year: 2021,
     venue: UMD Girls Talk Math Spring Event,
     location: Virtual,
-    slides: github.com/nglaeser/gtm2021/tree/main/spring/presentation,
+    slides_link: github.com/nglaeser/gtm2021/tree/main/spring/presentation,
   },
   {
     title: Improving bounds on entropy of odd cycle graphs,
@@ -113,7 +113,7 @@ presentations: [
     venue: UofSC Discovery Day,
     location: Columbia&#44; SC,
     slides: ,
-    poster: /files/graphentropy/DiscoverUSC-Glaeser,Noemi.pdf,
+    poster: "/files/graphentropy/DiscoverUSC-Glaeser,Noemi.pdf",
     report: ,
     pypi: pypi.org/project/graph-cyclone/,
     github: github.com/nglaeser/graph_cyclone,
