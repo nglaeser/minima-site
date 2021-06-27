@@ -193,7 +193,7 @@ service: [
     org: UMD Girls Talk Math,
     what_is: gtm.math.umd.edu/virtualcamp2021.html,
     dates: Summer 2021,
-    link: https://github.com/nglaeser/gtm2021/blob/main/packet/main.pdf,
+    link: github.com/nglaeser/gtm2021/blob/main/packet/main.pdf,
     link_text: PDF,
   },
   {
