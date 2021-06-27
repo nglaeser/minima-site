@@ -11,6 +11,6 @@ order: 1
 <p style="font-size: 13px">At the Fermi National Accelerator Lab in Batavia, IL.</p>
 </div>
 
-Hello! I'm a PhD student in Computer Science at the University of Maryland (working with Jonathan Katz) and the Max Planck Institute for Security & Privacy (working with Gilles Barthe).
+Hello! I'm a PhD student in Computer Science at the University of Maryland (working with Jonathan Katz) and the Max Planck Institute for Security & Privacy (working with Giulio Malavolta).
 
 How to pronounce my name: No-Amy Glay-zer
