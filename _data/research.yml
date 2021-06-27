@@ -86,6 +86,26 @@ presentation_title:
   it: Presentazioni & poster
   de: Präsentationen und Poster
 presentations: [
+  # {
+  #   title: ,
+  #   year: ,
+  #   advised_by: ,
+  #   venue: ,
+  #   location: ,
+  #   slides: ,
+  #   poster: ,
+  #   report: ,
+  #   pypi: ,
+  #   github: ,
+  #   note:
+  # },
+  {
+    title: Mathematically Sharing Secrets,
+    year: 2021,
+    venue: UMD Girls Talk Math Spring Event,
+    location: Virtual,
+    slides: https://github.com/nglaeser/gtm2021/tree/main/spring/presentation,
+  },
   {
     title: Improving bounds on entropy of odd cycle graphs,
     year: 2019,
@@ -155,19 +175,6 @@ presentations: [
     github: github.com/ravel-net/REU-access-control,
     note:
   },
-  # {
-  #   title: ,
-  #   year: ,
-  #   advised_by: ,
-  #   venue: ,
-  #   location: ,
-  #   slides: ,
-  #   poster: ,
-  #   report: ,
-  #   pypi: ,
-  #   github: ,
-  #   note:
-  # },
 ]
 
 service_title: 
@@ -175,17 +182,25 @@ service_title:
   it: Service
   de: Service
 service: [
+  # {
+  #   role: ,
+  #   org: ,
+  #   what_is: ,
+  #   dates: ,
+  # },
   {
     role: Packet Writer,
     org: UMD Girls Talk Math,
     what_is: gtm.math.umd.edu/virtualcamp2021.html,
     dates: Summer 2021,
+    link: https://github.com/nglaeser/gtm2021/blob/main/packet/main.pdf,
+    link_text: PDF,
   },
   {
     role: Organizer,
     org: UMD Cryptography Reading Group,
     what_is: ,
-    dates: Fall 2020-present,
+    dates: Fall 2020-Spring 2021,
   },
   {
     role: Mentor,
@@ -193,12 +208,6 @@ service: [
     what_is: inclusion.cs.umd.edu/programs,
     dates: Fall 2020,
   },
-  # {
-  #   role: ,
-  #   org: ,
-  #   what_is: ,
-  #   dates: ,
-  # },
 ]
 
 funding_title: 
