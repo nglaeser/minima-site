@@ -104,7 +104,7 @@ presentations: [
     year: 2021,
     venue: UMD Girls Talk Math Spring Event,
     location: Virtual,
-    slides: https://github.com/nglaeser/gtm2021/tree/main/spring/presentation,
+    slides: github.com/nglaeser/gtm2021/tree/main/spring/presentation,
   },
   {
     title: Improving bounds on entropy of odd cycle graphs,
