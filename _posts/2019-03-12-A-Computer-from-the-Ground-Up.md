@@ -11,7 +11,7 @@ excerpt:
 
 <!--This project is in a similar vein to the [previous post of the same name](../../../2018/11/30/A-Computer-from-the-Ground-Up.html), but a little less fine-grained and more abstracted.  -->
 
-After last semester's final exams, my friends James Coman, William Edwards, Brady O'Leary, and I gathered at my friend [Charles Daniels](http://cdaniels.net)'s house for a couple of days to work through the curriculum of the University of South Carolina's Advanced Digital Design course (CSCE 611); we called it "micro-611". We tried to complete six projects on FPGAs, leading up to the construction of a fully functional MIPS processor. I took pictures and videos of each final product along the way, and I'll go into some detail in this post. The raw notes from those couple of days can be found [here](https://github.com/nglaeser/Notes/tree/master/µ611) or [here](https://keybase.pub/nglaeser/Notes/µ611/).
+After last semester's final exams, my friends James, William, [Brady](http://arsmachina.net/), and I gathered at our friend [Charles](http://cdaniels.net)'s house for a couple of days to work through the curriculum of the University of South Carolina's Advanced Digital Design course (CSCE 611); we called it "micro-611". We tried to complete six projects on FPGAs, leading up to the construction of a fully functional MIPS processor. I took pictures and videos of each final product along the way, and I'll go into some detail in this post. The raw notes from those couple of days can be found [here](https://github.com/nglaeser/Notes/tree/master/µ611) or [here](https://keybase.pub/nglaeser/Notes/µ611/).
 
 ### Background
 
