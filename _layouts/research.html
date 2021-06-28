@@ -79,7 +79,9 @@
     {% if pres.advised_by %}
     (Advisor: {{ pres.advised_by }}.)
     {% endif %}
-    <em>{{ pres.venue }}</em>, {{ pres.location }}.
+    <em>{{ pres.venue }}</em>{% if pres.what_is %}
+    <sup><a title="{{ site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="https://{{ pres.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
+    {{ pres.location }}.
 
     <br/>
     {% if pres.slides %}

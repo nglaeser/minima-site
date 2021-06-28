@@ -103,8 +103,9 @@ presentations: [
     title: Mathematically Sharing Secrets,
     year: 2021,
     venue: UMD Girls Talk Math Spring Event,
+    what_is: github.com/nglaeser/gtm2021/blob/main/spring/GTMSpring2021Program.pdf,
     location: Virtual,
-    slides_link: github.com/nglaeser/gtm2021/tree/main/spring/presentation,
+    slides_link: github.com/nglaeser/gtm2021/tree/main/spring,
   },
   {
     title: Improving bounds on entropy of odd cycle graphs,
