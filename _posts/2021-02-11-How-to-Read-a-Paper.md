@@ -40,9 +40,7 @@ What's the "meat" of the paper, the key insight? If you were to present it, what
 <img src="../../../files/blog/read-paper/pass2-2.jpg" style="width: 49%" alt="Page with section text and theorem statement highlighted (but not its proof)"/>
 </div>
 
-In the second pass, you can start taking notes on the central sections of the paper. Focus on understanding the techniques and findings. 
-
-Although my initial instinct was to highlight and take notes of every detail, I've found that it's better to only write down key points and make comments in the margins as they come to you. You can also concisely summarize each section so that you have a roadmap of the paper if you need to return to it after some time away.
+Focus on understanding the techniques and findings. Don't start taking detailed notes yet, but read through the remaining sections of the paper. Feel free to highlight a few important phrases and terms, but don't go overboard. Although my initial instinct was to highlight and take notes of every detail, I've found that it's better to only write down key points and make comments in the margins as they come to you. You can also concisely summarize each section so that you have a roadmap of the paper if you need to return to it after some time away.
 
 ## The Third Pass
 
@@ -55,7 +53,7 @@ Although my initial instinct was to highlight and take notes of every detail, I'
 <img src="../../../files/blog/read-paper/pass3-2.jpg" style="width: 49%" alt="Page with proof highlighted"/>
 </div>
 
-In this pass you're looking for a really deep understanding of the work. Why did they use the techniques they did? Do you see problems with their approach? What does research imply about the rest of the field, both in how it connects to it and how it will change it going forward?
+In this pass you're looking for a really deep understanding of the work. Why did they use the techniques they did? Do you see problems with their approach? What does research imply about the rest of the field, both in how it connects to it and how it will change it going forward? You can also start filling in your rough outlines from above, adding notes on the details of their work.
 
 ## A Fourth Pass?
 
