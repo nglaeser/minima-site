@@ -116,16 +116,25 @@
 </ol>
 
 <h3 id="service">{{ site.data.research.service_title[page.lang] }}</h3>
+{% for subsec in site.data.research.service %}
 <ul>
-  {% for item in site.data.research.service %}
+  {% if subsec.type == "External Reviewer" %}
   <li>
-    <strong>{{ item.role }}</strong>,
+    <strong>{{ subsec.type }}</strong>{% for item in subsec.items %}, 
+    <a target="_blank" href="https://{{ item.link }}">{{ item.org }}</a>{% endfor %}
+  </li>
+  {% else %}
+  {% for item in subsec.items %}
+  <li>
+    <strong>{{ subsec.type }}</strong>,
     {{ item.org }}{% if item.what_is %}<sup><a title="{{ site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="https://{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
     <em>{{ item.dates }}</em>.
     {% if item.link %}<a target="_blank" href="https://{{ item.link }}">[{{ item.link_text }}]</a>{% endif %}
   </li>
   {% endfor %}
+  {% endif %}
 </ul>
+{% endfor %}
 
 <h3 id="funding--awards">{{ site.data.research.funding_title[page.lang] }}</h3>
 
