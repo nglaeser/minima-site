@@ -18,9 +18,9 @@ what_is_title:
   de: Was ist das?
 
 publication_title:
-  en: Publications
-  it: Pubblicazioni
-  de: Veröffentlichungen
+  en: Selected Publications
+  it: Pubblicazioni selezionate
+  de: Ausgewählte Veröffentlichungen
 publications: [
   {
     authors: R. De Viti&#44; B. Dinis&#44; <span class="me">N. Glaeser</span>&#44; et al.,
