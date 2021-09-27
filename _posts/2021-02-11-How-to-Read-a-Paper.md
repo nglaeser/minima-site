@@ -29,6 +29,8 @@ My understanding of how best to read a paper is always evolving, so this is a li
 
 What's the "meat" of the paper, the key insight? If you were to present it, what would be the one thing you would spend the middle of your talk on? You don't have to understand it yet, just single it out so you don't get distracted from it when you dive deeper.
 
+It's easiest to stay focused if you go into your reading with a goal in mind. Why are you reading the paper? To see if you can use their techniques in your own research? Because everyone's talking about this paper and you want to know what the hype is about? Or maybe you just need the definition of a particular term and this is the paper that introduced it?
+
 ## The Second Pass
 
 **Goal:** Understand the main thrust of the paper.  
@@ -64,3 +66,8 @@ After getting into the nitty-gritty, I usually need to zoom back out once more a
 Depending on what you want out of a paper, you don't have to do all the passes. If you are just perusing a research area or trying to find a paper that's worth your time, you may only apply the first pass to many papers before deciding on one to dig into. If you're presenting a paper to a reading group or class, on the other hand, you certainly need to do two passes at the very least. If you're going to build on a paper for your research, you'll need to do the same, and do a deep-dive à la third pass for the most relevant sections, if not the entire paper.
 
 Happy reading!
+
+## Other resources
+- [How to read a technical paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html)
+- [How to (seriously) read a scientific paper](https://www.science.org/careers/2016/03/how-seriously-read-scientific-paper)
+- [Reading and Taking Notes on Scholarly Journal Articles](https://www.une.edu/sites/default/files/Reading-and-Annotating.pdf)
