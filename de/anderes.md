@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Amici
-ref: friends
-lang: it
+title: Anderes
+ref: other
+lang: de
 order: 4
 ---
 
-## Amici
+## Freunde
 
-Siti e blog selezionati di amici:  
+Webseiten und Blogs von Freunden:    
 
-[Il blog di Justin Baum](https://justinabaum.com/)  
+[Das Blog von Justin Baum](https://justinabaum.com/)  
 [The Blog of Charles Daniels](http://cdaniels.net)  
 [The website of Joshua Nelson](https://jyn514.github.io/)  
 [Clay's Code (Clay Norris)](https://www.clayscode.com/)  
