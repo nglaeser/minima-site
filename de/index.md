@@ -10,4 +10,4 @@ lang: de
 <p style="font-size: 13px">Beim Fermi National Accelerator Lab in Batavia, Illinois, USA.</p>
 </div>
 
-Hallo! Ich bin Doktorandin in Informatik bei der Uni Maryland (mit Jonathan Katz) und am Max-Planck-Institut für Cybersicherheit und Schutz der Privatsphäre (mit Giulio Malavolta).
+Hallo! Ich bin Doktorandin in Informatik bei der [Universität von Maryland](https://www.cs.umd.edu/) (mit [Jonathan Katz](https://www.cs.umd.edu/~jkatz/)) und am [Max-Planck-Institut für Sicherheit und Privatsphäre (MPI-SP)](https://www.mpi-sp.org/) (mit [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/)).

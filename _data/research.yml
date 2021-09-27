@@ -82,9 +82,9 @@ publications: [
 ]
 
 presentation_title: 
-  en: Presentations & Posters
+  en: Talks & Posters
   it: Presentazioni & poster
-  de: Präsentationen und Poster
+  de: Talks und Poster
 presentations: [
   # {
   #   title: ,
@@ -100,7 +100,7 @@ presentations: [
   #   note:
   # },
   {
-    title: Mathematically Sharing Secrets,
+    title: Mathematically Sharing Secrets (invited talk),
     year: 2021,
     venue: UMD Girls Talk Math Spring Event,
     what_is: github.com/nglaeser/gtm2021/blob/main/spring/GTMSpring2021Program.pdf,

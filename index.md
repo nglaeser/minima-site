@@ -11,6 +11,7 @@ order: 1
 <p style="font-size: 13px">At the Fermi National Accelerator Lab in Batavia, IL.</p>
 </div>
 
-Hello! I'm a PhD student in Computer Science at the University of Maryland (working with Jonathan Katz) and the Max Planck Institute for Security & Privacy (working with Giulio Malavolta).
+Hello! I'm a PhD student in Computer Science at the [University of Maryland](https://www.cs.umd.edu/) (working with [Jonathan Katz](https://www.cs.umd.edu/~jkatz/)) and the [Max Planck Institute for Security & Privacy (MPI-SP)](https://www.mpi-sp.org/) (working with [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/)).
 
-How to pronounce my name: No-Amy Glay-zer
+<br/>
+<span style="color: gray;">*How to pronounce my name: No-Amy Glay-zer*</span>
