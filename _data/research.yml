@@ -86,6 +86,27 @@ presentation_title:
   it: Presentazioni & poster
   de: Präsentationen und Poster
 presentations: [
+  # {
+  #   title: ,
+  #   year: ,
+  #   advised_by: ,
+  #   venue: ,
+  #   location: ,
+  #   slides: ,
+  #   poster: ,
+  #   report: ,
+  #   pypi: ,
+  #   github: ,
+  #   note:
+  # },
+  {
+    title: Mathematically Sharing Secrets,
+    year: 2021,
+    venue: UMD Girls Talk Math Spring Event,
+    what_is: github.com/nglaeser/gtm2021/blob/main/spring/GTMSpring2021Program.pdf,
+    location: Virtual,
+    slides_link: github.com/nglaeser/gtm2021/tree/main/spring,
+  },
   {
     title: Improving bounds on entropy of odd cycle graphs,
     year: 2019,
@@ -93,7 +114,7 @@ presentations: [
     venue: UofSC Discovery Day,
     location: Columbia&#44; SC,
     slides: ,
-    poster: /files/graphentropy/DiscoverUSC-Glaeser,Noemi.pdf,
+    poster: "/files/graphentropy/DiscoverUSC-Glaeser,Noemi.pdf",
     report: ,
     pypi: pypi.org/project/graph-cyclone/,
     github: github.com/nglaeser/graph_cyclone,
@@ -155,19 +176,6 @@ presentations: [
     github: github.com/ravel-net/REU-access-control,
     note:
   },
-  # {
-  #   title: ,
-  #   year: ,
-  #   advised_by: ,
-  #   venue: ,
-  #   location: ,
-  #   slides: ,
-  #   poster: ,
-  #   report: ,
-  #   pypi: ,
-  #   github: ,
-  #   note:
-  # },
 ]
 
 service_title: 
@@ -175,17 +183,25 @@ service_title:
   it: Service
   de: Service
 service: [
+  # {
+  #   role: ,
+  #   org: ,
+  #   what_is: ,
+  #   dates: ,
+  # },
   {
     role: Packet Writer,
     org: UMD Girls Talk Math,
     what_is: gtm.math.umd.edu/virtualcamp2021.html,
     dates: Summer 2021,
+    link: github.com/nglaeser/gtm2021/blob/main/packet/main.pdf,
+    link_text: PDF,
   },
   {
     role: Organizer,
     org: UMD Cryptography Reading Group,
     what_is: ,
-    dates: Fall 2020-present,
+    dates: Fall 2020-Spring 2021,
   },
   {
     role: Mentor,
@@ -193,12 +209,6 @@ service: [
     what_is: inclusion.cs.umd.edu/programs,
     dates: Fall 2020,
   },
-  # {
-  #   role: ,
-  #   org: ,
-  #   what_is: ,
-  #   dates: ,
-  # },
 ]
 
 funding_title: 

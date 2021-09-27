@@ -10,4 +10,4 @@ lang: it
 <p style="font-size: 13px">Al Fermi National Accelerator Lab in Batavia, Illinois, USA.</p>
 </div>
 
-Ciao! Sono dottoranda in informatica presso l'Università del Maryland (advisor: Jonathan Katz) e l'Istituto Max Planck di Cybersecurity e Privacy (advisor: Gilles Barthe).
+Ciao! Sono dottoranda in informatica presso l'Università del Maryland (advisor: Jonathan Katz) e l'Istituto Max Planck di Cybersecurity e Privacy (advisor: Giulio Malavolta).
