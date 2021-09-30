@@ -12,10 +12,40 @@ in_english:
   it: in inglese
   de: auf Englisch
 
+with:
+  en: With
+  it: Con
+  de: Mit
+and:
+  en: and
+  it: e
+  de: und
+
 what_is_title: 
   en: What's that?
   it: Cos'è?
   de: Was ist das?
+
+projects_title:
+  en: Current Projects
+  it: Progetti correnti
+  de: Laufende Projekte
+projects: [
+  # {
+  #   title: ,
+  #   collaborators: [],
+  #   description: ,
+  # },
+  {
+    title: Anonymous Atomic Locks&#44; Re-evaluated,
+    collaborators: [Giulio Malavolta, Pedro Moreno-Sanchez, Sri Aravinda Krishnan Thyagarajan],
+    description: {
+      en: Cryptographic analysis of  a payment channel hub (PCH) protocol,
+      it: Analisi crittografica di un protocollo per payment channel hub (PCH),
+      de: Kryptographische Analyse eines Payment Channel Hub (PCH) Protokoll,
+    }
+  },
+]
 
 publication_title:
   en: Selected Publications
@@ -26,7 +56,7 @@ publications: [
     authors: R. De Viti&#44; B. Dinis&#44; <span class="me">N. Glaeser</span>&#44; et al.,
     year: 2021,
     title: CoVault&#58; Secure High-Stakes Analytics,
-    status: In review,
+    status: Under revision,
     venue: ,
     volume: ,
     article_num: ,
@@ -255,12 +285,6 @@ funding_title:
   it: Borse di studio & riconoscimenti
   de: Stipendien und Auszeichnungen
 funding: [
-  {
-    title: GREPSEC Workshop Grant,
-    what_is: grepsec.github.io/,
-    org: ,
-    dates: 2021,
-  },
   {
     title: Graduate Research Fellowship,
     what_is: www.nsfgrfp.org/,
