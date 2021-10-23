@@ -15,7 +15,7 @@ For example, `bundle info --path minima`.
 
 ## Multilingual Site
 
-As mentioned, I use [Sylvain Durand's multilingual Jekyll theme](https://www.sylvaindurand.org/making-jekyll-multilingual/) -- with some modifications. In particular, for pages (like my resume) where the content (a) must be continually updated and (b) is constant across languages, I use YAML files to store the actual data and HTML templates to format and display that data. This way, if something changes, I can update it in a single place: the corresponding YAML file in the `_data` directory.
+As mentioned, I use [Sylvain Durand's multilingual Jekyll theme](https://www.sylvaindurand.org/making-jekyll-multilingual/) -- with some modifications. In particular, for pages (like my resume) where the content (a) must be continually updated and (b) is constant across languages, I use YAML files to store the actual data and HTML templates to format and display that data. This way, if something changes, I can update it in a single place: the corresponding YAML file in the `_data` directory ([learn more](https://jekyllrb.com/docs/datafiles/)).
 
 ## Icons
 
