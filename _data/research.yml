@@ -45,6 +45,13 @@ projects: [
       de: Kryptographische Analyse eines Payment Channel Hub (PCH) Protokoll,
     }
   },
+  {
+    title: Simulation Extractable Updatable SNARKs in the UC Model,
+    collaborators: [Behzad Abdolmaleki, Daniel Slamanig, Sebastian Ramacher],
+    description: {
+      en: First <em>universally composable</em> generic SE updatable zk-SNARKS; with planned proof-of-concept Rust implementation,
+    }
+  },
 ]
 
 publication_title:
@@ -220,14 +227,14 @@ service: [
     type: Mentor,
     items: [
       {
-        org: Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program,
-        what_is: inclusion.cs.umd.edu/programs,
-        dates: Fall 2020,
-      },
-      {
         org: UMD CS GradCo Peer Mentoring Program,
         what_is: ,
         dates: Fall 2021,
+      },
+      {
+        org: Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program,
+        what_is: inclusion.cs.umd.edu/programs,
+        dates: Fall 2020,
       },
     ]
   },
