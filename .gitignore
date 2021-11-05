@@ -12,6 +12,12 @@ _sass-bak
 # Ruby
 Gemfile.lock
 
+# Files
+files/CS/*
+!files/CS/Glaeser_CV_research.pdf
+files/MUSIC/*
+!files/MUSIC/Glaeser_CV_music.pdf
+
 # Other
 *.swp
 .DS_Store
