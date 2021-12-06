@@ -37,15 +37,6 @@ projects: [
   #   description: ,
   # },
   {
-    title: Anonymous Atomic Locks&#44; Re-evaluated,
-    collaborators: [Giulio Malavolta, Pedro Moreno-Sanchez, Sri Aravinda Krishnan Thyagarajan],
-    description: {
-      en: Cryptographic analysis of  a payment channel hub (PCH) protocol,
-      it: Analisi crittografica di un protocollo per payment channel hub (PCH),
-      de: Kryptographische Analyse eines Payment Channel Hub (PCH) Protokoll,
-    }
-  },
-  {
     title: Simulation Extractable Updatable SNARKs in the UC Model,
     collaborators: [Behzad Abdolmaleki, Daniel Slamanig, Sebastian Ramacher],
     description: {
@@ -59,6 +50,16 @@ publication_title:
   it: Pubblicazioni selezionate
   de: Ausgewählte Veröffentlichungen
 publications: [
+  {
+    authors: <span class="me">N. Glaeser</span>&#44; S.A.K. Thyagarajan&#44;G. Malavolta&#44; P. Moreno-Sanchez,
+    year: 2021,
+    title: Coin Mixing Services&58; New Constructions and Cryptanalysis,
+    status: In review,
+    venue: ,
+    volume: ,
+    article_num: ,
+    pdf: 
+  }
   {
     authors: R. De Viti&#44; B. Dinis&#44; <span class="me">N. Glaeser</span>&#44; et al.,
     year: 2021,
