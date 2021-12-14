@@ -64,7 +64,7 @@ publications: [
     authors: R. De Viti&#44; B. Dinis&#44; <span class="me">N. Glaeser</span>&#44; et al.,
     year: 2021,
     title: CoVault&#58; Secure High-Stakes Analytics,
-    status: Under revision,
+    status: In review,
     venue: ,
     volume: ,
     article_num: ,
@@ -74,7 +74,7 @@ publications: [
     authors: K. Herner <span class="me">et al.</span>,
     year: 2020,
     title: The updated DESGW processing pipeline for the third LIGO/VIRGO observing run,
-    venue: EPJ Web Conf.,
+    venue: Conf. on Computing in High-Energy & Nuclear Physics (CHEF),
     volume: 245,
     article_num: 01008,
     pdf: doi.org/10.1051/epjconf/202024501008
