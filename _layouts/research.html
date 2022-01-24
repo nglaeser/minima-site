@@ -50,16 +50,15 @@
 
         <p><em>{{ site.data.research.fullcv[page.lang] }} <a target="_blank" href="/files/CS/{{ site.data.research.cvfile }}">{{ site.data.research.here[page.lang] }}</a>{% if site.data.research.in_english[page.lang] %} ({{ site.data.research.in_english[page.lang] }}){% endif %}.</em></p>
 
-<h3 id="projects">{{ site.data.research.projects_title[page.lang] }}</h3>
-
+<!-- <h3 id="projects">{{ site.data.research.projects_title[page.lang] }}</h3>
 <ul>
   {% for proj in site.data.research.projects %}
   <li>
     <strong>{{ proj.title }}.</strong>
     <em>{{ site.data.research.with[page.lang] }}
-    {% for name in proj.collaborators %}
+    {% for name in proj.collaborators %} -->
     <!-- last person -->
-    {% if proj.collaborators[-1] == name %}
+    <!-- {% if proj.collaborators[-1] == name %}
       {{ site.data.research.and[page.lang] }} {{ name }}.
     {% else %}
       {{ name }},
@@ -69,7 +68,7 @@
     {{ proj.description[page.lang] }}.
   </li>
   {% endfor %}
-</ul>
+</ul> -->
 
 <h3 id="publications">{{ site.data.research.publication_title[page.lang] }}</h3>
 
