@@ -71,15 +71,26 @@
 </ul> -->
 
 <h3 id="publications">{{ site.data.research.publication_title[page.lang] }}</h3>
+{% assign in_sub = site.data.research.publications | where: "status", "In submission" %}
+{% assign published = site.data.research.publications | where: "status", "" %}
 
 <ol reversed="reversed">
-  {% for pub in site.data.research.publications %}
-  <li>{{ pub.authors }} ({{ pub.year }}). {{ pub.title }}. 
-    {% if pub.status %}
-      {{ pub.status }}.
-    {% else %}
-      <em>{{ pub.venue }}</em>{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.article_num %}, {{ pub.article_num }}{% endif %}.
+  <!-- in submission -->
+  {% for pub in in_sub %}
+  <li>{{ pub.authors }}. {{ pub.title }}. 
+    <em>{{ pub.status }}</em>.
+    {% if pub.arxiv %}
+      <a target="_blank" href="https://{{ pub.arxiv }}">[arXiv]</a>
     {% endif %}
+  </li>
+  {% endfor %}
+  <p></p>
+  <!-- published -->
+  {% for pub in site.data.research.publications %}
+  {% if pub.status %}
+  {% else %}
+  <li>{{ pub.authors }} ({{ pub.year }}). {{ pub.title }}. 
+    <em>{{ pub.venue }}</em>{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.article_num %}, {{ pub.article_num }}{% endif %}.
     {% if pub.pdf %}
       <a target="_blank" href="https://{{ pub.pdf }}">[PDF]</a>
     {% endif %}
@@ -87,6 +98,7 @@
       <a target="_blank" href="https://{{ pub.arxiv }}">[arXiv]</a>
     {% endif %}
   </li>
+  {% endif %}
   {% endfor %}
 </ol>
 

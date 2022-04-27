@@ -1,7 +1,7 @@
 fullcv: 
-  en: A full CV can be found
-  it: Il mio curriculum vitae dettagliato è scaricabile
-  de: Einen vollen Lebenslauf finden Sie 
+  en: A PDF of my CV can be found 
+  it: Un PDF del mio curriculum vitae è scaricabile 
+  de: Einen Lebenslauf in PDF-Format finden Sie 
 here: 
   en: here
   it: qui
@@ -36,13 +36,6 @@ projects: [
   #   collaborators: [],
   #   description: ,
   # },
-  {
-    title: Simulation Extractable Updatable SNARKs in the UC Model,
-    collaborators: [Behzad Abdolmaleki, Daniel Slamanig, Sebastian Ramacher],
-    description: {
-      en: First <em>universally composable</em> generic SE updatable zk-SNARKS; with planned proof-of-concept Rust implementation,
-    }
-  },
 ]
 
 publication_title:
@@ -50,36 +43,36 @@ publication_title:
   it: Pubblicazioni selezionate
   de: Ausgewählte Veröffentlichungen
 publications: [
-  {
-    authors: B. Abdolmaleki&#44; <span class="me">N. Glaeser</span>&#44; S. Ramacher&#44; D. Slamanig,
-    year: 2022,
-    title: Composable and Simulation-Extractable Compact NIZKs with Updatable Common Reference Strings,
-    status: In review,
-    venue: ,
-    volume: ,
-    article_num: ,
-    pdf: 
-  },
-  {
-    authors: <span class="me">N. Glaeser</span>&#44; S.A.K. Thyagarajan&#44; G. Malavolta&#44; P. Moreno-Sanchez,
-    year: 2022,
-    title: Coin Mixing Services&#58; New Constructions and Cryptanalysis,
-    status: In review,
-    venue: ,
-    volume: ,
-    article_num: ,
-    pdf: 
-  },
-  {
-    authors: R. De Viti&#44; B. Dinis&#44; <span class="me">N. Glaeser</span>&#44; et al.,
-    year: 2022,
-    title: CoVault&#58; Secure High-Stakes Analytics,
-    status: In review,
-    venue: ,
-    volume: ,
-    article_num: ,
-    pdf: 
-  },
+  # {
+  #   authors: B. Abdolmaleki&#44; <span class="me">N. Glaeser</span>&#44; S. Ramacher&#44; D. Slamanig,
+  #   year: 2022,
+  #   title: Composable and Simulation-Extractable Compact NIZKs with Updatable Common Reference Strings,
+  #   status: In submission,
+  #   venue: ,
+  #   volume: ,
+  #   article_num: ,
+  #   pdf: 
+  # },
+  # {
+  #   authors: <span class="me">N. Glaeser</span>&#44; S.A.K. Thyagarajan&#44; G. Malavolta&#44; P. Moreno-Sanchez,
+  #   year: 2022,
+  #   title: Coin Mixing Services&#58; New Constructions and Cryptanalysis,
+  #   status: In submission,
+  #   venue: ,
+  #   volume: ,
+  #   article_num: ,
+  #   pdf: 
+  # },
+  # {
+  #   authors: R. De Viti&#44; B. Dinis&#44; <span class="me">N. Glaeser</span>&#44; et al,
+  #   year: 2022,
+  #   title: CoVault&#58; Secure High-Stakes Analytics,
+  #   status: In submission,
+  #   venue: ,
+  #   volume: ,
+  #   article_num: ,
+  #   pdf: 
+  # },
   {
     authors: K. Herner <span class="me">et al.</span>,
     year: 2020,
@@ -213,12 +206,20 @@ service: [
     type: External Reviewer,
     items: [
       {
+        org: ACM CCS 2020,
+        link: https://sigsac.org/ccs/CCS2020/call-for-papers.html,
+      },
+      {
         org: PETS 2022.1,
         link: petsymposium.org/cfp22.php,
       },
       {
         org: PKC 2022,
         link: pkc.iacr.org/2022/,
+      },
+      {
+        org: PETS 2022.4,
+        link: petsymposium.org/cfp22.php,
       },
     ]
   },
@@ -228,7 +229,7 @@ service: [
       {
         org: UMD Girls Talk Math,
         what_is: gtm.math.umd.edu/virtualcamp2021.html,
-        dates: Summer 2021,
+        dates: Summer 2021-2022,
         link: github.com/nglaeser/gtm2021/blob/main/packet/main.pdf,
         link_text: PDF,
       }
@@ -240,7 +241,7 @@ service: [
       {
         org: UMD CS GradCo Peer Mentoring Program,
         what_is: ,
-        dates: Fall 2021,
+        dates: Fall 2021-present,
       },
       {
         org: Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program,
@@ -255,7 +256,7 @@ service: [
       {
         org: UMD CS GradCo Peer Mentoring Program (founder),
         what_is: ,
-        dates: Fall 2021,
+        dates: Fall 2021-present,
       },
       {
         org: UMD Cryptography Reading Group,
