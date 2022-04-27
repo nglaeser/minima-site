@@ -6,12 +6,10 @@ lang: en
 order: 4
 ---
 
-## Friends
+## Other Projects
 
-Some friends' sites and blogs:  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=nglaeser&repo=crypto-glossary)](https://github.com/nglaeser/crypto-glossary)
 
-[Justin Baum's Blog](https://justinabaum.com/)  
-[The Blog of Charles Daniels](http://cdaniels.net)  
-[The website of Joshua Nelson](https://jyn514.github.io/)  
-[Ars Machina (Brady O'Leary)](http://arsmachina.net/)  
-[Rosenblog (Michael Rosenberg)](https://mrosenberg.pub/)  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=benders5e&repo=benders5e&show_owner=true)](https://github.com/benders5e/benders5e)
+
+<!-- [Rosenblog (Michael Rosenberg)](https://mrosenberg.pub/)   -->
