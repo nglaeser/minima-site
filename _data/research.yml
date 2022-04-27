@@ -207,7 +207,7 @@ service: [
     items: [
       {
         org: ACM CCS 2020,
-        link: https://sigsac.org/ccs/CCS2020/call-for-papers.html,
+        link: sigsac.org/ccs/CCS2020/call-for-papers.html,
       },
       {
         org: PETS 2022.1,
