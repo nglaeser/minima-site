@@ -6,14 +6,8 @@ lang: it
 order: 4
 ---
 
-## Amici
+## Altri progetti
 
-Siti e blog selezionati di amici:  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=nglaeser&repo=crypto-glossary)](https://github.com/nglaeser/crypto-glossary)
 
-[Il blog di Justin Baum](https://justinabaum.com/)  
-[The Blog of Charles Daniels](http://cdaniels.net)  
-[The website of Joshua Nelson](https://jyn514.github.io/)  
-[Clay's Code (Clay Norris)](https://www.clayscode.com/)  
-[Ars Machina (Brady O'Leary)](http://arsmachina.net/)  
-[Rosenblog (Michael Rosenberg)](https://mrosenberg.pub/)  
-[Schachner Designs](https://www.schachnerdesigns.com/)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=benders5e&repo=benders5e&show_owner=true)](https://github.com/benders5e/benders5e)

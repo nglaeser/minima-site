@@ -22,6 +22,11 @@ As mentioned, I use [Sylvain Durand's multilingual Jekyll theme](https://www.syl
 - [Academicons](https://jpswalsh.github.io/academicons/)
 - [Fontawesome](https://fontawesome.com/)
 
+## Other Dependencies
+
+- [@anuraghazra's github-readme-stats](https://github.com/anuraghazra/github-readme-stats) for [repo cards](https://github.com/anuraghazra/github-readme-stats#github-extra-pins) and [top languages](https://github.com/anuraghazra/github-readme-stats#top-languages-card)
+- [Shields.io](https://github.com/badges/shields) for badges
+
 ## License
 
 Jekyll and this code are open sourced under the [MIT License](http://opensource.org/licenses/MIT).

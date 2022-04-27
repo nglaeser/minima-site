@@ -27,15 +27,68 @@ what_is_title:
   de: Was ist das?
 
 projects_title:
-  en: Current Projects
-  it: Progetti correnti
-  de: Laufende Projekte
+  en: Past Projects
+  it: Progetti passati
+  de: Vorherige Projekte
 projects: [
-  # {
-  #   title: ,
-  #   collaborators: [],
-  #   description: ,
-  # },
+  {
+    title: Improving bounds on entropy of odd cycle graphs,
+    dates: 2019,
+    collaborators: [Joshua Cooper],
+    description: {
+      en: "Projecting",
+      de: ,
+      it: ,
+    },
+    slides: ,
+    poster: "/files/graphentropy/DiscoverUSC-Glaeser,Noemi.pdf",
+    report: ,
+    pypi: pypi.org/project/graph-cyclone/,
+    github: {
+      username: nglaeser,
+      repo: graph_cyclone,
+    },
+    note:
+  },
+  {
+    title: Improvements to image processing in the DES-GW pipeline,
+    dates: 2018,
+    collaborators: [Kenneth Herner],
+    # venue: Summer Internship in Science & Tech (SIST) Presentation Day,
+    # location: Fermi National Accelerator Laboratory&#44; Batavia&#44; IL,
+    slides: /files/fermilab/Glaeser_slides.pdf,
+    poster: /files/fermilab/Glaeser_poster.pdf,
+    report: /files/fermilab/Glaeser_SIST-final.pdf,
+    pypi: ,
+    github: {
+      username: SSantosLab,
+      repo: gw_workflow,
+    },
+    note:
+  },
+  {
+    title: Access control for a database-defined network,
+    dates: 2016,
+    collaborators: [Anduo Wang],
+    # venue: Temple University REU Presentations,
+    # location: Philadelphia&#44; PA,
+    slides: /files/TempleREU/Glaeser_midterm_slides.pdf,
+    poster: {
+      link: /files/TempleREU/NGlaeser-poster-Sarnoff.pdf,
+      award: {
+        en: 3rd place Poster Award,
+        it: 3º posto Premio Poster,
+        de: Poster 3. Platz,
+      },
+    },
+    report: /files/TempleREU/Glaeser_final.pdf,
+    pypi: ,
+    github: {
+      username: ravel-net,
+      repo: REU-access-control,
+    },
+    note: ,
+  },
 ]
 
 publication_title:
@@ -96,7 +149,7 @@ publications: [
     authors: <span class="me">N. Glaeser</span> and A. Wang.,
     year: 2016,
     title: Access control for a database-defined network,
-    venue: Proceedings of IEEE 37th Sarnoff Symposium,
+    venue: IEEE Sarnoff Symposium,
     volume: ,
     article_num: ,
     pdf: dx.doi.org/10.1109/SARNOF.2016.7846728
@@ -114,9 +167,9 @@ publications: [
 ]
 
 presentation_title: 
-  en: Talks & Posters
-  it: Presentazioni & poster
-  de: Talks und Poster
+  en: Talks
+  it: Presentazioni
+  de: Talks
 presentations: [
   # {
   #   title: ,
@@ -139,62 +192,6 @@ presentations: [
     location: Virtual,
     slides_link: github.com/nglaeser/gtm2021/tree/main/spring,
   },
-  {
-    title: Improving bounds on entropy of odd cycle graphs,
-    year: 2019,
-    advised_by: Joshua Cooper,
-    venue: UofSC Discovery Day,
-    location: Columbia&#44; SC,
-    slides: ,
-    poster: "/files/graphentropy/DiscoverUSC-Glaeser,Noemi.pdf",
-    report: ,
-    pypi: pypi.org/project/graph-cyclone/,
-    github: github.com/nglaeser/graph_cyclone,
-    note:
-  },
-  {
-    title: Improvements to image processing in the DES-GW pipeline,
-    year: 2018,
-    advised_by: Kenneth Herner,
-    venue: Summer Internship in Science & Tech (SIST) Presentation Day,
-    location: Fermi National Accelerator Laboratory&#44; Batavia&#44; IL,
-    slides: /files/fermilab/Glaeser_slides.pdf,
-    poster: /files/fermilab/Glaeser_poster.pdf,
-    report: /files/fermilab/Glaeser_SIST-final.pdf,
-    pypi: ,
-    github: github.com/SSantosLab/gw_workflow,
-    note:
-  },
-  {
-    title: Access control for a database-defined network,
-    year: 2016,
-    advised_by: Anduo Wang,
-    venue: IEEE Sarnoff Symposium,
-    location: Newark&#44; NJ,
-    slides: ,
-    poster: /files/TempleREU/NGlaeser-poster-Sarnoff.pdf,
-    report: ,
-    pypi: ,
-    github: ,
-    note: {
-      en: <a href="/files/TempleREU/thirdplace.jpg">Won 3rd place Poster Award</a>,
-      it: <a href="/files/TempleREU/thirdplace.jpg">Poster ha vinto il terzo posto</a>,
-      de: <a href="/files/TempleREU/thirdplace.jpg">Poster belegte den dritten Platz</a>,
-    }
-  },
-  {
-    title: Access control for a database-defined network,
-    year: 2016,
-    advised_by: Anduo Wang,
-    venue: Temple University REU Presentations,
-    location: Philadelphia&#44; PA,
-    slides: /files/TempleREU/Glaeser_midterm_slides.pdf,
-    poster: ,
-    report: /files/TempleREU/Glaeser_final.pdf,
-    pypi: ,
-    github: github.com/ravel-net/REU-access-control,
-    note:
-  },
 ]
 
 service_title: 
@@ -203,7 +200,7 @@ service_title:
   de: Service
 service: [
   {
-    type: External Reviewer,
+    role: External Reviewer,
     items: [
       {
         org: ACM CCS 2020,
@@ -224,47 +221,37 @@ service: [
     ]
   },
   {
-    type: Packet Writer,
-    items: [
-      {
-        org: UMD Girls Talk Math,
-        what_is: gtm.math.umd.edu/virtualcamp2021.html,
-        dates: Summer 2021-2022,
-        link: github.com/nglaeser/gtm2021/blob/main/packet/main.pdf,
-        link_text: PDF,
-      }
-    ]
+    role: Packet Writer,
+    org: UMD Girls Talk Math,
+    what_is: gtm.math.umd.edu/virtualcamp2021.html,
+    dates: Summer 2021-present,
+    link: github.com/nglaeser/gtm2021/blob/main/packet/main.pdf,
+    link_text: pdf,
   },
   {
-    type: Mentor,
-    items: [
-      {
-        org: UMD CS GradCo Peer Mentoring Program,
-        what_is: ,
-        dates: Fall 2021-present,
-      },
-      {
-        org: Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program,
-        what_is: inclusion.cs.umd.edu/programs,
-        dates: Fall 2020,
-      },
-    ]
+    role: Founder and organizer,
+    org: UMD CS GradCo Peer Mentoring Program,
+    what_is: ,
+    dates: Fall 2021-present,
   },
   {
-    type: Organizer,
-    items: [
-      {
-        org: UMD CS GradCo Peer Mentoring Program (founder),
-        what_is: ,
-        dates: Fall 2021-present,
-      },
-      {
-        org: UMD Cryptography Reading Group,
-        what_is: ,
-        dates: Fall 2020-Spring 2021,
-      },
-    ]
+    role: Mentor,
+    org: UMD CS GradCo Peer Mentoring Program,
+    what_is: ,
+    dates: Fall 2021-present,
   },
+  {
+    role: Organizer,
+    org: UMD Cryptography Reading Group,
+    what_is: ,
+    dates: Fall 2020-Spring 2021,
+  },
+  {
+    role: Mentor,
+    org: Iribe Initiative for Inclusion and Diversity in Computing (I4C) Peer Mentoring Program,
+    what_is: inclusion.cs.umd.edu/programs,
+    dates: Fall 2020,
+  }
   # {
   #   role: ,
   #   org: ,
@@ -335,3 +322,8 @@ funding: [
   #   dates: ,
   # },
 ]
+
+techskills_title:
+  en: Technical Skills
+  it: Capacità tecniche
+  de: Technische Fähigkeiten

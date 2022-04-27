@@ -1,201 +1,240 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
+  {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        <div id="language-options" class="wrapper">
-          {% unless page.ref == "notfound" %}
-            {% assign curr_lang = page.lang %}
-            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-            {% for page in pages %} 
-            <!-- get a long version of the language to display on the homepage -->
-            {% if page.lang == 'de' %}
-              {% assign full_language='deutsch' %}
-            {% elsif page.lang == 'en' %}
-              {% assign full_language='english' %}
-            {% elsif page.lang == 'it' %}
-              {% assign full_language='italiano' %}
-            {% else %}
-              {% assign full_language=page.lang %}
-            {% endif %}
-            {% if page.lang == curr_lang %}
-            <p id="current-page" class="{{ page.lang }}">{{ full_language }}</p> 
-            {% else %}
-            <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ full_language }}</a> 
-            {% endif %}
-            {% endfor %}
-          {% endunless %}
-        </div>
+  <div class="page-content">
+    <div class="wrapper">
+      <div id="language-options" class="wrapper">
+        {% unless page.ref == "notfound" %}
+          {% assign curr_lang = page.lang %}
+          {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+          {% for page in pages %} 
+          <!-- get a long version of the language to display on the homepage -->
+          {% if page.lang == 'de' %}
+            {% assign full_language='deutsch' %}
+          {% elsif page.lang == 'en' %}
+            {% assign full_language='english' %}
+          {% elsif page.lang == 'it' %}
+            {% assign full_language='italiano' %}
+          {% else %}
+            {% assign full_language=page.lang %}
+          {% endif %}
+          {% if page.lang == curr_lang %}
+          <p id="current-page" class="{{ page.lang }}">{{ full_language }}</p> 
+          {% else %}
+          <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ full_language }}</a> 
+          {% endif %}
+          {% endfor %}
+        {% endunless %}
+      </div>
 
-      <!-- content -->
+    <!-- content -->
+      {{ content }}
 
-        <h2 id="research-title">{{ page.title }}
-          <li>
-            <a title="ORCID" target="_blank" href="https://orcid.org/{{ site.orcid }}">
-              <i class="ai ai-orcid"></i>
-            </a>
-          </li>
-          <li>
-            <a title="Google Scholar" target="_blank" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
-              <i class="ai ai-google-scholar"></i>
-            </a>
-          </li>
-        </h2>
+      <h2 id="research-title">{{ page.title }}
+        <li>
+          <a title="ORCID" target="_blank" href="https://orcid.org/{{ site.orcid }}">
+            <i class="ai ai-orcid"></i>
+          </a>
+        </li>
+        <li>
+          <a title="Google Scholar" target="_blank" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
+            <i class="ai ai-google-scholar"></i>
+          </a>
+        </li>
+      </h2>
 
-        <p><em>{{ site.data.research.fullcv[page.lang] }} <a target="_blank" href="/files/CS/{{ site.data.research.cvfile }}">{{ site.data.research.here[page.lang] }}</a>{% if site.data.research.in_english[page.lang] %} ({{ site.data.research.in_english[page.lang] }}){% endif %}.</em></p>
-
-<!-- <h3 id="projects">{{ site.data.research.projects_title[page.lang] }}</h3>
-<ul>
-  {% for proj in site.data.research.projects %}
-  <li>
-    <strong>{{ proj.title }}.</strong>
-    <em>{{ site.data.research.with[page.lang] }}
-    {% for name in proj.collaborators %} -->
-    <!-- last person -->
-    <!-- {% if proj.collaborators[-1] == name %}
-      {{ site.data.research.and[page.lang] }} {{ name }}.
-    {% else %}
-      {{ name }},
-    {% endif %}
-    {% endfor %}
-    </em>
-    {{ proj.description[page.lang] }}.
-  </li>
-  {% endfor %}
-</ul> -->
+      <p><em>{{ site.data.research.fullcv[page.lang] }} <a target="_blank" href="/files/CS/{{ site.data.research.cvfile }}">{{ site.data.research.here[page.lang] }}</a>{% if site.data.research.in_english[page.lang] %} ({{ site.data.research.in_english[page.lang] }}){% endif %}.</em></p>
 
 <h3 id="publications">{{ site.data.research.publication_title[page.lang] }}</h3>
 {% assign in_sub = site.data.research.publications | where: "status", "In submission" %}
 {% assign published = site.data.research.publications | where: "status", "" %}
 
 <ol reversed="reversed">
-  <!-- in submission -->
-  {% for pub in in_sub %}
-  <li>{{ pub.authors }}. {{ pub.title }}. 
-    <em>{{ pub.status }}</em>.
-    {% if pub.arxiv %}
-      <a target="_blank" href="https://{{ pub.arxiv }}">[arXiv]</a>
-    {% endif %}
-  </li>
-  {% endfor %}
-  <p></p>
-  <!-- published -->
-  {% for pub in site.data.research.publications %}
-  {% if pub.status %}
-  {% else %}
-  <li>{{ pub.authors }} ({{ pub.year }}). {{ pub.title }}. 
-    <em>{{ pub.venue }}</em>{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.article_num %}, {{ pub.article_num }}{% endif %}.
-    {% if pub.pdf %}
-      <a target="_blank" href="https://{{ pub.pdf }}">[PDF]</a>
-    {% endif %}
-    {% if pub.arxiv %}
-      <a target="_blank" href="https://{{ pub.arxiv }}">[arXiv]</a>
-    {% endif %}
-  </li>
+<!-- in submission -->
+{% for pub in in_sub %}
+<li>{{ pub.authors }}. {{ pub.title }}. 
+  <em>{{ pub.status }}</em>.
+  {% if pub.arxiv %}
+    <a target="_blank" href="https://{{ pub.arxiv }}">[arXiv]</a>
   {% endif %}
-  {% endfor %}
+</li>
+{% endfor %}
+<p></p>
+<!-- published -->
+{% for pub in site.data.research.publications %}
+{% if pub.status %}
+{% else %}
+<li>{{ pub.authors }} ({{ pub.year }}). {{ pub.title }}. 
+  <em>{{ pub.venue }}</em>{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.article_num %}, {{ pub.article_num }}{% endif %}.
+  {% if pub.pdf %}
+    <a target="_blank" href="https://{{ pub.pdf }}">
+      <img src="https://img.shields.io/badge/-pdf-2a7ae2"></a>
+  {% endif %}
+  {% if pub.arxiv %}
+    <a target="_blank" href="https://{{ pub.arxiv }}">
+      <img src="https://img.shields.io/badge/-arXiv-2a7ae2"></a>
+  {% endif %}
+</li>
+{% endif %}
+{% endfor %}
 </ol>
 
 <h3 id="presentations">{{ site.data.research.presentation_title[page.lang] }}</h3>
 
 <ol reversed="reversed">
-  {% for pres in site.data.research.presentations %}
-  <li>
-    <strong>{{ pres.title }}</strong>. ({{ pres.year }}).
-    {% if pres.advised_by %}
-    (Advisor: {{ pres.advised_by }}.)
-    {% endif %}
-    <em>{{ pres.venue }}</em>{% if pres.what_is %}
-    <sup><a title="{{ site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="https://{{ pres.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
-    {{ pres.location }}.
+{% for pres in site.data.research.presentations %}
+<li>
+  <strong>{{ pres.title }}</strong>. ({{ pres.year }}).
+  {% if pres.advised_by %}
+  (Advisor: {{ pres.advised_by }}.)
+  {% endif %}
+  <em>{{ pres.venue }}</em>{% if pres.what_is %}
+  <sup><a title="{{ site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="https://{{ pres.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
+  {{ pres.location }}.
 
-    <br/>
-    {% if pres.slides %}
-      <a target="_blank" href="{{ pres.slides }}">[Slides]</a>
-    {% elsif pres.slides_link %}
-      <a target="_blank" href="https://{{ pres.slides_link }}">[Slides]</a>
+  {% if pres.slides %}
+    <a target="_blank" href="{{ pres.slides }}">
+      <img src="https://img.shields.io/badge/-slides-brightgreen"></a>
+  {% elsif pres.slides_link %}
+    <a target="_blank" href="https://{{ pres.slides_link }}">
+      <img src="https://img.shields.io/badge/-slides-brightgreen"></a>
+  {% endif %}
+  {% if pres.poster %}
+    {% if pres.poster.award %}
+    <a target="_blank" href="{{ pres.poster.file }}">
+      <img src="https://img.shields.io/badge/poster-{{ pres.poster.award[page.lang] }}-gray?labelColor=brightgreen"></a>
+    {% else %}
+    <a target="_blank" href="{{ pres.poster }}">
+      <img src="https://img.shields.io/badge/-poster-brightgreen"></a>
     {% endif %}
-    {% if pres.poster %}
-      <a target="_blank" href="{{ pres.poster }}">[Poster]</a>
-    {% endif %}
-    {% if pres.report %}
-      <a target="_blank" href="{{ pres.report }}">[Report]</a>
-    {% endif %}
-    {% if pres.pypi %}
-      <a target="_blank" href="https://{{ pres.pypi }}">[PyPI]</a>
-    {% endif %}
-    {% if pres.github %}
-      <a target="_blank" href="https://{{ pres.github }}">[GitHub]</a>
-    {% endif %}
-
-    <br/>
-    {% if pres.note %}
-      *<em>{{ pres.note[page.lang] }}</em>
-    {% endif %}
-  </li>
-  {% endfor %}
-  <!-- <li><strong>Access control for a database-defined network</strong>. <em>May-Jul 2016</em>, Temple University Computer Science Department (NSF REU), advised by Anduo Wang.<br />
- <em>Poster <a href="files/TempleREU/thirdplace.jpg">won 3rd place</a> at the 2016 IEEE Sarnoff Symposium in Newark, NJ</em> <br />
- <a href="files/TempleREU/presentingSarnoff.jpg">[low-quality picture of me presenting]</a></li>
-  <li><strong>Generating geographic and temporal heat maps of aflatoxin incidence using regularized linear models</strong>. <em>Jan 2016-Dec 2017</em>, UofSC Computer Science Department, advised by Gabriel Terejanu.<br />
-<a href="files/aflatoxin/NGlaeser-poster.pdf">[Poster]</a></li> -->
+  {% endif %}
+</li>
+{% endfor %}
 </ol>
 
 <h3 id="service">{{ site.data.research.service_title[page.lang] }}</h3>
-{% for subsec in site.data.research.service %}
 <ul>
-  {% if subsec.type == "External Reviewer" %}
-  <li>
-    <strong>{{ subsec.type }}</strong>{% for item in subsec.items %}, 
-    <a target="_blank" href="https://{{ item.link }}">{{ item.org }}</a>{% endfor %}
-  </li>
+{% for item in site.data.research.service %}
+<li>
+  {% if item.role == "External Reviewer" %}
+    <strong>{{ item.role }}</strong>{% for conf in item.items %}, 
+    <a target="_blank" href="https://{{ conf.link }}">{{ conf.org }}</a>{% endfor %}
   {% else %}
-  {% for item in subsec.items %}
-  <li>
-    <strong>{{ subsec.type }}</strong>,
+    <strong>{{ item.role }}</strong>,
     {{ item.org }}{% if item.what_is %}<sup><a title="{{ site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="https://{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
     <em>{{ item.dates }}</em>.
-    {% if item.link %}<a target="_blank" href="https://{{ item.link }}">[{{ item.link_text }}]</a>{% endif %}
-  </li>
-  {% endfor %}
+    {% if item.link %}
+    <a target="_blank" href="https://{{ item.link }}">
+      <img src="https://img.shields.io/badge/-{{ item.link_text }}-2a7ae2"></a>
+    {% endif %}
   {% endif %}
-</ul>
+</li>
 {% endfor %}
+</ul>
 
 <h3 id="funding--awards">{{ site.data.research.funding_title[page.lang] }}</h3>
 
 <ul>
-  {% for item in site.data.research.funding %}
-  <li>
-    <strong>{{ item.title }}</strong>{% if item.what_is %}<sup><a title="{{ site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="https://{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
-    {% if item.org %}{{ item.org }},{% endif %}
-    <em>{{ item.dates }}</em>
-    {% if item.presentation %}({{ item.presentation }}){% endif %}
-    <br/>
-    {% if item.note %}
-    *<em>{{ item.note[page.lang] }}</em>
-    {% endif %}
-  </li>
-  {% endfor %}
+{% for item in site.data.research.funding %}
+<li>
+  <strong>{{ item.title }}</strong>{% if item.what_is %}<sup><a title="{{ site.data.research.what_is_title[page.lang] }}" id="question-icon" target="_blank" href="https://{{ item.what_is }}"><i class="fa fa-question-circle"></i></a></sup>{% endif %},
+  {% if item.org %}{{ item.org }},{% endif %}
+  <em>{{ item.dates }}</em>
+  {% if item.presentation %}({{ item.presentation }}){% endif %}
+  <br/>
+  {% if item.note %}
+  *<em>{{ item.note[page.lang] }}</em>
+  {% endif %}
+</li>
+{% endfor %}
 </ul>
 
-      </div>
+<h3 id="projects">{{ site.data.research.projects_title[page.lang] }}</h3>
+{% for proj in site.data.research.projects %}
+  {% if proj.github %}
+    {% if proj.github.username != "nglaeser" %}
+      {% assign show_owner = "&show_owner=true" %}
+    {% endif %}
+    <div style="float: left; width: 50%; padding: 10px 10px 0 0; margin-top: 10px"><a target="_blank" href="https://github.com/{{ proj.github.username }}/{{ proj.github.repo }}">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username={{ proj.github.username }}&repo={{ proj.github.repo }}{{ show_owner }}">
+    </a>
     </div>
+  {% endif %}
 
-    {% include footer.html %}
+  {% assign margin_bottom = "20px" %}
+  <!-- last project -->
+  {% if proj == site.data.research.projects[-1] %}
+    {% assign margin_bottom = "40px" %}
+  {% endif %}
+  <div style="float: left; width: 45%; margin: 15px 0 {{ margin_bottom }} 0">
+  {{ proj.dates }}<br/>
+  <strong>{{ proj.title }}</strong>
+  <!-- <br/>
+  <em>{{ site.data.research.with[page.lang] }} -->
+  <!-- only one collaborator -->
+  <!-- {% if proj.collaborators[0] == proj.collaborators[-1] %}
+    {{ proj.collaborators[0] }}
+  {% else %}
+    {% for name in proj.collaborators %} -->
+    <!-- last person -->
+    <!-- {% if proj.collaborators[-1] == name %}
+      {{ site.data.research.and[page.lang] }} {{ name }}
+    {% else %}
+      {{ name }},
+    {% endif %}
+    {% endfor %}
+  {% endif %}
+  </em> -->
+  <br/>
+  {% if proj.slides %}
+    <a target="_blank" href="{{ proj.slides }}">
+      <img src="https://img.shields.io/badge/-slides-brightgreen"></a>
+  {% elsif proj.slides_link %}
+    <a target="_blank" href="https://{{ proj.slides_link }}">
+      <img src="https://img.shields.io/badge/-slides-brightgreen"></a>
+  {% endif %}
+  {% if proj.poster %}
+    {% if proj.poster.award %}
+    <a target="_blank" href="{{ proj.poster.link }}">
+      <img src="https://img.shields.io/badge/poster-{{ proj.poster.award[page.lang] }}-gray?labelColor=brightgreen"></a>
+    {% else %}
+    <a target="_blank" href="{{ proj.poster }}">
+      <img src="https://img.shields.io/badge/-poster-brightgreen"></a>
+    {% endif %}
+  {% endif %}
+  {% if proj.report %}
+    <a target="_blank" href="{{ proj.report }}">
+      <img src="https://img.shields.io/badge/-report-2a7ae2"></a>
+  {% endif %}
+  {% if proj.pypi %}
+    <a target="_blank" href="https://{{ proj.pypi }}">
+      <img src="https://img.shields.io/badge/-pypi-yellow?logo=pypi"></a>
+  {% endif %}
+  </div>
+{% endfor %}
 
-  </body>
+<h3 id="technical-skills">{{ site.data.research.techskills_title[page.lang] }}</h3>
+<a href="https://github.com/nglaeser">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nglaeser&layout=compact&langs_count=10&hide=jupyter notebook,less&exclude_repo=CybersecSite,Notes">
+</a>
 
-  <style>
-    .me {
-      font-weight: bold;
-    }
-  </style>
+    </div>
+  </div>
+
+  {% include footer.html %}
+
+</body>
+
+<style>
+  .me {
+    font-weight: bold;
+  }
+</style>
 
 </html>
