@@ -96,7 +96,7 @@ publications: [
     authors: <span class="me">N. Glaeser</span> and A. Wang.,
     year: 2016,
     title: Access control for a database-defined network,
-    venue: Proceedings of IEEE 37th Sarnoff Symposium,
+    venue: IEEE Sarnoff Symposium,
     volume: ,
     article_num: ,
     pdf: dx.doi.org/10.1109/SARNOF.2016.7846728
@@ -149,7 +149,10 @@ presentations: [
     poster: "/files/graphentropy/DiscoverUSC-Glaeser,Noemi.pdf",
     report: ,
     pypi: pypi.org/project/graph-cyclone/,
-    github: github.com/nglaeser/graph_cyclone,
+    github: {
+      username: nglaeser,
+      repo: graph_cyclone,
+    },
     note:
   },
   {
@@ -162,26 +165,29 @@ presentations: [
     poster: /files/fermilab/Glaeser_poster.pdf,
     report: /files/fermilab/Glaeser_SIST-final.pdf,
     pypi: ,
-    github: github.com/SSantosLab/gw_workflow,
+    github: {
+      username: SSantosLab,
+      repo: gw_workflow,
+    },
     note:
   },
-  {
-    title: Access control for a database-defined network,
-    year: 2016,
-    advised_by: Anduo Wang,
-    venue: IEEE Sarnoff Symposium,
-    location: Newark&#44; NJ,
-    slides: ,
-    poster: /files/TempleREU/NGlaeser-poster-Sarnoff.pdf,
-    report: ,
-    pypi: ,
-    github: ,
-    note: {
-      en: <a href="/files/TempleREU/thirdplace.jpg">Won 3rd place Poster Award</a>,
-      it: <a href="/files/TempleREU/thirdplace.jpg">Poster ha vinto il terzo posto</a>,
-      de: <a href="/files/TempleREU/thirdplace.jpg">Poster belegte den dritten Platz</a>,
-    }
-  },
+  # {
+  #   title: Access control for a database-defined network,
+  #   year: 2016,
+  #   advised_by: Anduo Wang,
+  #   venue: IEEE Sarnoff Symposium,
+  #   location: Newark&#44; NJ,
+  #   slides: ,
+  #   poster: /files/TempleREU/NGlaeser-poster-Sarnoff.pdf,
+  #   report: ,
+  #   pypi: ,
+  #   github: ,
+  #   note: {
+  #     en: <a href="/files/TempleREU/thirdplace.jpg">Won 3rd place Poster Award</a>,
+  #     it: <a href="/files/TempleREU/thirdplace.jpg">Poster ha vinto il terzo posto</a>,
+  #     de: <a href="/files/TempleREU/thirdplace.jpg">Poster belegte den dritten Platz</a>,
+  #   }
+  # },
   {
     title: Access control for a database-defined network,
     year: 2016,
@@ -189,11 +195,18 @@ presentations: [
     venue: Temple University REU Presentations,
     location: Philadelphia&#44; PA,
     slides: /files/TempleREU/Glaeser_midterm_slides.pdf,
-    poster: ,
+    poster: /files/TempleREU/NGlaeser-poster-Sarnoff.pdf,
     report: /files/TempleREU/Glaeser_final.pdf,
     pypi: ,
-    github: github.com/ravel-net/REU-access-control,
-    note:
+    github: {
+      username: ravel-net,
+      repo: REU-access-control,
+    },
+    note: {
+      en: <a href="/files/TempleREU/thirdplace.jpg">Won 3rd place Poster Award</a>,
+      it: <a href="/files/TempleREU/thirdplace.jpg">Poster ha vinto il terzo posto</a>,
+      de: <a href="/files/TempleREU/thirdplace.jpg">Poster belegte den dritten Platz</a>,
+    }
   },
 ]
 
@@ -207,7 +220,7 @@ service: [
     items: [
       {
         org: ACM CCS 2020,
-        link: https://sigsac.org/ccs/CCS2020/call-for-papers.html,
+        link: sigsac.org/ccs/CCS2020/call-for-papers.html,
       },
       {
         org: PETS 2022.1,
