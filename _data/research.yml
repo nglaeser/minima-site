@@ -76,9 +76,9 @@ projects: [
     poster: {
       link: /files/TempleREU/NGlaeser-poster-Sarnoff.pdf,
       award: {
-        en: 3rd place Poster Award,
-        it: 3º posto Premio Poster,
-        de: Poster 3. Platz,
+        en: 3rd place,
+        it: 3º posto,
+        de: 3. Platz,
       },
     },
     report: /files/TempleREU/Glaeser_final.pdf,
@@ -106,16 +106,16 @@ publications: [
   #   article_num: ,
   #   pdf: 
   # },
-  # {
-  #   authors: <span class="me">N. Glaeser</span>&#44; S.A.K. Thyagarajan&#44; G. Malavolta&#44; P. Moreno-Sanchez,
-  #   year: 2022,
-  #   title: Coin Mixing Services&#58; New Constructions and Cryptanalysis,
-  #   status: In submission,
-  #   venue: ,
-  #   volume: ,
-  #   article_num: ,
-  #   pdf: 
-  # },
+  {
+    authors: '&ast;<span class="me">N. Glaeser</span>&#44; M. Maffei&#44; G. Malavolta&#44; P. Moreno-Sanchez&#44; Erkan Tairi&#44; S.A.K. Thyagarajan',
+    year: 2022,
+    title: Foundations of Coin Mixing Services,
+    venue: CCS'22,
+    volume: ,
+    article_num: ,
+    pdf: ,
+    eprint: eprint.iacr.org/2022/942,
+  },
   # {
   #   authors: R. De Viti&#44; B. Dinis&#44; <span class="me">N. Glaeser</span>&#44; et al,
   #   year: 2022,
@@ -126,15 +126,15 @@ publications: [
   #   article_num: ,
   #   pdf: 
   # },
-  {
-    authors: K. Herner <span class="me">et al.</span>,
-    year: 2020,
-    title: The updated DESGW processing pipeline for the third LIGO/VIRGO observing run,
-    venue: Conf. on Computing in High-Energy & Nuclear Physics (CHEF),
-    volume: 245,
-    article_num: 01008,
-    pdf: doi.org/10.1051/epjconf/202024501008
-  },
+  # {
+  #   authors: K. Herner <span class="me">et al.</span>,
+  #   year: 2020,
+  #   title: The updated DESGW processing pipeline for the third LIGO/VIRGO observing run,
+  #   venue: Conf. on Computing in High-Energy & Nuclear Physics (CHEF),
+  #   volume: 245,
+  #   article_num: 01008,
+  #   pdf: doi.org/10.1051/epjconf/202024501008
+  # },
   {
     authors: K. Herner <span class="me">et al.</span>,
     year: 2020,
@@ -162,7 +162,8 @@ publications: [
   #   volume: ,
   #   article_num: ,
   #   pdf: ,
-  #   arxiv:
+  #   arxiv: ,
+  #   eprint: ,
   # },
 ]
 
@@ -221,14 +222,6 @@ service: [
     ]
   },
   {
-    role: Packet Writer,
-    org: UMD Girls Talk Math,
-    what_is: gtm.math.umd.edu/virtualcamp2021.html,
-    dates: Summer 2021-present,
-    link: github.com/nglaeser/gtm2021/blob/main/packet/main.pdf,
-    link_text: pdf,
-  },
-  {
     role: Founder and organizer,
     org: UMD CS GradCo Peer Mentoring Program,
     what_is: ,
@@ -239,6 +232,14 @@ service: [
     org: UMD CS GradCo Peer Mentoring Program,
     what_is: ,
     dates: Fall 2021-present,
+  },
+  {
+    role: Packet Writer,
+    org: UMD Girls Talk Math,
+    what_is: gtm.math.umd.edu/virtualcamp2021.html,
+    dates: Summer 2021 &amp; Summer 2022,
+    link: github.com/nglaeser/gtm2021/blob/main/packet/main.pdf,
+    link_text: pdf,
   },
   {
     role: Organizer,
